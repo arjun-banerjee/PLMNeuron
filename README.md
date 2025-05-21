@@ -1,2 +1,2 @@
 # protolyze
-annotations of protein language model neurons
+automated neuron annotation of protein language models (ESM-Fold)
