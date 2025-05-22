@@ -11,14 +11,14 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 #Configurations
 ESM_NAME = "facebook/esm2_t6_8M_UR50D"
-BATCH_SIZE = 4
-K = 10
+BATCH_SIZE = 2
+K = 5
 
 
 #Dataset
 df = pd.read_csv("data_collector.csv")
 dataset = df["Sequence"].tolist()
-dataset = dataset[:512]
+dataset = dataset[:1500]
 
 print("All data loaded")
 
