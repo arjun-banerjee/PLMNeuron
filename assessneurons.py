@@ -5,18 +5,19 @@ from nnsight import LanguageModel
 from transformers import EsmTokenizer, EsmForMaskedLM
 from tqdm import tqdm
 import pandas as pd
+import pyarrow as pa
 
 print("All improts done")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 #Configurations
 ESM_NAME = "facebook/esm2_t6_8M_UR50D"
-BATCH_SIZE = 2
+BATCH_SIZE = 4
 K = 5
 
 
 #Dataset
-df = pd.read_csv("data_collector.csv")
+df = pd.read_parquet("data100k.parquet", engine="pyarrow")
 dataset = df["Sequence"].tolist()
 dataset = dataset[:1500]
 
@@ -56,34 +57,35 @@ for start in tqdm(range(0, len(dataset), BATCH_SIZE)):
     attention_mask = inputs["attention_mask"].to(device)
     
     #Trace this minibatch
-    with lm.trace(batch_ids) as tracer:
-        output = lm(input_ids=batch_ids, attention_mask=attention_mask)
-        saved = [lm.esm.encoder.layer[i].nns_output.save() for i in range(n_layers  )]
+    with torch.no_grad():
+        with lm.trace(batch_ids) as tracer:
+            output = lm(input_ids=batch_ids, attention_mask=attention_mask)
+            saved = [lm.esm.encoder.layer[i].nns_output.save() for i in range(n_layers  )]
         
-    activations = [p.value for p in saved]  # each p.value is the [B, L, H] tensor
-    for layer_idx, tensor in enumerate(activations):
-        #[B, L, H] -> max over tokens -> [B, H]
-        tensor = tensor[0]
-        scores = tensor.max(dim=1).values
-        for local_idx in range(scores.size(0)):
-            global_idx = start + local_idx
-            for h in range(H):
-                val = float(scores[local_idx, h])
-                #top K highest
-                hh = heaps[layer_idx]["high"][h]
-                if len(hh) < K:
-                    heapq.heappush(hh, (val, global_idx))
-                elif val > hh[0][0]:
-                    heapq.heappushpop(hh, (val, global_idx))
-                #top-K lowest via negation
-                ll = heaps[layer_idx]["low"][h]
-                neg = -val
-                if len(ll) < K:
-                    heapq.heappush(ll, (neg, global_idx))
-                elif neg > ll[0][0]:
-                    heapq.heappushpop(ll, (neg, global_idx))
+        activations = [p.value for p in saved]  # each p.value is the [B, L, H] tensor
+        for layer_idx, tensor in enumerate(activations):  # tensor: [B, L, H]
+            tensor = tensor[0]
+            scores = tensor.max(dim=1).values  # [B, H] ← max over tokens per sequence, per neuron
 
-print("Inference done")
+            for local_idx in range(scores.size(0)):  # loop over batch elements
+                global_idx = start + local_idx
+                for h in range(H):  # for each neuron
+                    val = float(scores[local_idx, h])
+                    
+                    # Top-K highest
+                    hh = heaps[layer_idx]["high"][h]
+                    if len(hh) < K:
+                        heapq.heappush(hh, (val, global_idx))
+                    elif val > hh[0][0]:
+                        heapq.heappushpop(hh, (val, global_idx))
+                        
+                    # Top-K lowest
+                    ll = heaps[layer_idx]["low"][h]
+                    neg = -val
+                    if len(ll) < K:
+                        heapq.heappush(ll, (neg, global_idx))
+                    elif neg > ll[0][0]:
+                        heapq.heappushpop(ll, (neg, global_idx))
 print("Finding exemplars")
 # 6=--  After streaming all batches, extract and save exemplars
 results = {}
