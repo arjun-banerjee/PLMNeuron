@@ -5,8 +5,9 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import concurrent.futures
-from tenacity import retry, wait_random_exponential, stop_after_attempt, retry_if_exception_type
-from openai._exceptions import OpenAIError, RateLimitError, APIStatusError
+from openai._exceptions import APIStatusError
+import random
+import time
 
 
 
@@ -42,21 +43,32 @@ def generate_prompt(neuron_id, neuron_top_list, dataset):
             {examples}"""
 
 
-@retry(
-    wait=wait_random_exponential(min=1, max=10),  # exponential backoff
-    stop=stop_after_attempt(10),
-    retry=retry_if_exception_type(lambda e: isinstance(e, (RateLimitError, APIStatusError)) and getattr(e, "status_code", None) == 429)
-)
-def call_openai(prompt):
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.7,
-    )
-    return response.choices[0].message.content.strip()
+def call_openai(prompt, max_retries=10):
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "Your system prompt here"},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+            )
+            return response.choices[0].message.content.strip()
+
+        except APIStatusError as e:
+            if getattr(e, "status_code", None) == 429:
+                wait_time = random.uniform(1, 2) * (2 ** attempt)
+                print(f"Rate limit hit. Retrying in {wait_time:.2f}s... (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                raise  # Re-raise non-rate-limit errors
+
+        except Exception as e:
+            print(f"Unhandled exception on attempt {attempt + 1}: {e}")
+            time.sleep(2)
+
+    raise RuntimeError("Max retries exceeded for OpenAI call.")
 
 
 
