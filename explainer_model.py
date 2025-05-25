@@ -14,13 +14,11 @@ K = 2  # Number of explanations per neuron
 MODEL = "gpt-4o"
 
 # The system prompt
-SYSTEM_PROMPT = """You are a meticulous AI researcher conducting an important investigation into a specific neuron inside the esm2_t6_8M_UR50D language model that activates in response to text excerpts. Your overall task is to describe the biological features of protein sequences that cause the neuron to strongly activate.
+def load_prompt(path="system_prompt.txt"):
+    with open(path, "r") as f:
+        return f.read()
 
-You will receive a list of protein sequences on which the neuron activates. Tokens causing activation will appear between delimiters like {{this}}. Consecutive activating tokens will also be accordingly delimited {{just like this}}. If no tokens are highlighted with {{}}, then the neuron does not activate on any tokens in the excerpt. You will also receive a list of quantitative and qualitative biological features associated with the protein sequence, which will be notated by “Features:”. Additionally, the activation value for each sequence will be provided as a float, notated by “Activation:”.
-
-Note: Neurons activate on an amino acid-by-amino acid basis. Also, neuron activations can only depend on amino acids before the amino acid it activates on, so the description cannot depend on amino acids that come after, and should only depend on amino acids that come before the activation.
-
-Note: make your final descriptions as concise as possible, using as few words as possible to describe protein sequence features that activate the neuron."""
+SYSTEM_PROMPT = load_prompt()
 
 # Prompt generator
 def generate_prompt(neuron_id, top_k_high):
