@@ -5,6 +5,9 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import concurrent.futures
+from tenacity import retry, wait_random_exponential, stop_after_attempt, retry_if_exception_type
+from openai._exceptions import OpenAIError, RateLimitError, APIStatusError
+
 
 
 # Load your API key from .env.local
@@ -38,6 +41,12 @@ def generate_prompt(neuron_id, neuron_top_list, dataset):
             Below are the top activating sequences and their features for this neuron. Describe the biological features that cause the neuron to activate.
             {examples}"""
 
+
+@retry(
+    wait=wait_random_exponential(min=1, max=10),  # exponential backoff
+    stop=stop_after_attempt(10),
+    retry=retry_if_exception_type(lambda e: isinstance(e, (RateLimitError, APIStatusError)) and getattr(e, "status_code", None) == 429)
+)
 def call_openai(prompt):
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -48,6 +57,8 @@ def call_openai(prompt):
         temperature=0.7,
     )
     return response.choices[0].message.content.strip()
+
+
 
 """
 def explain_neurons(dataset, activations, M, K, LAYERS, NUERONS, output_csv):
@@ -86,7 +97,7 @@ def explain_single_neuron(layer, neuron, dataset, activations, M, K):
 
 def explain_neurons_parallel(dataset, activations, M, K, LAYERS, NUERONS, output_csv):
     rows = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
         futures = []
         for layer in range(LAYERS):
             for neuron in range(NUERONS):
