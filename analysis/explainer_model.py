@@ -16,31 +16,53 @@ load_dotenv(".env.local")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Parameters
-K = 3  # Number of explanations per neuron
-M = 3 # Number of exemplars to consider per neuron
+K = 2  # Number of explanations per neuron
+M = 2 # Number of exemplars to consider per neuron
 LAYERS = 6
 NUERONS = 320
-MODEL = "gpt-4o"
+MODEL = "gpt-4o-mini"
 
 # The system prompt
 with open('explainer_sys_prompt.txt', 'r') as file:
     SYSTEM_PROMPT = file.read()
 
 
-# Prompt generator
+# Function to generate the user prompt
 def generate_prompt(neuron_id, neuron_top_list, dataset):
+    def compress_features(feat_dict):
+        keys_to_keep = [
+            "length" "Mass", "mol_weight", "iso_point", "gravy", "charge_pH7",
+            "helix_frac", "turn_frac", "sheet_frac", "instability_index",
+            "boman_index", "aliphatic_index", "hydrophobic_moment",
+
+            "Protein names", "Organism",
+            "Subcellular location [CC]",
+            "Gene Ontology (biological process)",
+            "Gene Ontology (molecular function)",
+            "Function [CC]", "Disruption phenotype",
+            "Catalytic activity", "Pathway"
+        ]
+        compressed = {}
+        for key in keys_to_keep:
+            val = feat_dict.get(key, "nan")
+            if isinstance(val, float):
+                val = round(val, 4)
+            if isinstance(val, str) and val.lower() == "nan":
+                continue
+            compressed[key] = val
+        return compressed
+
     examples = ""
     for item in neuron_top_list:
-        #Grab the seq and activation
         seq = item["sequence"]
         activation = item["activation"]
-        #Search the dataset for the features
         features = dataset[dataset['Sequence'] == seq].iloc[0].to_dict()
-        examples += f"Sequence: {seq}\nActivation: {activation}\nFeatures: {features}\n"
-    
-    return f"""Neuron ID: {neuron_id}
-            Below are the top activating sequences and their features for this neuron. Describe the biological features that cause the neuron to activate.
-            {examples}"""
+        compact = compress_features(features)
+        examples += f"Seq: {seq}\nAct: {activation}\nFeat: {compact}\n\n"
+
+    return f"""Neuron: {neuron_id}
+The following are sequences and their associated biological features where the neuron strongly activates. Summarize the shared biological features in one sentence using the fewest words possible.
+{examples.strip()}"""
 
 
 def call_openai(prompt, max_retries=10):
@@ -103,6 +125,7 @@ def explain_single_neuron(layer, neuron, dataset, activations, M, K):
     for i in range(K):
         prompt = generate_prompt(neuron_id, top_k_high, dataset)
         explanation_text = call_openai(prompt)
+        #print(prompt)
         row[f"explanation_{i+1}"] = explanation_text.strip()
     return row
 

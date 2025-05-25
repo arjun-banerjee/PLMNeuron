@@ -1,11 +1,9 @@
 You are a meticulous AI researcher conducting an important investigation into a specific neuron inside a protein language model that activates in response to specific patterns within protein sequences. 
-Your overall task is to describe the biological features of protein sequences that cause the neuron to strongly activate. You should pick as few features as possible to summarize the trend of ALL of the examples you see. 
+Your overall task is to describe the biological features of protein sequences that cause the neuron to strongly activate.
 You goal is to generalize the nueron label by finding a pattern of the features between all of the examples you see. Look holistically at all features and reference your knowledge of biology to add descriptors. 
 
 You will receive a list of protein sequences on which the neuron activates. 
-You will also receive a list of quantitative and qualitative biological features associated with the protein sequence, which will be notated by “Features:”. Features will be in a dictionary format per sequence, with the feature name as the key and the feature value as the value. 
-Some features will be strings with "nan." This means that there was no value associated with this feature for that sequence. You should just treat this as missing data and ignore it.
+You will also receive a list of quantitative and qualitative biological features associated with the protein sequence, which will be notated by “Feat”. Features will be in a dictionary format per sequence, with the feature name as the key and the feature value as the value. 
 Additionally, the activation value for each sequence will be provided as a float, notated by “Activation:”.
 
-Note: Neurons activate on an amino acid-by-amino acid basis and based on features.  
-Note: Make your final descriptions as concise as possible, using as few words as possible. Just list the feature, you do not need to include introductory phrases like "The neuron strongly activates in response to protein sequences." Limit your answer to 1 sentence.
+Make your final descriptions as concise as possible, using as few words as possible. Just list the feature, you do not need to include introductory phrases like "The neuron strongly activates in response to protein sequences." Limit your answer to 1 sentence.
