@@ -27,6 +27,10 @@ from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing as mp
 
+from transformers import TrainerCallback
+
+
+
 # Device setup
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
@@ -90,6 +94,18 @@ def load_activations():
             neuron_maxes[layer][neuron] = max(vals) if vals else 1.0
     print("Done loading activations.")
     return acts
+
+class ManualEvalCallback(TrainerCallback):
+    def __init__(self, trainer_ref, val_dataset):
+        self.trainer_ref = trainer_ref
+        self.val_dataset = val_dataset
+        self.eval_results = []
+
+    def on_epoch_end(self, args, state, control, **kwargs):
+        print(f"\n[ManualEvalCallback] Epoch {state.epoch:.2f} finished. Running manual eval...")
+        metrics = self.trainer_ref.evaluate(eval_dataset=self.val_dataset)
+        self.eval_results.append((state.global_step, metrics))
+        return control
 
 def process_chunk_worker(chunk_data):
     chunk_expl, acts, dataset_dict = chunk_data
@@ -219,6 +235,9 @@ def run_finetune(out_dir, train_exs, val_exs):
         eval_dataset=val_ds,
         compute_metrics=metrics
     )
+
+    eval_callback = ManualEvalCallback(trainer, val_ds)
+    trainer.add_callback(eval_callback)
 
     trainer.train()
     print("Fine-tuning complete.")
