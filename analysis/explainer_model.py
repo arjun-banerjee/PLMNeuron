@@ -127,6 +127,7 @@ def explain_single_neuron(layer, neuron, dataset, activations, M, K):
         explanation_text = call_openai(prompt)
         #print(prompt)
         row[f"explanation_{i+1}"] = explanation_text.strip()
+    print(row)
     return row
 
 
