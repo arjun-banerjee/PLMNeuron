@@ -74,7 +74,7 @@ def call_openai(prompt, max_retries=10):
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.8,
+                temperature=0.85,
             )
             return response.choices[0].message.content.strip()
 
@@ -127,7 +127,7 @@ def explain_single_neuron(layer, neuron, dataset, activations, M, K):
         explanation_text = call_openai(prompt)
         #print(prompt)
         row[f"explanation_{i+1}"] = explanation_text.strip()
-    print(row)
+    #print(row)
     return row
 
 

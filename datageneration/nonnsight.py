@@ -7,10 +7,10 @@ import numpy as np
 import gc
 
 # Config
-ESM_NAME = "facebook/esm2_t36_3B_UR50D"
-BATCH_SIZE = 128  # Start smaller
-K = 100
-PARQUET_PATH = "datatest573230.parquet"
+ESM_NAME = "facebook/esm2_t12_35M_UR50D"
+BATCH_SIZE = 512  # Start smaller
+K = 30
+PARQUET_PATH = "../datatest573230.parquet"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     results = process_sequences_single_pass()
     
     # Save results
-    with open("esm3B_500kdataset_k100_optimized.json", "w") as f:
+    with open("esm35M_500kdataset_k30_optimized.json", "w") as f:
         json.dump(results, f, indent=2)
     
     print("Exemplar search complete!")

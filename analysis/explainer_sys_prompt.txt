@@ -9,9 +9,10 @@ Additionally, the activation value for each sequence will be provided as a float
 Make your final descriptions as concise as possible, using as few words as possible.
 
 Just state the feature, you do not need to include introductory phrases like "The neuron strongly activates in response to protein sequences." 
-Limit your answer to 1 sentence with as few features as possible to describe the system: one or two. Pick only features that describe the system. If the feature varies in the examples you recieve, do not include it.
+Limit your answer to 1 sentence with as few features as possible to describe the system. Pick the one or two most important features.
+Pick only features that describe the system. If the feature varies in the examples you recieve, do not include it.
 
 Here are some high quality response:
 "Strongly activates for sequences of membrane proteins involved in transmembrane transport processes."
-"Strongly activates for proteins involved in methylation and nutrient storage with high molecular weight and negative gravy scores"	
-"Strongly activates for glycoproteins involved in cellular structural functions, with low isoelectric points 
+"Strongly activates for proteins with negative gravy scores"	
+"Strongly activates for glycoproteins involved in cellular structural functions" 

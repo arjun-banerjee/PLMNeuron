@@ -40,20 +40,21 @@ ACTIVATIONS_JSON = "../esm8M_500kdataset_k100_optimized.json"
 EXPLANATIONS_CSV = "esm8M_500k_neuron_explanations.csv"
 DATASET_PARQUET  = "../datatest573230.parquet"
 OUTPUT_DIR       = "simulator_finetune"
-EVAL_TOP_N       = 4
-EVAL_BOTTOM_N    = 1
-STEPS            = 3       # total number of training epochs
-BATCH_SIZE       = 16
+EVAL_TOP_N       = 6
+EVAL_BOTTOM_N    = 2
+STEPS            = 10       # total number of training epochs
+BATCH_SIZE       = 2
 SPLIT_RATIO      = 0.8
-LOG_STEPS        = 5        # how often to log/evaluate/save
+LOG_STEPS        = 2        # how often to log/evaluate/save
+NEURON_SUBSAMPLE_RATIO = 50  # Keep only 1 in every 20 neurons
+
 
 # Base model
-MODEL_NAME = "google/electra-base-discriminator"
+MODEL_NAME = "allenai/longformer-base-4096"
 
 # Initialize tokenizer to get model_max_length
 tokenizer_tmp = AutoTokenizer.from_pretrained(MODEL_NAME)
-MAX_LEN = tokenizer_tmp.model_max_length
-
+MAX_LEN = 4096
 # Cache for neuron max activations
 neuron_maxes = {}
 
@@ -140,7 +141,7 @@ def build_examples(acts, expl, dataset):
     print("Building examples with multiprocessing...")
     ds_unique = dataset.drop_duplicates(subset=['Sequence'], keep='first')
     dataset_dict = ds_unique.set_index('Sequence').to_dict('index')
-    rows = [row for _, row in expl.iterrows()]
+    rows = [row for i, (_, row) in enumerate(expl.iterrows()) if i % NEURON_SUBSAMPLE_RATIO == 0]
     n_procs = min(mp.cpu_count(), len(rows))
     chunk_size = (len(rows) + n_procs - 1) // n_procs
     chunks = [rows[i:i + chunk_size] for i in range(0, len(rows), chunk_size)]
@@ -180,6 +181,9 @@ def metrics(pred):
         # Convert everything to flat NumPy arrays
         preds = preds.flatten().cpu().numpy() if isinstance(preds, torch.Tensor) else np.array(preds).flatten()
         labs  = labs.flatten().cpu().numpy()  if isinstance(labs,  torch.Tensor) else np.array(labs).flatten()
+
+        print(f"pred.predictions.shape: {pred.predictions.shape}")
+        print(f"pred.predictions[:5]: {pred.predictions[:5]}")
 
         print(f"[METRICS] preds[:5]: {preds[:5]}")
         print(f"[METRICS] labs[:5]:  {labs[:5]}")
