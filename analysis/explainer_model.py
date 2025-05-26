@@ -17,9 +17,9 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Parameters
 K = 2  # Number of explanations per neuron
-M = 2 # Number of exemplars to consider per neuron
-LAYERS = 6
-NUERONS = 320
+M = 5 # Number of exemplars to consider per neuron
+LAYERS = 12
+NUERONS = 480
 MODEL = "gpt-4o-mini"
 
 # The system prompt
@@ -69,12 +69,12 @@ def call_openai(prompt, max_retries=10):
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model="gpt-4o",
+                model="gpt-4o-mini",
                 messages=[
-                    {"role": "system", "content": "Your system prompt here"},
+                    {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
+                temperature=0.8,
             )
             return response.choices[0].message.content.strip()
 
@@ -155,7 +155,7 @@ def explain_neurons_parallel(dataset, activations, M, K, LAYERS, NUERONS, output
 # Example usage
 if __name__ == "__main__":
     dataset = pd.read_parquet("../datatest573230.parquet", engine="pyarrow")
-    actvations = json.load(open("../esm8M_500kdataset_k100_optimized.json"))
-    output_csv = "esm8M_500k_neuron_explanations.csv"
+    actvations = json.load(open("../datageneration/esm35M_500kdataset_k30_optimized.json"))
+    output_csv = "esm35M_500k_neuron_explanations.csv"
 
     explain_neurons_parallel(dataset, actvations, M, K, LAYERS, NUERONS, output_csv)
