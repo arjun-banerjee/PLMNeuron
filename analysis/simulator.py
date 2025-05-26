@@ -3,13 +3,16 @@
 simulator_pipeline.py
 
 Single-stage fine-tuning of a sequence-level simulator that predicts normalized activation
-scores (0–10) from (neuron hypothesis, sequence, features), with only two checkpoints
-(midpoint and final) and GPU optimizations.
+scores (0–10) from (neuron hypothesis, sequence, features), with midpoint and final checkpoints,
+periodic evaluation, and combined metric plots.
 """
 
 import os
 import json
 import random
+import numpy as np
+
+
 import pandas as pd
 import torch
 from scipy.stats import pearsonr
@@ -24,6 +27,10 @@ from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing as mp
 
+from transformers import TrainerCallback
+
+
+
 # Device setup
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
@@ -33,16 +40,17 @@ ACTIVATIONS_JSON = "../esm8M_500kdataset_k100_optimized.json"
 EXPLANATIONS_CSV = "esm8M_500k_neuron_explanations.csv"
 DATASET_PARQUET  = "../datatest573230.parquet"
 OUTPUT_DIR       = "simulator_finetune"
-EVAL_TOP_N       = 6
-EVAL_BOTTOM_N    = 2
-K_HYPOTHESES     = 2
-STEPS            = 25       # total number of training epochs
+EVAL_TOP_N       = 4
+EVAL_BOTTOM_N    = 1
+STEPS            = 3       # total number of training epochs
 BATCH_SIZE       = 16
 SPLIT_RATIO      = 0.8
-LOG_STEPS        = 5      # how often to log/evaluate/save
+LOG_STEPS        = 5        # how often to log/evaluate/save
+
+# Base model
+MODEL_NAME = "google/electra-base-discriminator"
 
 # Initialize tokenizer to get model_max_length
-MODEL_NAME = "google/electra-base-discriminator"
 tokenizer_tmp = AutoTokenizer.from_pretrained(MODEL_NAME)
 MAX_LEN = tokenizer_tmp.model_max_length
 
@@ -86,6 +94,18 @@ def load_activations():
             neuron_maxes[layer][neuron] = max(vals) if vals else 1.0
     print("Done loading activations.")
     return acts
+
+class ManualEvalCallback(TrainerCallback):
+    def __init__(self, trainer_ref, val_dataset):
+        self.trainer_ref = trainer_ref
+        self.val_dataset = val_dataset
+        self.eval_results = []
+
+    def on_epoch_end(self, args, state, control, **kwargs):
+        print(f"\n[ManualEvalCallback] Epoch {state.epoch:.2f} finished. Running manual eval...")
+        metrics = self.trainer_ref.evaluate(eval_dataset=self.val_dataset)
+        self.eval_results.append((state.global_step, metrics))
+        return control
 
 def process_chunk_worker(chunk_data):
     chunk_expl, acts, dataset_dict = chunk_data
@@ -147,16 +167,34 @@ def make_dataset(exs, tokenizer):
                 truncation=True, padding='max_length',
                 max_length=self.max_len, return_tensors='pt'
             )
-            item = {k: v.squeeze().to(device) for k, v in enc.items()}
-            item['labels'] = torch.tensor(t['label'], dtype=torch.long, device=device)
+            item = {k: v.squeeze() for k, v in enc.items()}
+            item['labels'] = torch.tensor(t['label'], dtype=torch.long)
             return item
     return SeqDataset()
 
 def metrics(pred):
-    preds = pred.predictions.argmax(-1)
-    labs  = pred.label_ids
-    r, _ = pearsonr(labs, preds) if len(labs) > 1 else (0.0, None)
-    return {'pearson_r': r}
+    try:
+        preds = torch.from_numpy(pred.predictions).argmax(dim=-1) if isinstance(pred.predictions, np.ndarray) else pred.predictions.argmax(dim=-1)
+        labs = pred.label_ids
+
+        # Convert everything to flat NumPy arrays
+        preds = preds.flatten().cpu().numpy() if isinstance(preds, torch.Tensor) else np.array(preds).flatten()
+        labs  = labs.flatten().cpu().numpy()  if isinstance(labs,  torch.Tensor) else np.array(labs).flatten()
+
+        print(f"[METRICS] preds[:5]: {preds[:5]}")
+        print(f"[METRICS] labs[:5]:  {labs[:5]}")
+
+        if len(labs) > 1 and len(preds) == len(labs):
+            r, _ = pearsonr(labs, preds)
+        else:
+            r = 0.0
+        print(f"[METRICS] Pearson r = {r:.4f}")
+        return {"pearson_r": r}
+
+    except Exception as e:
+        print(f"[METRICS ERROR] Failed to compute Pearson: {e}")
+        return {"pearson_r": 0.0}
+
 
 def run_finetune(out_dir, train_exs, val_exs):
     print("Starting fine-tuning...")
@@ -171,23 +209,23 @@ def run_finetune(out_dir, train_exs, val_exs):
     train_ds = make_dataset(train_exs, tokenizer)
     val_ds   = make_dataset(val_exs,   tokenizer)
 
-    # Calculate half-epoch checkpoint step
-    save_step = STEPS // 2
+    # midpoint in steps = (total_epochs * steps_per_epoch) // 2
+    # but here we simply save at half the epochs
+    midpoint = STEPS // 2
 
     args = TrainingArguments(
         output_dir=out_dir,
         do_train=True,
         do_eval=True,
-        eval_steps=LOG_STEPS,
-        logging_steps=LOG_STEPS,
-        save_steps=LOG_STEPS,
+        logging_steps=steps_per_epoch,
+        eval_steps=   steps_per_epoch,
+        save_steps=   steps_per_epoch,
         per_device_train_batch_size=BATCH_SIZE,
         num_train_epochs=STEPS,
-        fp16=True,                  # mixed precision
+        fp16=True,
         dataloader_num_workers=mp.cpu_count(),
         dataloader_pin_memory=True,
     )
-
 
     trainer = Trainer(
         model=model,
@@ -198,36 +236,53 @@ def run_finetune(out_dir, train_exs, val_exs):
         compute_metrics=metrics
     )
 
+    eval_callback = ManualEvalCallback(trainer, val_ds)
+    trainer.add_callback(eval_callback)
+
     trainer.train()
     print("Fine-tuning complete.")
 
-    # Plot Pearson-r over time
+    # Extract metrics
     history = trainer.state.log_history
-    steps = [h['step'] for h in history if 'eval_pearson_r' in h]
-    pearson = [h['eval_pearson_r'] for h in history if 'eval_pearson_r' in h]
+
+    train_steps = [h["step"] for h in history if "loss" in h]
+    train_loss  = [h["loss"] for h in history  if "loss" in h]
+
+    eval_steps  = [h["step"] for h in history if "eval_loss" in h]
+    eval_loss   = [h["eval_loss"] for h in history if "eval_loss" in h]
+
+    pearson_steps = [h["step"]           for h in history if "eval_pearson_r" in h]
+    pearson_vals  = [h["eval_pearson_r"] for h in history if "eval_pearson_r" in h]
+
+    # Plot train vs eval loss
     plt.figure()
-    plt.plot(steps, pearson)
-    plt.xlabel('Training Step')
-    plt.ylabel('Eval Pearson r')
-    plt.title('Simulator Fine-tune')
+    plt.plot(train_steps, train_loss, label="Train Loss")
+    plt.plot(eval_steps,  eval_loss,  label="Eval Loss")
+    plt.xlabel("Step")
+    plt.ylabel("Loss")
+    plt.title("Train vs Eval Loss")
+    plt.legend()
+    plt.savefig(os.path.join(out_dir, "loss_comparison.png"))
+
+    # Plot Pearson-r
+    plt.figure()
+    plt.plot(pearson_steps, pearson_vals)
+    plt.xlabel("Step")
+    plt.ylabel("Eval Pearson r")
+    plt.title("Simulator Fine-tune Pearson")
     plt.savefig(os.path.join(out_dir, "pearson_curve.png"))
 
 if __name__ == '__main__':
-    print("loading acts")
     acts = load_activations()
-    print("acts loaded")
     expl = pd.read_csv(EXPLANATIONS_CSV)
-    print("expl loaded")
     ds   = pd.read_parquet(DATASET_PARQUET, engine='pyarrow').drop_duplicates(subset=['Sequence'], keep='first')
-    print("ds loaded")
 
     all_exs = build_examples(acts, expl, ds)
     random.shuffle(all_exs)
     split = int(SPLIT_RATIO * len(all_exs))
+    steps_per_epoch = max(split // BATCH_SIZE, 1)
+
     train_exs, val_exs = all_exs[:split], all_exs[split:]
 
     run_finetune(OUTPUT_DIR, train_exs, val_exs)
-    print("Done: checkpoints are in", OUTPUT_DIR)
-    trainer.save_model("savedmodel")
-    print("Final model saved to", OUTPUT_DIR)
 
