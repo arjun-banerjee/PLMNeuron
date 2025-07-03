@@ -1,61 +1,131 @@
 import os
-import torch
-import pandas as pd
 from esm import pretrained, Alphabet, BatchConverter
+from typing import List, Tuple, Optional, Dict, NamedTuple, Union, Callable
+import itertools
+import string
+from pathlib import Path
 
-# ========== Config ==========
-input_fasta = "/Users/davidm/182-final-proj/data/uniref50.fasta"
+import numpy as np
+import torch
+from scipy.spatial.distance import squareform, pdist, cdist
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from Bio import SeqIO
+from tqdm import tqdm
+import pandas as pd
+
+import esm
+
+torch.set_grad_enabled(False)
+
+
+MAX_SEQUENCES = 10_000_000
+MAX_LEN = 20000
+DEVICE = "cuda"
+
+esm2, esm2_alphabet = esm.pretrained.esm2_t6_8M_UR50D()
+esm2 = esm2.eval().to(DEVICE)
+esm2_batch_converter = esm2_alphabet.get_batch_converter()
+
+input_fasta = "/home/ubuntu/uniref50.fasta"
 output_csv = os.path.join(os.path.dirname(input_fasta), "uniprot50_perplexity.csv")
-MAX_SEQUENCES = 10 # keep smaller if running on CPU
-MODEL_NAME = "esm2_t12_35M_UR50D"
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-# ========== Load Model ==========
-model, alphabet = pretrained.load_model_and_alphabet(MODEL_NAME)
-model.eval().to(DEVICE)
-batch_converter = alphabet.get_batch_converter()
 
-# ========== Perplexity Function ==========
-def compute_perplexity(seq: str):
+def compute_masked_perplexity_simplified(seq: str, lambda_tokens: int = 1):
     data = [("protein", seq)]
-    _, _, tokens = batch_converter(data)
+    _, _, tokens = esm2_batch_converter(data)
     tokens = tokens.to(DEVICE)
+    
+    seq_len = tokens.size(1)
+    valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
+    valid_indices = torch.where(valid_mask[0])[0]
+
+    if len(valid_indices) < lambda_tokens:
+        return None
+
+    masked_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
+    masked_tokens = tokens.clone()
+    masked_tokens[0, masked_indices] = esm2_alphabet.mask_idx
 
     with torch.no_grad():
-        logits = model(tokens)["logits"]
+        logits = esm2(masked_tokens)["logits"] 
+        log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
+
+    target_tokens = tokens[0, masked_indices]  # [λ]
+    pred_log_probs = log_probs[0, masked_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)  # [λ]
+
+    masked_perplexity = torch.exp(-pred_log_probs.mean()).item()
+    return masked_perplexity
+
+
+def compute_estimated_masked_perplexity(seq: str, lambda_t: int = 10, num_samples: int = 1000):
+    """
+    Monte-Carlo Estimate of Masked Perplexity
     
-    log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
-    token_log_probs = log_probs[0, :-1].gather(1, tokens[0, 1:].unsqueeze(1)).squeeze()
-    perplexity = torch.exp(-token_log_probs.mean()).item()
+    lambda_t: divisor for fraction of tokens to mask away
+    num_samples: permutations of masking to try and average
+    """
+    lambda_tokens = max(1, len(seq) // lambda_t)
+    data = [("protein", seq)]
+    _, _, tokens = esm2_batch_converter(data)
+    tokens = tokens.to(DEVICE)
+
+    seq_len = tokens.size(1)
+    valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
+    valid_indices = torch.where(valid_mask[0])[0]
+
+    if len(valid_indices) < lambda_tokens:
+        return None
+
+    log_prob_samples = []
+
+    for _ in range(num_samples):
+        sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
+        masked_tokens = tokens.clone()
+        masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
+
+        with torch.no_grad():
+            logits = esm2(masked_tokens)["logits"]
+            log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
+
+        target_tokens = tokens[0, sampled_indices]
+        pred_log_probs = log_probs[0, sampled_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)
+        log_prob_samples.append(pred_log_probs.mean().item())
+
+    avg_log_prob = np.mean(log_prob_samples)
+    perplexity = np.exp(-avg_log_prob)
     return perplexity
 
-# ========== Read Sequences ==========
-from Bio import SeqIO
-sequences = []
-perplexities = []
-ids = []
 
-with open(input_fasta) as handle:
-    for i, record in enumerate(SeqIO.parse(handle, "fasta")):
-        if i >= MAX_SEQUENCES:
-            break
-        seq = str(record.seq)
-        if "X" in seq:
-            continue
-        try:
-            ppl = compute_perplexity(seq)
-            sequences.append(seq)
-            perplexities.append(ppl)
-            ids.append(record.id)
-            print(f"[{i}] {record.id}: Perplexity = {ppl:.2f}")
-        except Exception as e:
-            print(f"Error on sequence {record.id}: {e}")
 
-# ========== Save Results ==========
-df = pd.DataFrame({
-    "sequence_id": ids,
-    "sequence": sequences,
-    "perplexity": perplexities
-})
-df.to_csv(output_csv, index=False)
-print(f"\nSaved perplexity CSV to: {output_csv}")
+def compute_estimated_perplexity_by_cross_entropy(seq: str, lambda_t: int = 10, num_samples: int = 1000):
+    lambda_tokens = max(1, len(seq) // lambda_t)
+    data = [("protein", seq)]
+    _, _, tokens = esm2_batch_converter(data)
+    tokens = tokens.to(DEVICE)
+
+    seq_len = tokens.size(1)
+    valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
+    valid_indices = torch.where(valid_mask[0])[0]
+
+    if len(valid_indices) < lambda_tokens:
+        return None
+
+    log_prob_samples = []
+
+    for _ in range(num_samples):
+        sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
+        masked_tokens = tokens.clone()
+        masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
+
+        with torch.no_grad():
+            logits = esm2(masked_tokens)["logits"]
+            log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
+
+        target_tokens = tokens[0, sampled_indices]
+        pred_log_probs = log_probs[0, sampled_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)
+        log_prob_samples.append(pred_log_probs.mean().item())
+
+    avg_log_prob = np.mean(log_prob_samples)
+    perplexity = np.exp(-avg_log_prob)
+    return perplexity

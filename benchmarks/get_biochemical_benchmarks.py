@@ -3,12 +3,11 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
 # Path to your UniProt FASTA
-uniprot_path = "/Users/davidm/182-final-proj/data/uniref50.fasta"
+uniprot_path = "/home/ubuntu/uniref50.fasta"
 output_dir = os.path.dirname("biochemical_benchmarks/")  # save outputs to same dir
 
 # Biochemical keys you're tracking
@@ -35,47 +34,51 @@ def get_basic_props(sequence: str):
 
 
 # Process sequences
-MAX_SEQUENCES = 500_000_000
-with open(uniprot_path) as handle:
-    for i, record in enumerate(SeqIO.parse(handle, "fasta")):
-        if i >= MAX_SEQUENCES:
-            break
-        if i % 10 != 0:
-            continue
-        props = get_basic_props(record.seq)
-        if props:
-            rows.append(props)
-            ids.append(record.id)
+
+# QUERY 
+def query():
+    print("running query")
+    MAX_SEQUENCES = 5_000_000
+    with open(uniprot_path) as handle:
+        for i, record in enumerate(SeqIO.parse(handle, "fasta")):
+            if i >= MAX_SEQUENCES:
+                break
+            if i % 10 != 0:
+                continue
+            props = get_basic_props(record.seq)
+            if props:
+                rows.append(props)
+                ids.append(record.id)
+                
+    # Create DataFrame
+    df = pd.DataFrame(rows, columns=global_keys)
+    df["sequence_id"] = ids
+    csv_path = os.path.join(output_dir, "uniprot50_biochemical_summary.csv")
+    df.to_csv(csv_path, index=False)
+    print(f"Saved CSV to: {csv_path}")
+
+    # Display summary statistics
+    summary = df.describe()
+    print("\nSummary Statistics:")
+    print(summary)
+
+    # Save summary as CSV too
+    #summary_csv_path = os.path.join(output_dir, "uniprot50_biochemical_stats.csv")
+    #summary.to_csv(summary_csv_path)
+
+    # Plotting
+    # sns.set(style="whitegrid")
+    # for key in global_keys:
+    #     plt.figure(figsize=(6, 4))
+    #     sns.histplot(df[key], kde=True, bins=50)
+    #     plt.title(f"{key} Distribution")
+    #     plt.xlabel(key)
+    #     plt.ylabel("Count")
+    #     plot_path = os.path.join(output_dir, f"{key}_distribution.png")
+    #     plt.tight_layout()
+    #     plt.savefig(plot_path)
+    #     plt.close()
+    #     print(f"Saved plot: {plot_path}")
 
 
-
-
-# Create DataFrame
-df = pd.DataFrame(rows, columns=global_keys)
-df["sequence_id"] = ids
-csv_path = os.path.join(output_dir, "uniprot50_biochemical_summary.csv")
-#df.to_csv(csv_path, index=False)
-#print(f"Saved CSV to: {csv_path}")
-
-# Display summary statistics
-summary = df.describe()
-print("\nSummary Statistics:")
-print(summary)
-
-# Save summary as CSV too
-summary_csv_path = os.path.join(output_dir, "uniprot50_biochemical_stats.csv")
-summary.to_csv(summary_csv_path)
-
-# Plotting
-sns.set(style="whitegrid")
-for key in global_keys:
-    plt.figure(figsize=(6, 4))
-    sns.histplot(df[key], kde=True, bins=50)
-    plt.title(f"{key} Distribution")
-    plt.xlabel(key)
-    plt.ylabel("Count")
-    plot_path = os.path.join(output_dir, f"{key}_distribution.png")
-    plt.tight_layout()
-    plt.savefig(plot_path)
-    plt.close()
-    print(f"Saved plot: {plot_path}")
+# query()
