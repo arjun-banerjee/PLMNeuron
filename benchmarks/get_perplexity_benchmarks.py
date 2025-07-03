@@ -98,34 +98,34 @@ def compute_estimated_masked_perplexity(seq: str, lambda_t: int = 10, num_sample
 
 
 
-def compute_estimated_perplexity_by_cross_entropy(seq: str, lambda_t: int = 10, num_samples: int = 1000):
-    lambda_tokens = max(1, len(seq) // lambda_t)
-    data = [("protein", seq)]
-    _, _, tokens = esm2_batch_converter(data)
-    tokens = tokens.to(DEVICE)
+# def compute_estimated_perplexity_by_cross_entropy(seq: str, lambda_t: int = 10, num_samples: int = 1000):
+#     lambda_tokens = max(1, len(seq) // lambda_t)
+#     data = [("protein", seq)]
+#     _, _, tokens = esm2_batch_converter(data)
+#     tokens = tokens.to(DEVICE)
 
-    seq_len = tokens.size(1)
-    valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
-    valid_indices = torch.where(valid_mask[0])[0]
+#     seq_len = tokens.size(1)
+#     valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
+#     valid_indices = torch.where(valid_mask[0])[0]
 
-    if len(valid_indices) < lambda_tokens:
-        return None
+#     if len(valid_indices) < lambda_tokens:
+#         return None
 
-    log_prob_samples = []
+#     log_prob_samples = []
 
-    for _ in range(num_samples):
-        sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
-        masked_tokens = tokens.clone()
-        masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
+#     for _ in range(num_samples):
+#         sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
+#         masked_tokens = tokens.clone()
+#         masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
 
-        with torch.no_grad():
-            logits = esm2(masked_tokens)["logits"]
-            log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
+#         with torch.no_grad():
+#             logits = esm2(masked_tokens)["logits"]
+#             log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
 
-        target_tokens = tokens[0, sampled_indices]
-        pred_log_probs = log_probs[0, sampled_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)
-        log_prob_samples.append(pred_log_probs.mean().item())
+#         target_tokens = tokens[0, sampled_indices]
+#         pred_log_probs = log_probs[0, sampled_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)
+#         log_prob_samples.append(pred_log_probs.mean().item())
 
-    avg_log_prob = np.mean(log_prob_samples)
-    perplexity = np.exp(-avg_log_prob)
-    return perplexity
+#     avg_log_prob = np.mean(log_prob_samples)
+#     perplexity = np.exp(-avg_log_prob)
+#     return perplexity
