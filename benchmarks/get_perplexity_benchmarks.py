@@ -97,35 +97,43 @@ def compute_estimated_masked_perplexity(seq: str, lambda_t: int = 10, num_sample
     return perplexity
 
 
+def compute_estimated_perplexity_by_cross_entropy(seq: str, lambda_t: int = 10, num_samples: int = 1000):
+    """
+    Monte-Carlo estimate of masked perplexity using cross-entropy loss.
+    """
+    lambda_tokens = max(1, len(seq) // lambda_t)
+    data = [("protein", seq)]
+    _, _, tokens = esm2_batch_converter(data)
+    tokens = tokens.to(DEVICE)
 
-# def compute_estimated_perplexity_by_cross_entropy(seq: str, lambda_t: int = 10, num_samples: int = 1000):
-#     lambda_tokens = max(1, len(seq) // lambda_t)
-#     data = [("protein", seq)]
-#     _, _, tokens = esm2_batch_converter(data)
-#     tokens = tokens.to(DEVICE)
+    valid_mask = (tokens != esm2_alphabet.padding_idx) & \
+                 (tokens != esm2_alphabet.cls_idx) & \
+                 (tokens != esm2_alphabet.eos_idx)
+    valid_indices = torch.where(valid_mask[0])[0]
 
-#     seq_len = tokens.size(1)
-#     valid_mask = (tokens != esm2_alphabet.padding_idx) & (tokens != esm2_alphabet.cls_idx) & (tokens != esm2_alphabet.eos_idx)
-#     valid_indices = torch.where(valid_mask[0])[0]
+    if len(valid_indices) < lambda_tokens:
+        return None
 
-#     if len(valid_indices) < lambda_tokens:
-#         return None
+    ce_losses = []
 
-#     log_prob_samples = []
+    for _ in range(num_samples):
+        sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
+        sampled_indices = torch.tensor(sampled_indices, device=DEVICE)
 
-#     for _ in range(num_samples):
-#         sampled_indices = np.random.choice(valid_indices.cpu().numpy(), size=lambda_tokens, replace=False)
-#         masked_tokens = tokens.clone()
-#         masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
+        masked_tokens = tokens.clone()
+        masked_tokens[0, sampled_indices] = esm2_alphabet.mask_idx
 
-#         with torch.no_grad():
-#             logits = esm2(masked_tokens)["logits"]
-#             log_probs = torch.nn.functional.log_softmax(logits, dim=-1)
+        with torch.no_grad():
+            logits = esm2(masked_tokens)["logits"]  # [1, seq_len, vocab_size]
 
-#         target_tokens = tokens[0, sampled_indices]
-#         pred_log_probs = log_probs[0, sampled_indices].gather(1, target_tokens.unsqueeze(1)).squeeze(1)
-#         log_prob_samples.append(pred_log_probs.mean().item())
+        # Get logits and targets only at masked positions
+        selected_logits = logits[0, sampled_indices, :]        # [λ, vocab_size]
+        target_tokens = tokens[0, sampled_indices]             # [λ]
 
-#     avg_log_prob = np.mean(log_prob_samples)
-#     perplexity = np.exp(-avg_log_prob)
-#     return perplexity
+        # Compute cross-entropy loss
+        loss = F.cross_entropy(selected_logits, target_tokens, reduction='mean')
+        ce_losses.append(loss.item())
+
+    avg_ce = np.mean(ce_losses)
+    perplexity = np.exp(avg_ce)
+    return perplexity
