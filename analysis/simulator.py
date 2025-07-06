@@ -51,6 +51,7 @@ NEURON_SUBSAMPLE_RATIO = 50  # Keep only 1 in every 20 neurons
 
 # Base model
 MODEL_NAME = "allenai/longformer-base-4096"
+# MODEL_NAME = "google/bigbird-roberta-base" # try this too
 
 # Initialize tokenizer to get model_max_length
 tokenizer_tmp = AutoTokenizer.from_pretrained(MODEL_NAME)
