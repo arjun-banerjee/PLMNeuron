@@ -52,7 +52,7 @@ def sample_from_logits(logits):
 def decode_tokens(tokenizer, token_ids):
     return tokenizer.decode(token_ids, skip_special_tokens=True).replace(" ", "")
 
-def compute_gravy_ignore_x(seq):
+def compute_instability_index(seq):
     cleaned = seq.replace("X", "")
     if not cleaned:
         return None
@@ -65,11 +65,27 @@ def compute_gravy_score(seq):
     return ProteinAnalysis(cleaned).gravy()
 
 # Main steering function
-def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func=compute_gravy_ignore_x):
-    matched_neurons = find_matching_neurons(CSV_PATH, match_string)
-    if not matched_neurons:
-        print(f"No matching neurons found for: {match_string}")
-        return []
+def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func=compute_gravy_ignore_x, use_random_neurons=False, num_random_neurons=50):
+    if use_random_neurons:
+        # Use random neurons as control
+        matched_neurons = []
+        # Get total number of layers and neurons from the model
+        num_layers = len(model.base_model.encoder.layer)
+        num_neurons = model.base_model.encoder.layer[0].intermediate.dense.out_features
+        
+        # Select num_random_neurons random neurons from random layers
+        for _ in range(num_random_neurons):
+            layer = random.randint(0, num_layers - 1)
+            neuron = random.randint(0, num_neurons - 1)
+            matched_neurons.append((layer, neuron))
+        
+        print(f"Using {len(matched_neurons)} random neurons as control")
+    else:
+        # Use matched neurons
+        matched_neurons = find_matching_neurons(CSV_PATH, match_string)
+        if not matched_neurons:
+            print(f"No matching neurons found for: {match_string}")
+            return []
 
     layer_to_neurons = defaultdict(list)
     for layer, neuron in matched_neurons:
@@ -150,8 +166,10 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
         print(f"\nRunning experiment {i+1}/{len(steering_configs)}: {pos_match} vs {neg_match}")
         
         # Run both steering directions
-        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}", compute_metric_func=compute_metric_func)
-        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}", compute_metric_func=compute_metric_func)
+        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}", 
+                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False))
+        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}", 
+                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False))
         
         # Add initial point (step 0) before steering
         initial_metric = compute_metric_func(base_sequence)
@@ -208,16 +226,26 @@ def run_experiments():
         {
             'pos_match': "high instability indices",
             'neg_match': "low instability indices",
-            'compute_metric_func': compute_gravy_ignore_x,
+            'compute_metric_func': compute_instability_index,
             'plot_title': "Instability Index Score Trajectories",
-            'y_label': "Instability Index Score"
+            'y_label': "Instability Index Score",
+            'use_random_neurons': False  # Use matched neurons
         },
         {
             'pos_match': "positive gravy score neurons",
             'neg_match': "negative gravy score neurons",
             'compute_metric_func': compute_gravy_score,
             'plot_title': "GRAVY Score Trajectories",
-            'y_label': "GRAVY Score"
+            'y_label': "GRAVY Score",
+            'use_random_neurons': False  # Use matched neurons
+        },
+        {
+            'pos_match': "positive gravy score neurons",
+            'neg_match': "negative gravy score neurons",
+            'compute_metric_func': compute_gravy_score,
+            'plot_title': "Control Experiment (Random Neurons)",
+            'y_label': "Instability Index Score",
+            'use_random_neurons': True  # Use random neurons as control
         }
     ]
     
