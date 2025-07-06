@@ -58,6 +58,12 @@ def compute_gravy_ignore_x(seq):
         return None
     return ProteinAnalysis(cleaned).instability_index()
 
+def compute_gravy_score(seq):
+    cleaned = seq.replace("X", "")
+    if not cleaned:
+        return None
+    return ProteinAnalysis(cleaned).gravy()
+
 # Main steering function
 def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func=compute_gravy_ignore_x):
     matched_neurons = find_matching_neurons(CSV_PATH, match_string)
@@ -107,17 +113,18 @@ def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_f
 
     return history
 
-def run_multiple_steering_experiments(steering_pairs, csv_output_path, compute_metric_func=compute_gravy_ignore_x, 
-                                    plot_title="Metric Score Trajectories", y_label="Metric Score"):
+def run_multiple_steering_experiments(steering_configs, csv_output_path):
     """
     Run multiple steering experiments and generate separate plots for each pair.
     
     Args:
-        steering_pairs: List of lists, each containing [pos_match_string, neg_match_string]
+        steering_configs: List of dictionaries, each containing:
+            - 'pos_match': positive match string
+            - 'neg_match': negative match string  
+            - 'compute_metric_func': function to compute metric from sequence
+            - 'plot_title': title for the plot
+            - 'y_label': y-axis label for the plot
         csv_output_path: Path to save the CSV results
-        compute_metric_func: Function to compute metric from sequence (default: compute_gravy_ignore_x)
-        plot_title: Title for the plots
-        y_label: Y-axis label for the plots
     """
     torch.manual_seed(42)
     random.seed(42)
@@ -133,12 +140,18 @@ def run_multiple_steering_experiments(steering_pairs, csv_output_path, compute_m
 
     all_results = []
     
-    for i, (pos_match, neg_match) in enumerate(steering_pairs):
-        print(f"\nRunning experiment {i+1}/{len(steering_pairs)}: {pos_match} vs {neg_match}")
+    for i, config in enumerate(steering_configs):
+        pos_match = config['pos_match']
+        neg_match = config['neg_match']
+        compute_metric_func = config['compute_metric_func']
+        plot_title = config['plot_title']
+        y_label = config['y_label']
+        
+        print(f"\nRunning experiment {i+1}/{len(steering_configs)}: {pos_match} vs {neg_match}")
         
         # Run both steering directions
-        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}")
-        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}")
+        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}", compute_metric_func=compute_metric_func)
+        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}", compute_metric_func=compute_metric_func)
         
         # Add initial point (step 0) before steering
         initial_metric = compute_metric_func(base_sequence)
@@ -188,22 +201,32 @@ def run_multiple_steering_experiments(steering_pairs, csv_output_path, compute_m
     print(f"Individual plots saved as: steering_experiment_1.png, steering_experiment_2.png, etc.")
 
 # Example usage function
-def run_instability_experiments():
+def run_experiments():
     """Example function showing how to use the new scalable system."""
-    steering_pairs = [
-        ["high instability indices", "low instability indices"],
-        ["positive gravy score neurons", "negative gravy score neurons"],  # You can add more pairs here
+    
+    steering_configs = [
+        {
+            'pos_match': "high instability indices",
+            'neg_match': "low instability indices",
+            'compute_metric_func': compute_gravy_ignore_x,
+            'plot_title': "Instability Index Score Trajectories",
+            'y_label': "Instability Index Score"
+        },
+        {
+            'pos_match': "positive gravy score neurons",
+            'neg_match': "negative gravy score neurons",
+            'compute_metric_func': compute_gravy_score,
+            'plot_title': "GRAVY Score Trajectories",
+            'y_label': "GRAVY Score"
+        }
     ]
     
     run_multiple_steering_experiments(
-        steering_pairs=steering_pairs,
-        csv_output_path="steered_sequences_multiple.csv",
-        compute_metric_func=compute_gravy_ignore_x,
-        plot_title="Instability Index Score Trajectories",
-        y_label="Instability Index Score"
+        steering_configs=steering_configs,
+        csv_output_path="steered_sequences_multiple.csv"
     )
 
 # Run both steering loops (original functionality preserved)
 if __name__ == "__main__":
     # Example usage of the new scalable system
-    run_instability_experiments()
+    run_experiments()
