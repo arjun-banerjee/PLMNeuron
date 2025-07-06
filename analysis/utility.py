@@ -65,7 +65,7 @@ def compute_gravy_score(seq):
     return ProteinAnalysis(cleaned).gravy()
 
 # Main steering function
-def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func=compute_gravy_ignore_x, use_random_neurons=False, num_random_neurons=50):
+def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func, use_random_neurons=False, num_random_neurons=50):
     if use_random_neurons:
         # Use random neurons as control
         matched_neurons = []
