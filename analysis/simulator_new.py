@@ -39,12 +39,21 @@ print("Path to dataset files:", path)
 train_csv = os.path.join(path, "Corona_NLP_train.csv")
 df = pd.read_csv(train_csv, encoding="latin1")
 
-# Preprocess: binary label (coronavirus-related or not)
-# We'll treat all tweets as related (1) except those labeled 'Neutral' or 'Extremely Negative' as not related (0)
-# (You can adjust this logic as needed)
+# Preprocess: 5-class label (0=extremely negative, 1=negative, 2=neutral, 3=positive, 4=extremely positive)
 def label_fn(sentiment):
-    # Most tweets are about coronavirus, but let's use 'Neutral' and 'Extremely Negative' as not related for demo
-    return 0 if sentiment.strip().lower() in ["neutral", "extremely negative"] else 1
+    s = sentiment.strip().lower()
+    if s == "extremely negative":
+        return 0
+    elif s == "negative":
+        return 1
+    elif s == "neutral":
+        return 2
+    elif s == "positive":
+        return 3
+    elif s == "extremely positive":
+        return 4
+    else:
+        return 2  # fallback to neutral
 
 df = df.dropna(subset=["OriginalTweet", "Sentiment"])
 df["label"] = df["Sentiment"].apply(label_fn)
@@ -60,7 +69,13 @@ def build_examples(df):
     for _, row in df.iterrows():
         text = row["OriginalTweet"]
         label = row["label"]
-        examples.append({"text": text, "label": label})
+        prompt = (
+            "You are a sentiment analysis model. "
+            "Classify the following tweet about coronavirus on a scale of 0-4, where: "
+            "0 = extremely negative, 1 = negative, 2 = neutral, 3 = positive, 4 = extremely positive.\n\n"
+            f"TWEET: {text}\n\nPrediction (0-4):"
+        )
+        examples.append({"text": prompt, "label": label})
     return examples
 
 all_exs = build_examples(df)
@@ -112,7 +127,7 @@ def run_finetune(out_dir, train_exs, val_exs):
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_NAME,
-        num_labels=2
+        num_labels=5
     ).to(device)
     train_ds = make_dataset(train_exs, tokenizer)
     val_ds   = make_dataset(val_exs,   tokenizer)
