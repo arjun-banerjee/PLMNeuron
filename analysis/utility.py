@@ -65,7 +65,7 @@ def compute_gravy_score(seq):
     return ProteinAnalysis(cleaned).gravy()
 
 # Main steering function
-def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func, use_random_neurons=False, num_random_neurons=50):
+def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func, use_random_neurons=False, num_random_neurons=50, a=5.0, b=3.0):
     if use_random_neurons:
         # Use random neurons as control
         matched_neurons = []
@@ -101,7 +101,7 @@ def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_f
         handles = []
         for layer, neurons in layer_to_neurons.items():
             hook = model.base_model.encoder.layer[layer].intermediate.register_forward_hook(
-                make_multi_neuron_hook(neurons, A, B)
+                make_multi_neuron_hook(neurons, a, b)
             )
             handles.append(hook)
 
@@ -166,10 +166,16 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
         print(f"\nRunning experiment {i+1}/{len(steering_configs)}: {pos_match} vs {neg_match}")
         
         # Run both steering directions
+        a = config.get('a', 5.0)
+        b = config.get('b', 3.0)
+        num_random_neurons = config.get('num_random_neurons', 50)
+        
         history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}", 
-                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False))
+                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False),
+                          num_random_neurons=num_random_neurons, a=a, b=b)
         history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}", 
-                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False))
+                          compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False),
+                          num_random_neurons=num_random_neurons, a=a, b=b)
         
         # Add initial point (step 0) before steering
         initial_metric = compute_metric_func(base_sequence)
@@ -229,7 +235,9 @@ def run_experiments():
             'compute_metric_func': compute_instability_index,
             'plot_title': "Instability Index Score Trajectories",
             'y_label': "Instability Index Score",
-            'use_random_neurons': False  # Use matched neurons
+            'use_random_neurons': False,  # Use matched neurons
+            'a': 5.0,
+            'b': 3.0
         },
         {
             'pos_match': "positive gravy score neurons",
@@ -237,7 +245,9 @@ def run_experiments():
             'compute_metric_func': compute_gravy_score,
             'plot_title': "GRAVY Score Trajectories",
             'y_label': "GRAVY Score",
-            'use_random_neurons': False  # Use matched neurons
+            'use_random_neurons': False,  # Use matched neurons
+            'a': 5.0,
+            'b': 3.0
         },
         {
             'pos_match': "positive gravy score neurons",
@@ -245,7 +255,10 @@ def run_experiments():
             'compute_metric_func': compute_gravy_score,
             'plot_title': "Control Experiment (Random Neurons)",
             'y_label': "Instability Index Score",
-            'use_random_neurons': True  # Use random neurons as control
+            'use_random_neurons': True,  # Use random neurons as control
+            'a': 5.0,
+            'b': 3.0,
+            'num_random_neurons': 50
         }
     ]
     
