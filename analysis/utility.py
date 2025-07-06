@@ -59,10 +59,19 @@ def compute_instability_index(seq):
     return ProteinAnalysis(cleaned).instability_index()
 
 def compute_gravy_score(seq):
+    """Compute gravy score."""
     cleaned = seq.replace("X", "")
     if not cleaned:
         return None
     return ProteinAnalysis(cleaned).gravy()
+
+def compute_molecular_weight(seq):
+    """Compute molecular weight."""
+    cleaned = seq.replace("X", "")
+    if not cleaned:
+        return None
+    return ProteinAnalysis(cleaned).molecular_weight()
+
 
 # Main steering function
 def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_func, use_random_neurons=False, num_random_neurons=50, a=5.0, b=3.0):
@@ -245,6 +254,16 @@ def run_experiments():
             'compute_metric_func': compute_gravy_score,
             'plot_title': "GRAVY Score Trajectories",
             'y_label': "GRAVY Score",
+            'use_random_neurons': False,  # Use matched neurons
+            'a': 5.0,
+            'b': 3.0
+        },
+        {
+            'pos_match': "high molecular weight",
+            'neg_match': "low molecular weight",
+            'compute_metric_func': compute_molecular_weight,
+            'plot_title': "Molecular Weight Trajectories",
+            'y_label': "Molecular Weight",
             'use_random_neurons': False,  # Use matched neurons
             'a': 5.0,
             'b': 3.0
