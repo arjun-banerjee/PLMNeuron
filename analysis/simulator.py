@@ -42,8 +42,8 @@ DATASET_PARQUET  = "../datatest573230.parquet"
 OUTPUT_DIR       = "simulator_finetune"
 EVAL_TOP_N       = 6
 EVAL_BOTTOM_N    = 2
-STEPS            = 10       # total number of training epochs
-BATCH_SIZE       = 2
+STEPS            = 100      # total number of training epochs
+BATCH_SIZE       = 16
 SPLIT_RATIO      = 0.8
 LOG_STEPS        = 2        # how often to log/evaluate/save
 NEURON_SUBSAMPLE_RATIO = 50  # Keep only 1 in every 20 neurons
@@ -51,6 +51,7 @@ NEURON_SUBSAMPLE_RATIO = 50  # Keep only 1 in every 20 neurons
 
 # Base model
 MODEL_NAME = "allenai/longformer-base-4096"
+# MODEL_NAME = "google/bigbird-roberta-base" # try this too
 
 # Initialize tokenizer to get model_max_length
 tokenizer_tmp = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -127,12 +128,19 @@ def process_chunk_worker(chunk_data):
             feat = dataset_dict.get(seq, {})
             comp = compress_features(feat)
             text = (
-                "Task: Predict activation 0–10. ONLY ANSWER WITH A NUMBER\n"
-                f"Neuron: {row['neuron_id']}\n"
-                f"Description: {hypo}\n"
-                f"Sequence: {seq}\n"
-                f"Features: {comp}\n"
-                "ONLY ANSWER WITH A NUMBER BETWEEN 0 AND 10."
+                f"You are a protein language model neuron simulator. Your task is to predict how strongly "
+                f"a specific neuron will activate when given a protein sequence.\n\n"
+                f"NEURON INFORMATION:\n"
+                f"- Neuron ID: {row['neuron_id']}\n"
+                f"- Hypothesis: This neuron is hypothesized to detect: {hypo}\n\n"
+                f"PROTEIN SEQUENCE:\n{seq}\n\n"
+                f"PROTEIN FEATURES:\n{comp}\n\n"
+                f"TASK: Based on the neuron's hypothesized function and the protein's sequence/features, "
+                f"predict how strongly this neuron will activate on a scale of 0-10, where:\n"
+                f"- 0 = No activation (neuron doesn't respond to this protein)\n"
+                f"- 5 = Moderate activation\n"
+                f"- 10 = Maximum activation (protein strongly matches neuron's hypothesized function)\n\n"
+                f"Prediction (0-10):"
             )
             local_exs.append({'text': text, 'label': label})
     return local_exs
