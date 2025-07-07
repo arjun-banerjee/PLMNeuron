@@ -22,6 +22,7 @@ from transformers import (
     TrainingArguments,
     Trainer
 )
+from datasets import load_dataset
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor
@@ -36,22 +37,22 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Configuration
-ACTIVATIONS_JSON = "../esm8M_500kdataset_k100_optimized.json"
+ACTIVATIONS_JSON = "/home/ubuntu/protolyze/datageneration/esm8M_500kdataset_k30_optimized.json"
 EXPLANATIONS_CSV = "esm8M_500k_neuron_explanations.csv"
 DATASET_PARQUET  = "../datatest573230.parquet"
 OUTPUT_DIR       = "simulator_finetune"
 EVAL_TOP_N       = 6
 EVAL_BOTTOM_N    = 2
-STEPS            = 100      # total number of training epochs
-BATCH_SIZE       = 16
+STEPS            = 30      # total number of training epochs
+BATCH_SIZE       = 8
 SPLIT_RATIO      = 0.8
 LOG_STEPS        = 2        # how often to log/evaluate/save
 NEURON_SUBSAMPLE_RATIO = 50  # Keep only 1 in every 20 neurons
 
 
 # Base model
-MODEL_NAME = "allenai/longformer-base-4096"
-# MODEL_NAME = "google/bigbird-roberta-base" # try this too
+# MODEL_NAME = "allenai/longformer-base-4096"
+MODEL_NAME = "google/bigbird-roberta-base" # try this too
 
 # Initialize tokenizer to get model_max_length
 tokenizer_tmp = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -215,7 +216,9 @@ def run_finetune(out_dir, train_exs, val_exs):
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForSequenceClassification.from_pretrained(
         MODEL_NAME,
-        num_labels=11
+        num_labels=11,
+        hidden_dropout_prob=0.3,
+        attention_probs_dropout_prob=0.3
     ).to(device)
 
     train_ds = make_dataset(train_exs, tokenizer)
@@ -225,19 +228,56 @@ def run_finetune(out_dir, train_exs, val_exs):
     # but here we simply save at half the epochs
     midpoint = STEPS // 2
 
+    # args = TrainingArguments(
+    #     output_dir=out_dir,
+    #     do_train=True,
+    #     do_eval=True,
+    #     logging_steps=steps_per_epoch,
+    #     eval_steps=   steps_per_epoch,
+    #     save_steps=   steps_per_epoch,
+    #     per_device_train_batch_size=BATCH_SIZE,
+    #     num_train_epochs=STEPS,
+    #     fp16=True,
+    #     dataloader_num_workers=mp.cpu_count(),
+    #     dataloader_pin_memory=True,
+    #     learning_rate=5e-6,
+    #     weight_decay=0.01,
+    # )
+
     args = TrainingArguments(
         output_dir=out_dir,
         do_train=True,
         do_eval=True,
         logging_steps=steps_per_epoch,
-        eval_steps=   steps_per_epoch,
-        save_steps=   steps_per_epoch,
+        eval_steps=steps_per_epoch,
+        save_steps=steps_per_epoch,
+        evaluation_strategy="epoch",     # Changed to epoch for simplicity
+        save_strategy="epoch",  
+        save_total_limit=2,
         per_device_train_batch_size=BATCH_SIZE,
         num_train_epochs=STEPS,
-        fp16=True,
+        fp16=True, 
+        # Regularization parameters
+        learning_rate=2e-5,              # Reduced learning rate
+        weight_decay=0.01,               # L2 regularization
+        label_smoothing_factor=0.1,      # Label smoothing
+        warmup_steps=steps_per_epoch,    # Learning rate warmup
+        
+        # Data augmentation
         dataloader_num_workers=mp.cpu_count(),
         dataloader_pin_memory=True,
+        
+        # Early stopping configuration
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
+        
+        # Prevent overfitting
+        max_grad_norm=1.0,               # Gradient clipping
+        adam_epsilon=1e-6,
+        lr_scheduler_type="cosine",
     )
+
 
     trainer = Trainer(
         model=model,
@@ -246,7 +286,7 @@ def run_finetune(out_dir, train_exs, val_exs):
         train_dataset=train_ds,
         eval_dataset=val_ds,
         compute_metrics=metrics
-    )
+    ) 
 
     eval_callback = ManualEvalCallback(trainer, val_ds)
     trainer.add_callback(eval_callback)
@@ -287,9 +327,12 @@ def run_finetune(out_dir, train_exs, val_exs):
 if __name__ == '__main__':
     acts = load_activations()
     expl = pd.read_csv(EXPLANATIONS_CSV)
-    ds   = pd.read_parquet(DATASET_PARQUET, engine='pyarrow').drop_duplicates(subset=['Sequence'], keep='first')
+    dataset = load_dataset("camillexdang/plminterp")
+    df = dataset["train"].to_pandas()
+    df = df.drop_duplicates(subset=['Sequence']).reset_index(drop=True)
+    # ds   = pd.read_parquet(DATASET_PARQUET, engine='pyarrow').drop_duplicates(subset=['Sequence'], keep='first')
 
-    all_exs = build_examples(acts, expl, ds)
+    all_exs = build_examples(acts, expl, df)
     random.shuffle(all_exs)
     split = int(SPLIT_RATIO * len(all_exs))
     steps_per_epoch = max(split // BATCH_SIZE, 1)

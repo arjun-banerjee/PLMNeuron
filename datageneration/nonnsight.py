@@ -1,6 +1,7 @@
 import json
 import torch
 from transformers import EsmTokenizer, EsmForMaskedLM
+from datasets import load_dataset
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
@@ -8,7 +9,8 @@ import gc
 
 # Config
 ESM_NAME = "facebook/esm2_t12_35M_UR50D"
-BATCH_SIZE = 512  # Start smaller
+#ESM_NAME = "facebook/esm2_t6_8M_UR50D"
+BATCH_SIZE = 2048  # Start smaller
 K = 30
 PARQUET_PATH = "../datatest573230.parquet"
 
@@ -45,10 +47,15 @@ def process_sequences_single_pass():
     for i, layer in enumerate(model.esm.encoder.layer):
         handle = layer.register_forward_hook(make_hook(i))
         handles.append(handle)
+
+    # load and process data from hugging face
+    dataset = load_dataset("camillexdang/plminterp")
+    df = dataset["train"].to_pandas()
+    df = df.drop_duplicates(subset=['Sequence']).reset_index(drop=True)
     
     # Load and process data
-    df = pd.read_parquet(PARQUET_PATH, engine="pyarrow")
-    df = df.drop_duplicates(subset=['Sequence']).reset_index(drop=True)
+    # df = pd.read_parquet(PARQUET_PATH, engine="pyarrow")
+    # df = df.drop_duplicates(subset=['Sequence']).reset_index(drop=True)
     dataset = df["Sequence"].tolist()
     
     print(f"Processing {len(dataset)} sequences")

@@ -13,10 +13,12 @@ from Bio.SeqUtils.ProtParam import ProteinAnalysis
 import os
 
 # Configuration
-CSV_PATH = "esm35M_500k_neuron_explanations.csv"
-MODEL_NAME = "facebook/esm2_t12_35M_UR50D"
-SEQ_LEN = 300
-NUM_STEPS = 200
+# CSV_PATH = "esm8M_500k_neuron_explanations.csv"
+# CSV_PATH = "esm35M_500k_neuron_explanations.csv"
+CSV_PATH = "esm3B_500k_neuron_explanations.csv"
+MODEL_NAME = "facebook/esm2_t36_3B_UR50D"
+SEQ_LEN = 100
+NUM_STEPS = 150
 A = 5
 B = 3
 
@@ -58,12 +60,39 @@ def compute_instability_index(seq):
         return None
     return ProteinAnalysis(cleaned).instability_index()
 
-def compute_gravy_score(seq):
-    """Compute gravy score."""
-    cleaned = seq.replace("X", "")
-    if not cleaned:
+def compute_charge_at_ph7(seq):
+    """Compute charge at pH 7 with intelligent fallback replacements."""
+    cleaned_seq = clean_sequence(seq)
+    if not cleaned_seq:
         return None
-    return ProteinAnalysis(cleaned).gravy()
+    try:
+        return ProteinAnalysis(cleaned_seq).charge_at_pH(7.0)
+    except Exception as e:
+        print(f"Error computing charge at pH 7: {e}")
+        return None
+
+
+REPLACEMENTS = {
+    "X": "A",
+    "B": "D",
+    "Z": "E",
+    "U": "C",
+    "O": "K"
+}
+
+def clean_sequence(seq):
+    return ''.join(REPLACEMENTS.get(aa, aa) for aa in seq)
+
+def compute_gravy_score(seq):
+    """Compute GRAVY score with intelligent fallback replacements."""
+    cleaned_seq = clean_sequence(seq)
+    if not cleaned_seq or not cleaned_seq.isalpha():
+        return None
+    try:
+        return ProteinAnalysis(cleaned_seq).gravy()
+    except Exception as e:
+        print(f"Error computing GRAVY: {e}")
+        return None
 
 def compute_molecular_weight(seq):
     """Compute molecular weight."""
@@ -80,12 +109,14 @@ def steer(model, tokenizer, base_sequence, match_string, label, compute_metric_f
         matched_neurons = []
         # Get total number of layers and neurons from the model
         num_layers = len(model.base_model.encoder.layer)
-        num_neurons = model.base_model.encoder.layer[0].intermediate.dense.out_features
+        #num_neurons = model.base_model.encoder.layer[0].intermediate.dense.out_features
+        hidden_size = model.config.hidden_size
         
         # Select num_random_neurons random neurons from random layers
         for _ in range(num_random_neurons):
             layer = random.randint(0, num_layers - 1)
-            neuron = random.randint(0, num_neurons - 1)
+            #neuron = random.randint(0, num_neurons - 1)
+            neuron = random.randint(0, hidden_size - 1)
             matched_neurons.append((layer, neuron))
         
         print(f"Using {len(matched_neurons)} random neurons as control")
@@ -160,8 +191,19 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
     model.eval()
 
     # Generate shared initial sequence
+    banned_symbols = {'U', 'B', 'Z', 'X', 'O'} 
+    max_restarts = 10000
     base_sequence = random_protein_sequence(SEQ_LEN)
+
+    while any(sym in str(base_sequence) for sym in banned_symbols):
+        if max_restarts == 0:
+            print("Too many sequence retries")
+            exit(1)
+        base_sequence = random_protein_sequence(SEQ_LEN)
+        max_restarts -= 1
+
     print("Starting sequence:", base_sequence)
+
 
     all_results = []
     
@@ -178,18 +220,27 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
         a = config.get('a', 5.0)
         b = config.get('b', 3.0)
         num_random_neurons = config.get('num_random_neurons', 50)
+
+        new_labels = {
+            0: ("Low Instability", "High Instability"),
+            1: ("Positive GRAVY", "Negative GRAVY"),
+            2: ("High Mol. Weight", "Low Mol. Weight"),
+            3: ("Random Neurons A", "Random Neurons B"),
+        }
+
+        pos_label, neg_label = new_labels.get(i, (f"pos_{i}", f"neg_{i}"))
         
-        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=f"pos_{i}", 
+        history_pos = steer(model, tokenizer, base_sequence, match_string=pos_match, label=pos_label, 
                           compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False),
                           num_random_neurons=num_random_neurons, a=a, b=b)
-        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=f"neg_{i}", 
+        history_neg = steer(model, tokenizer, base_sequence, match_string=neg_match, label=neg_label, 
                           compute_metric_func=compute_metric_func, use_random_neurons=config.get('use_random_neurons', False),
                           num_random_neurons=num_random_neurons, a=a, b=b)
         
         # Add initial point (step 0) before steering
         initial_metric = compute_metric_func(base_sequence)
-        init_row_pos = (0, base_sequence, 0.0, initial_metric, f"pos_{i}")
-        init_row_neg = (0, base_sequence, 0.0, initial_metric, f"neg_{i}")
+        init_row_pos = (0, base_sequence, 0.0, initial_metric, pos_label)
+        init_row_neg = (0, base_sequence, 0.0, initial_metric, neg_label)
         history_pos = [init_row_pos] + history_pos
         history_neg = [init_row_neg] + history_neg
         
@@ -201,7 +252,7 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
             pos_match_str = pos_match
             neg_match_str = neg_match
             all_results.append([experiment_id, step, seq, act, metric, label, pos_match_str, neg_match_str])
-        
+
         # Create individual plot for this experiment
         plot_data = history_pos + history_neg
         df = pd.DataFrame(plot_data)
@@ -222,16 +273,87 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
         plt.show()
         plt.close()
 
-    # Save all results to CSV
-    with open(csv_output_path, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["experiment_id", "step", "sequence", "activation", "metric_value", "label", 
-                        "pos_match_string", "neg_match_string"])
-        for row in all_results:
-            writer.writerow(row)
-    
+    df_all = pd.DataFrame(all_results, columns=[
+        "experiment_id", "step", "sequence", "activation", "metric_value",
+        "label", "pos_match_string", "neg_match_string"
+    ])
+    df_all.to_csv(csv_output_path, index=False)
     print(f"\nAll results saved to: {csv_output_path}")
-    print(f"Individual plots saved as: steering_experiment_1.png, steering_experiment_2.png, etc.")
+
+    custom_titles = {
+    0: "Low vs High Instability",
+    1: "Positive vs Negative GRAVY",
+    2: "High vs Low Molecular Weight",
+    3: "Random Neurons"
+}
+    custom_axis = {
+        0: "Instability Index",
+        1: "GRAVY",
+        2: "Molecular Weight",
+        3: "GRAVY"
+    }
+
+    # Create the FacetGrid
+    sns.set(style="whitegrid", font_scale=1.1)
+    g = sns.FacetGrid(
+        df_all,
+        col="experiment_id",
+        hue="label",
+        col_wrap=2,
+        sharey=False,
+        height=4,
+        aspect=1.5,
+        margin_titles=True
+    )
+    g.map(sns.lineplot, "step", "metric_value", marker="o")
+    g.add_legend(title="Label")
+
+    # Manually set titles
+    for ax, title_key in zip(g.axes.flat, g.col_names):
+        ax.set_title(custom_titles[int(title_key)], fontsize=13)
+        ax.set_ylabel(custom_axis[int(title_key)], fontsize=13)
+
+    # Adjust layout
+    plt.subplots_adjust(top=0.9, right=0.85)
+    g._legend.set_bbox_to_anchor((1, 0.5))
+    g._legend.set_frame_on(True)
+    g.fig.suptitle("ESM2-3B Single Characteristic Steering", fontsize=16)
+
+    # Save plot
+    plt.savefig("3B_combined_steering_experiments_custom_titles.png", bbox_inches="tight")
+    plt.close()
+    print("Saved with custom experiment titles.")
+
+    # converged seuqences
+
+    df_weight = df_all[df_all["experiment_id"] == 2]
+    last_step = df_weight["step"].max()
+    converged = df_weight[df_weight["step"] == last_step]
+
+    print("\nConverged sequences:")
+    for _, row in converged.iterrows():
+        label = row["label"]
+        seq = row["sequence"]
+        metric = row["metric_value"]
+        print(f"[{label}] Final Metric: {metric:.2f}")
+        print("Length: " + str(len(seq)))
+        print(seq)
+        print("Amino Acid Frequencies:")
+        freqs = pd.Series(list(seq)).value_counts(normalize=True).sort_index()
+        for aa, f in freqs.items():
+            print(f"  {aa}: {f:.3f}")
+        print("-" * 50)
+
+    # # Save all results to CSV
+    # with open(csv_output_path, "w", newline="") as f:
+    #     writer = csv.writer(f)
+    #     writer.writerow(["experiment_id", "step", "sequence", "activation", "metric_value", "label", 
+    #                     "pos_match_string", "neg_match_string"])
+    #     for row in all_results:
+    #         writer.writerow(row)
+    
+    # print(f"\nAll results saved to: {csv_output_path}")
+    # print(f"Individual plots saved as: steering_experiment_1.png, steering_experiment_2.png, etc.")
 
 # Example usage function
 def run_experiments():
@@ -239,8 +361,8 @@ def run_experiments():
     
     steering_configs = [
         {
-            'pos_match': "high instability indices",
-            'neg_match': "low instability indices",
+            'pos_match': "high instability",
+            'neg_match': "low instability",
             'compute_metric_func': compute_instability_index,
             'plot_title': "Instability Index Score Trajectories",
             'y_label': "Instability Index Score",
@@ -249,8 +371,8 @@ def run_experiments():
             'b': 3.0
         },
         {
-            'pos_match': "positive gravy score neurons",
-            'neg_match': "negative gravy score neurons",
+            'pos_match': "positive gravy",
+            'neg_match': "negative gravy",
             'compute_metric_func': compute_gravy_score,
             'plot_title': "GRAVY Score Trajectories",
             'y_label': "GRAVY Score",
@@ -259,8 +381,8 @@ def run_experiments():
             'b': 3.0
         },
         {
-            'pos_match': "high molecular weight",
-            'neg_match': "low molecular weight",
+            'pos_match': "high molecular",
+            'neg_match': "low molecular",
             'compute_metric_func': compute_molecular_weight,
             'plot_title': "Molecular Weight Trajectories",
             'y_label': "Molecular Weight",
@@ -269,21 +391,21 @@ def run_experiments():
             'b': 3.0
         },
         {
-            'pos_match': "positive gravy score neurons",
-            'neg_match': "negative gravy score neurons",
+            'pos_match': "positive gravy score",
+            'neg_match': "negative gravy score",
             'compute_metric_func': compute_gravy_score,
             'plot_title': "Control Experiment (Random Neurons)",
             'y_label': "Instability Index Score",
             'use_random_neurons': True,  # Use random neurons as control
             'a': 5.0,
             'b': 3.0,
-            'num_random_neurons': 50
+            'num_random_neurons': 1
         }
     ]
     
     run_multiple_steering_experiments(
         steering_configs=steering_configs,
-        csv_output_path="steered_sequences_multiple.csv"
+        csv_output_path="steered_sequences_8M_multiple.csv"
     )
 
 # Run both steering loops (original functionality preserved)
