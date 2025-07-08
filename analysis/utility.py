@@ -14,9 +14,10 @@ import os
 
 # Configuration
 # CSV_PATH = "esm8M_500k_neuron_explanations.csv"
-# CSV_PATH = "esm35M_500k_neuron_explanations.csv"
-CSV_PATH = "esm3B_500k_neuron_explanations.csv"
-MODEL_NAME = "facebook/esm2_t36_3B_UR50D"
+CSV_PATH = "esm35M_500k_neuron_explanations.csv"
+# CSV_PATH = "esm3B_500k_neuron_explanations_redo.csv"
+# MODEL_NAME = "facebook/esm2_t36_3B_UR50D"
+MODEL_NAME = "facebook/esm2_t12_35M_UR50D"
 SEQ_LEN = 100
 NUM_STEPS = 150
 A = 5
@@ -222,7 +223,7 @@ def run_multiple_steering_experiments(steering_configs, csv_output_path):
         num_random_neurons = config.get('num_random_neurons', 50)
 
         new_labels = {
-            0: ("Low Instability", "High Instability"),
+            0: ("High Instability", "Low Instability"),
             1: ("Positive GRAVY", "Negative GRAVY"),
             2: ("High Mol. Weight", "Low Mol. Weight"),
             3: ("Random Neurons A", "Random Neurons B"),
@@ -367,8 +368,8 @@ def run_experiments():
             'plot_title': "Instability Index Score Trajectories",
             'y_label': "Instability Index Score",
             'use_random_neurons': False,  # Use matched neurons
-            'a': 5.0,
-            'b': 3.0
+            'a': 0.5,
+            'b': 0.3
         },
         {
             'pos_match': "positive gravy",
@@ -377,8 +378,8 @@ def run_experiments():
             'plot_title': "GRAVY Score Trajectories",
             'y_label': "GRAVY Score",
             'use_random_neurons': False,  # Use matched neurons
-            'a': 5.0,
-            'b': 3.0
+            'a': 0.5,
+            'b': 0.3
         },
         {
             'pos_match': "high molecular",
@@ -387,8 +388,8 @@ def run_experiments():
             'plot_title': "Molecular Weight Trajectories",
             'y_label': "Molecular Weight",
             'use_random_neurons': False,  # Use matched neurons
-            'a': 5.0,
-            'b': 3.0
+            'a': 0.5,
+            'b': 0.3
         },
         {
             'pos_match': "positive gravy score",
@@ -397,15 +398,15 @@ def run_experiments():
             'plot_title': "Control Experiment (Random Neurons)",
             'y_label': "Instability Index Score",
             'use_random_neurons': True,  # Use random neurons as control
-            'a': 5.0,
-            'b': 3.0,
+            'a': 0.5,
+            'b': 0.3,
             'num_random_neurons': 1
         }
     ]
     
     run_multiple_steering_experiments(
         steering_configs=steering_configs,
-        csv_output_path="steered_sequences_8M_multiple.csv"
+        csv_output_path="steered_sequences_3B_multiple.csv"
     )
 
 # Run both steering loops (original functionality preserved)

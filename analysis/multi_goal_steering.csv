@@ -1,605 +1,405 @@
-experiment_id,step,sequence,activation,charge_ph7,instability_index,label,x_match_string,y_match_string
-0,0,VLMEEHPTTNRDPIWIWPGFMYALLMCKYDFAGECQWCWPEALDDPHYEFLVRVIELFHWHCYIMGWIHTNYEWP,0.0,-7.851602357390111,39.36666666666666,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,1,,504.11688945185796,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,2,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,3,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,4,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,5,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,6,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,7,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,8,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,9,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,10,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,11,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,12,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,13,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,14,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,15,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,16,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,17,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,18,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,19,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,20,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,21,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,22,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,23,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,24,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,25,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,26,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,27,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,28,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,29,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,30,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,31,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,32,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,33,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,34,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,35,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,36,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,37,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,38,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,39,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,40,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,41,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,42,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,43,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,44,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,45,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,46,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,47,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,48,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,49,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,50,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,51,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,52,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,53,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,54,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,55,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,56,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,57,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,58,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,59,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,60,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,61,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,62,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,63,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,64,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,65,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,66,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,67,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,68,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,69,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,70,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,71,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,72,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,73,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,74,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,75,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,76,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,77,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,78,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,79,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,80,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,81,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,82,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,83,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,84,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,85,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,86,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,87,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,88,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,89,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,90,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,91,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,92,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,93,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,94,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,95,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,96,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,97,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,98,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,99,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,100,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,101,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,102,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,103,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,104,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,105,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,106,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,107,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,108,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,109,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,110,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,111,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,112,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,113,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,114,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,115,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,116,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,117,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,118,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,119,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,120,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,121,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,122,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,123,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,124,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,125,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,126,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,127,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,128,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,129,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,130,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,131,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,132,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,133,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,134,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,135,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,136,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,137,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,138,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,139,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,140,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,141,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,142,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,143,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,144,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,145,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,146,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,147,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,148,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,149,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-0,150,,512.7889024131928,,,high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-1,0,VLMEEHPTTNRDPIWIWPGFMYALLMCKYDFAGECQWCWPEALDDPHYEFLVRVIELFHWHCYIMGWIHTNYEWP,0.0,-7.851602357390111,39.36666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,1,MLFEEQPTINLYPIAKWPGFLAALLNFRLDDHTECIWKWPEAPPDPHYDKLVRVYEGFFVYCYIMGWIHANYSWE,0.0,-5.240352641317796,39.88666666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,2,MTTEEQPSINVYPIAHVDGFDAAPENFRLSDTLEYSKKQPAAYPDKSNAKLERVRNDFPDYCLLMGWIDENYIDE,0.0,-8.39751652189537,37.208,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,3,MTTKEQPSIAQNFIATVDGFDKAPLNIRLSDTLYRIKEIVASYPDKSNAVLERYINDFCFYSLLMIEIDENSIAH,0.0,-4.40961724648997,27.302799999999998,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,4,MTTDEFDNIPMNFISTVDRFDKAILLRVLLDTLYRIKEIIAQFPDKSNAVLEYVINRFIEYSLLNIEIDEGAIAI,0.0,-6.48097121963449,31.847999999999995,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,5,MTRDEFQNKLLNFIKTVDRFDKAILNTVNVKLEGWILEIIQQFPDKQFRVLEYPINRAMEYSLLTDEKDEDAIAV,0.0,-4.4801587596592825,20.930666666666667,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,6,MPRDEFQNKLPNFIKIVDEFDKDILNRDEVKCEAKINEIIKQFPDKDFLVLEVPIQRIMERLLLTREKYEEAIAV,0.0,-4.482637364737663,22.392,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,7,MNRMEFQNKLSDFIKIFDEFDKCIFNNDYVKVEAKINEIIKQFDDKDKLQLEVPIQAIMARLLLTREKYEEIIAV,0.0,-3.490236290882084,24.434666666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,8,MENMDQLIKIKDFNKIFDEFDKLIFNNDSSKVEAKINAYIKLFDDKDKILLEFPIVAILARLLLMREKYEEAIAL,0.0,-3.483014002915441,16.282666666666668,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,9,MINMLELIKNNDVNKIFDEYDKLKNNNDESKVEKKINDYIKEFDDKDKILLEGIIKAILARRLLSEEKYEEAIAL,0.0,-4.4775796199928095,30.353333333333325,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,10,MDNMLELIKNNDVNKIFDEIDKLLNNNDNSKVEKLINDYIKSVDDKDKIYLEGGIKASLQRELLKREKYDEAIAL,0.0,-4.482770483033752,14.013333333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,11,MDNILELIKNNDVNKIFDEIDKLLDKNDNEKAEKLINDYLKSVDDKDKGYFEITLKMALGRNLLKAEKYDEAIAL,0.0,-5.482638723192906,22.306666666666676,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,12,MENIVELIKNNDVNDILDEIDNLLDKNDNEKAEKLINDYLKQVDNKDKLFFIITLKMNLVYTLLEQKKYDEAIAL,0.0,-7.481751482234749,23.040000000000006,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,13,MEQINELIKNNDVNDILDEIDKLLDKNENAKAEKLINDYLKIVDNKEKFLEIITLKVNLVYCLLEQKKYDEAIEL,0.0,-7.486461609292816,23.11866666666667,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,14,MEKINELIKNNKVNGILDEIAKLLDKNEFAKAEKLIADYLKIVDQKEKFLEFLNLKVNLVYCLTEQKKYDEAIEL,0.0,-2.491821894110352,15.150666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,15,MKKINELIKSNKVNQILDLIQKLLDKNEFEKAEKLIADSLSIVDQKKKFLEYLNLKVNLVRALLEQKKYDEAIEL,0.0,1.5124481721422338,15.414666666666664,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,16,DKNIEELIKKNKTFQILDEVDKLLDKSEFGKAEKLIYDSLSIVDQKKYFDEYIILKVNLVTAYFEQKKYDEAIEL,0.0,-4.223620158515063,40.93199999999998,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,17,MKNIEELIKKNKTGEIVDIVDKLLDKREFKKAEKLILDSLNIFDQKKQFEEYIILTVNLVTALLLQKKYDMAIKL,0.0,1.5107584711088684,47.38399999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,18,MKNIEELIKKNKTNEIMNIVDKLLDKREFEKAEKLGLESLNYFDIKKQSEYYAILTGNLVTAYCRQKKYDDAEKL,0.0,0.5033496421184314,54.28933333333331,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,19,MKNIEELIKKNKIDEIMNIVDNLLDKREFEKAEKLCLESLKYFDIKKDSYDYFILTGNLSTTYLNQKKYNDAEKL,0.0,-1.497209298075088,42.60666666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,20,MKNIEELIKNNKIDEIMNIVDNLIDKREFEKAEKLLLESLKYFDLKKDSYDYFILTGNLSTTYLMQKKYIDAEKL,0.0,-2.486309306977077,40.03866666666664,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,21,MKNIEELIKNNKITEIMNISDNLIDKREFEKAEKLLLKSLAYFDIKKRSYAYSILIGNLSTTYIMQKKYSDAEKL,0.0,2.5075079483301774,51.94399999999998,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,22,MKNIEELIKNKNINEIIEIADNLIEKREFEKAEKLLLKSLLYFDIKKDSYAYSILNGNLATTYIEQKKYSDAEKL,0.0,-1.484050665850189,64.58399999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,23,MKNIEELITNKNINEVIEIADNLIEKKEFEKAEKLLLKSLTYFDKKKDSYNYSILLMNLATTYIEQKKYSDAEKC,0.0,-1.4949406570481987,57.90799999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,24,MVNIEELITNKNVNEVIEIADSLVEKNEFEKAEKLLLKSLTYIDKKKDKYNYSGSLNNLATTYIDQKKYSEAEKI,0.0,-2.4840406659501877,33.85466666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,25,MVNIEELITNKNWNEIIEIAISLVEKNEFEKAEKLLLKSLTYIDKKKDKRNYSMLQNNLATIYYKQKKYNEAEKI,0.0,1.5127088112711196,47.817333333333316,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,26,MVNIEELIKNKDINEIIEITISLSEKNELVEAEKLFLKSLTYIDKKKDKINYSMLQNNLAYIYIKQKKYNEAEKI,0.0,-0.48616042788903435,41.09333333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,27,MVNIEELIKNKKINKIIEMAINLSEKNELVKAEKLFLKSLKYIDKEKDKQNYSSLQNNLAIIYAMQKKYNDAEEI,0.0,1.5110291101377555,52.01066666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,28,MNNIEELIKNKKINKIIERAINLSEKNELVKAEKLFLQSLGYIDKEKDKQLYSSLQNNLAIIYRKNKKYNDAEEI,0.0,2.512008111336753,60.45333333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,29,MNNIEEEINNSKINKIKERAINLLEKNELKKAEKLFLQALGLIDKEKDKKLYSNLLNNLAIIYRKNKKYKDAEEL,0.0,3.5138195723109646,36.542666666666655,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,30,MKNMTEEINNSKINKIKERAINLLEKNELKKAEKLFLKALGLIDKEKDKLLYAELLNNLANIYRKEKKYKDAEKL,0.0,5.511821570312961,17.564000000000007,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,31,MKNFTKKINNSKIMKIKERAINLMEKNELKKAEKLFNKALKLIDKEKDKLLYAELLNNLANIYRKLKKYKEAEKL,0.0,11.502082882429693,1.9333333333333316,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,32,MINFTKKINNSKIMSIYERAINLLEKNELKKAEKLFKKALKLIDKEKDKLLYAELLNNLAIIYRKLKKYKEAEKL,0.0,9.503081883428695,-1.969333333333334,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,33,MIIGTKKMDLKKIVDIYEKAIKLLEKNELKKAEKLFLKALKLIDKEKDKLLYAELLNNLAIIYRKLKKYKEAEKL,0.0,8.503335403210382,-7.137333333333336,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,34,MIIFYKKVDLKKGKDINEKAIKLLEKGKLKKAEKLLLKALKKINKEKSKLLYAELLNNLGIIYRKLKKYKEAEKL,0.0,14.495286416360479,-5.238533333333336,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,35,MKIFYKIEDVKKIKDINKKAIKLLEKGELKKAEKLLLKALGKINKEKSKELYAESLNNLGIIYRKLKKYKEALKL,0.0,12.499095879332693,11.792133333333343,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,36,MKNKKKKFDVKKIKDINKKAIELLEKGELKKAEKLLLKALGKINKKKSPELYALILNNLGYIYKKLKKYKEALKQ,0.0,16.49048795228927,28.92266666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,37,MKNKKKKSDVKKIKDINKKAIELGEKGELKKAEKLLLKALKKLNKKKSPELYADILNNLGEIYKKLKKYKEALKS,0.0,15.494419175202324,24.68266666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,38,MKNKKKKSKVKKIKKLNKKAIELIEKGELKKAEKLLKKALKKINKKNSPHLYAKILNNLGEIYEKLKKYKEALKS,0.0,20.576233078639376,25.959999999999997,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,39,MKNKKKKSKVDKIKKLNKKAIKLIEKGELKKAEKLLKKALKVINKKNSPELYARILNNLGEIYRKLKKYKEALKS,0.0,20.48934719154942,17.285333333333327,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,40,MKNKKKKSKVKKIKKLNKKAIELIEKGELKKAEKLLKKALKIINKKNSPSLYAGILQNLGEIYRKRKKYKEALKH,0.0,21.575400618864165,38.236,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,41,MKNKGKKSKSKKIKNLNKKAIELIEKGELKKAEKLLKKALKTDNKKESPKLYASALQNLGEIYRIRKKYKEALKF,0.0,17.494155655520636,32.83733333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,42,MKKKGKKRKSKKIKNLNKKALELIEKGELKKAEKLLKEALKKINKKESPKLYASALSNLGEIYRIRKKYKKAEKF,0.0,20.493837354655998,23.82133333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,43,MSKKGKKRKSDKIKNLNKKAEELIEKGELKKAEKLLKEALKKINKKESPLLYASILSNLGEIYRFRGKYKKAEKF,0.0,14.501764581565057,34.33066666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,44,MSKRTKKSKIGDIKELLKKAEELIEKGELKKAEKLLKKALKKIDKKENPLLNASILGNLGEIYRVLGKLKKAEKF,0.0,11.505892345401907,14.916000000000002,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,45,MSWRTKKSKIEDIKELLKKAEELREKGELKKAEKLLKKALKKIDKKENPLLQASILGNLGEIYRVLGKLKQAEKL,0.0,9.510690809473116,22.071999999999996,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,46,MKIRTKKSKSERIKELLKKAEELREKGELKKAEKLYKKALKKIDKKENPLLYAAIVGNLGAIYAALGKLKEAEDT,0.0,9.508692807475114,6.726666666666663,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,47,MKTKFKKSKSKKIYELLKKAEELREKGELKKAEKLYKKALKKISKKKNPLLYAAICGNLGTIYAELGKLKEAEGL,0.0,13.489763829327204,5.1133333333333315,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,48,MKEKRKKSKEKKPDELAKKAEELREKGELKKAEKLYKKALKKISKKKLPELYAAIIVNLGTIYRELGKLKEAEGL,0.0,11.510195967484687,11.448000000000004,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,49,MAEKKKKSKEKKAVELFKKAEELREKGELKKAEKLWKKALKKISKKKEPELYAAIASNLGTIYAELGKLKEAESL,0.0,9.512904669317056,22.154666666666664,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,50,MSKKKKKSKEKKAVELFKKAEELREKGELKKAEKLYKKAMKKISKKKEPELYAAIANNLGTIYAMLGKLKEAEEL,0.0,11.508096205345844,26.12133333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,51,MSKKKKKSKEKKALELFKKAEELREKGELKKAEKLYKKAMKKISKKKEPELYAAIANNLSTIYAMLGKLKEAEEL,0.0,11.508096205345844,27.25333333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,52,MSKKNKKSKEKKALELFKKAEELREKGELKKAEKLYKKAMKKISKSKEPELYAAIANNLSNIYATLGKLKEAEEL,0.0,9.510094207343847,36.26933333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,53,MSKKNKKSKEKKAEELFKKAEELREKNELKKAEKLYKKALKKISKKKEPELYAAIANNLSNIYSTLGKKKEAEEL,0.0,10.510906667319054,40.72799999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,54,MSKKNKKSKEKKAEELFKKAEELREKNELKKAEKLYKKALSKISKDNEPELYAAIANNLSNIYSTLGKMKEAEEL,0.0,5.516023432254903,46.20666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,55,MEKKNKKGKNKKAEELFKKAEELREKNEFKKAEKLYEKALSKISKENEPELYAAILNNLSNIYSTLGKLKEAEEL,0.0,3.52152259626048,35.32133333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,56,MESKNKKGKNKKAEELFKKANELREKNEFKKAEKLYEKALRKISKENEPELYAAILNNLSNIYRTLGKLKEAEEL,0.0,5.519691135486266,33.855999999999995,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,57,MESKNKKIKSKSAEELLKKANKLREKGEFKKAEPLYEKALRKISKKNDPELYAKILNNLSDIYSTLGKLKEAEEL,0.0,6.512512270347328,27.854666666666663,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,58,MESKKKKIKSKSAEELLKKANKLREKGEFKKAEPLYEKALNKISKKNDPELYAEILNNLSFIYSTLGKLKEAEEY,0.0,5.5132129702816925,28.986666666666654,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,59,MESKKKKAKSKSAEELLKKAEELKLKREFKEAEKLYKKALKKISKKKDPELYAEILNNLSFIYRTLGKLKEAEEY,0.0,8.513016429357899,24.85333333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,60,MSSKKKKSKSKSAEELLKKAEELKLKGEFKEAEKLYKKALKKISKKKDPELYAEILNNLGWICRTLGKLKEAEEY,0.0,8.501313978184683,28.127999999999997,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,61,MSSKKKKSKTKSAEELLKKAEELADKGEFKEAEKLYKKVLKKISKEKDPVKYAEILNNLGNIQYMLGKLKEAEEY,0.0,5.512345729123535,35.92933333333334,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,62,MKSKEKKSKKKSAEELLKKAEELAEKGEFKEAEKLYKKVLSKISKEKDPVKYATILNNLGNILYRLGKLKEAEKY,0.0,8.51021596728469,19.444,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,63,MKKAIKKSKKTSPEELLKKAEELAEKGKLKEAEKLYKKALEKISKEKDPVKYATILNNLGNILYRLGKLKEAEKY,0.0,9.50740550531148,27.233333333333334,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,64,MKKRIKKSKKTSPEELLKKASELAEKGKLKEAEKFYKKALEKVSKEKDPVLYATILNNLGNILRRLGKLKEAEKY,0.0,11.506573045536268,48.124133333333326,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,65,MKKKKKKSKKTSPEELLKKASELARKGKLKEAEKFYKKALEKVSPEKDPVSYATILGNLGVILYSLGKLKEAEKY,0.0,11.50178458136506,37.02146666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,66,MKKKKKKEKKTSPEELNKKASELAQAGKLKEAEKFYKKALEKTSPEKDPVSYATILGNLGSILMSLGKLKEAEKY,0.0,8.506603045236272,49.433466666666654,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,67,MKKEKKKEKKPSPEELNKKAIELAQKGKLKEAKKYYKKALEKTSPEKDPSFYATILGNLGSILISLGKLKEAEKY,0.0,9.504605043238271,48.941466666666656,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,68,MNKEKKKEKKLSPEELNKKALELAQKGKLKEAETYYKKALEKTSPEKDPLFYATILGNLGNICISLGELKEAEKY,0.0,3.5043209810816833,44.3948,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,69,MNKEKKKEKKLSPEELNKKALELAQKGKFKEAEKYYKKALEKVSPEKDPLQYAKILGNLGNIKASLGELKEAEKY,0.0,6.51122496818369,40.253333333333316,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,70,MASEKKKEKKLSPEELYKKALELYEKGKFKEAEKYYKKALEKVSPEKDPLTYAKILNNLGNIKRSLGELKEAEKY,0.0,5.5130264292578985,45.14266666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,71,MKEEKKKEKKLSPEELYKKALELYRKGKFKEAEKYYKEALEKVSPEKDPLLYAGILNNLGNIKRSLGELKEAEKY,0.0,4.516825892330109,44.026666666666664,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,72,MKKEKKKEKKLSPEELYKKALELERKGKFKEAEKYYKEALEKVSPKKDPLLYAGILNNLGNIKSSLGELKEAEKY,0.0,6.5130264292578985,31.98,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,73,MKKKKKKEKKLSPEELYKKALELSDKGKFKEAEKLYKKALEKASPKKDPLLYAGILNNLGNIKSRLGELKEAEKY,0.0,10.504716803279113,29.202666666666662,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,74,MKKKKKKEIEKSPEELYKKALELSDKGKFKEAEKLYKKALEKASPKKDPLLYAGILNNLGLIKSELGELKEAEKY,0.0,6.511346728124536,34.03466666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,75,MKKKKKKTREKSPEELFKKALELADKGKFKEAEKLYKKALEKASPKKDPALYAAILNNLGLIKSELGELKEAEKY,0.0,8.509525267250327,26.171999999999993,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,76,MAKKGKKTREKSPEELFKKALELQDKGKFKEAEKLYKKALEKASPEKDPALYAAILNNLGGIYRELGELKEAEKY,0.0,4.515322732320534,32.739999999999995,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,77,MAKKGKKTREKSPEELFKKARELQEKGKLKEAEKLYKKALEKASPEKDPALYAIILNNLGLIYPQLGRLKEAEKY,0.0,7.511381509507478,40.57199999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,78,MAKKGKKTREKSPRELFKKAEELQEKGKLKEAEKLYKKALEKASPEKDPSLYAVILNNLGLIYQSLGRLKEAEKY,0.0,7.511381509507478,38.89466666666667,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,79,MAKKGKKNRELSPRELFKKALELQAKGRLKEAEKLYKKALEKATPEKDPRLYAYILNSLGLIYRSLGRLKEAEKY,0.0,10.506729586860057,22.557333333333325,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,80,MAKKGKKNKELSPRELFKKALESQAKGKLKEAEKLYKKALEKATPEKDPHLYAAILNDLGTIYASLGRLKEAEKY,0.0,7.59406553465549,23.666666666666668,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,81,MATKGKKNKELSPSELFSKALEKKAKGKLKEAESLYKKALEKATPEKDPELYAAILNNLGTLCWSLGRLKEAEKY,0.0,5.500688059233266,32.69333333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,82,MAKKGKKEKQLSPSELFSKALEKKNQGKLKEAESLYKKALEKATPEKDPELYSAILNNLSTLYRSLGRLKEAEKL,0.0,6.510579049432273,30.104,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,83,MAKKGKKEKEKSPSELFNKALEKKNQGKLKEAESLYKKALEKASPEKDPELYSAILNNLGLLYRTLGRLKEAEKL,0.0,6.512390510406481,30.10933333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,84,MAKKGKKEKEKRPEELFKKALEKHNRGKLKEAEELYKKALEKASQEKDPELYSAILNNLALLYRTLGRLKEAEKL,0.0,6.605165622807485,29.30133333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,85,MAKKERKEKEKSPEELFKKALEKHNRGKLKEAEELYKEALEKADKEKDPELYSAILNNLALLYRTLGRLKEAEEL,0.0,0.616715771664964,28.587999999999994,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,86,MGKKESKEQEKSPEELFKEALENHNRGKLKEAEELYLEALEKADKEKDLELYSTILNNLALLYRTLGRLKEAEEL,0.0,-5.376467762465818,31.197333333333322,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,87,MRDKRSKEQEKSLEELFKEALEKHTKGKLKEAEELYLNALEKALKEKDLENYSNILNNLAGLYRTLGRLKEAEEL,0.0,-1.3830976873112455,32.48133333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,88,MRKKSSKELEKSVEELFKEALKKHLQGKLKEAVELYLSALEKAYKEKDLENYPIILNNLAILYRTFGRLKEAEEL,0.0,1.6081726257044888,22.977333333333334,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,89,MSKKSSKELEKKVEELFKEALKKHEQGKLKEAEELYKKALEKAEKEKDLENYPIILNNLAVLYRTLGRLKEAEEL,0.0,0.6146160095261202,27.064000000000004,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,90,MSKKELKEKQKKNEELLKEALKKHEQGKLEEAEELYKKALEKAEKCKDLGNIPVILNNLAVLYRNQGRLKEAEEL,0.0,1.6029035584529048,39.903999999999996,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,91,MSKKEEKEKLKELEELLKEAIKLIEQGKLKEAEELYKKALELAEKNKDLENIPVILNNLAFLYRSQGRLKEAEEL,0.0,-2.4667507137582483,51.29066666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,92,MSGKEEKEKLKELEELNKEAIKLREQGKLKEAEEKYKKALELAEKIKDERNIPVILNNLASLYRSQGRLKEAEEL,0.0,-0.46677071355825106,47.381333333333316,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,93,MTGKEDKEKLKELEELVKEARKLREKGKLKEAEEKYLRALELAEKIKDERIKPVYLNNLASLYRSQGRLKEAEEL,0.0,1.530520584609377,20.724,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,94,MTGWEEKEKLEELEELVKEARKFEEKGKLKEAEEKYLRALELAEKLKDERRKPSLLNNLASLYRSQGRLKEAEEL,0.0,-2.4591717874138332,44.57599999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,95,MKGWEEKEKLEELEELVKQARKFESEGKLKEAEEKYLRALELAEKLKDESRKPVFLNNLASLYKLQGRLKEAEEL,0.0,-2.4629612505860408,44.57466666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,96,MKGNEEKEKLEEWEELGKLARKLRSEGKLKEAEECYLRALELAEKLKDISRMGVILNNLSSLYKAQGRLKEAEEL,0.0,-1.476495162533471,43.13733333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,97,MKGMIEKEKLEKAENLNRLAEKLRSEGKLKEAEEHYLKALELAEKLKDISRKGVATNNLSSLYKSQGRLKEAEEL,0.0,1.6129710897756997,33.514666666666656,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,98,MKAMTEKEKLEKAENLLRKAERLKSEGNLKEAEESYLKALELREKLKDISLKTVYLNNLSVLYKSQGRLKEAEEL,0.0,1.5247979005221133,22.390666666666668,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,99,MNEMTEKEKLEKAEELYRKAENLYKEGNLKEAEESYLKALELSEKVKDISGKAVILNNLSVLYKSQGRLKEAEEL,0.0,-3.4695611757314637,24.8,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,100,MGEMTEKELLEKAEELVRKANNLYKEGNLKEAEESYSKALELNEKVKNISGKAMSLNNLSVLYRSQGRLKEAEEL,0.0,-2.4705053955475176,38.498666666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,101,MGEIEEKELLEKAEELNRKGVNLYKEGNLKEAEENYKKALELCEKVKNISGKAMVLNNLSVLYRSQGRLKEAEEL,0.0,-2.478594924672315,39.52933333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,102,MKEKEEKELLEKVKELNREGVKLYKAGDLKEAEEYYKKALEFYEKVKNISGKAMVLNNLSVLYRSQGRLKEAEEL,0.0,0.5246213593983242,31.980133333333328,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,103,MIEKEEKELLEKAKELNREGVKLYKAGRLKGAEEKYKKALEFYEKIDNISGKATVLNNLSDLYRSQGRLKEAEEL,0.0,0.524919660462956,35.82946666666667,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,104,MTEKEEKELIEKAGELNKEGVKLYKQGRLKGAEEAYKKALEIYEKLDNISGKATVLNNLGDLYREQGRLKEAEEL,0.0,-2.4712608766648323,35.67999999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,105,MTEKEKEELIEKAGELLKEGVKLWKQGRLKGAEEAYKKALEIYEKYDNISGKATVLNNLGDLYKEQGNLKEAEEL,0.0,-3.4722398778638315,39.96000000000001,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,106,MTEKEKEEMIEKAGELLKEGVKLSKQGKLKEAEEAYKKALEIYEKYDNSSGKATVLNNLGFLYKEQGRLKEAEKL,0.0,-0.475358640801673,29.16533333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,107,MTEKEIEEKIEKALELLKEGVKLSKQGKLKEAEEAYKKALEIYEKYDYESGKATVLNNLGFLYKEQGRLKEAEKL,0.0,-1.4735471798274666,36.459999999999994,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,108,MTEKEKLEKIWKAEELLKEGIKLSKQGKLKEAEEKYKKALEIYEELDYEEGKASVLNNLGFLYKEQGRLKEAEKL,0.0,-1.4707367178542547,22.130666666666663,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,109,MTEKEKLEKIRKAEELLKEAIKLYKQGKLKEAEEKYKKALEIYEELDYEEGKASVLNNLGLLYKEQGRLKEAEKL,0.0,-0.4717457187532581,23.262666666666657,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,110,MTEKEELEKIRKAEELLKEAIKLRKQGKLEEAEEKYKKALEIYEELNYEEGKASVLNNLGLLYGEQGRLKEAEKL,0.0,-3.4632595516506797,34.65066666666667,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,111,MTEKERLEKLRKAEELLKEAIELRKQGKLEEAEEKYKKALEIYEEINYEEGIASVLNNLGLLYSEQGKLKEAEKL,0.0,-4.462260550651678,46.00399999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,112,MTEKERLEKLRKAEELLKEAIELRKQGRLEEAEEKYKKALEIFEEINYLEGIASVLNNLGILYSEQGKLEEAEKL,0.0,-5.459273547554675,52.846666666666664,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,113,MDEKERLEKLKKAEELLKEAIELRKQGRLEEAEEKYKKALEIFEEINYLEGIASSLNNLCILYSEQGKLEEAEKL,0.0,-6.469042777812838,50.66266666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,114,MDERERLEKMKKAEELNKEAIELRKQGRLEEAEEKYKKALSIFEEINYKEGIASSLNNLGILYSDQGKLEEAEKL,0.0,-4.463651950620406,52.72666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,115,MDERERLEKMKKAVELNKEAIELRKQGRLSEAEEKYKKALSIFEEIGYKEGIASSLNNLGILYSDQGKLEEAEKL,0.0,-2.4692728745668298,45.469333333333324,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,116,MDERERLEKMKLARELNKEAIELRKQGRLSEAEEKFKKALSIFEEIGYKEGIASSLNNLGILYSDQGKLEEAEKL,0.0,-2.467284872468829,42.33333333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,117,MDEREKLEKMKKARELNKEAIELRKQGRLMEAEEKFKKALSIREEIGYKEGIASVLNNLGILYSDQGKLEEAEKL,0.0,-0.46928287446683115,37.197333333333326,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,118,MDEREKLEKWKKARELNKEAIELRKQGRLKEAIEKFKKALSIAEEIGYKEGIASSLNNLGILYQDQGKLEEAEKL,0.0,0.52691766246096,38.36666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,119,MDEREKKEKLKKARELNKEAIELRKQGRLKEAESKFKKALSIAEEIGYKEGIASSLNNLGILYQDQGKLEEAEKL,0.0,1.5259186614619615,33.94399999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,120,MDEREKREKLKKARELNKEAIELRKQGRLKEAEEKFKKALEIAEEIGYKEGIASSLNNLGILYQSQGKLEEAEKL,0.0,0.5314078255675341,48.49599999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,121,MDEREKREKLKKARELNKEAIKLQKQGRLKEAEEKFKKALEIAEEIGYKEGAASSLNNLGILYQSQGKLEEAEKL,0.0,1.5276083624953287,42.15199999999998,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,122,MDEREKREKLKKARELNEEAIKLQKQGKLKEAEEKFKKALSIFEEIGSKEGAASSLNNLGILYQSQGKLEEAEKF,0.0,0.5286173633943285,40.773333333333326,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,123,MDEQEKREKLKKARELNEEAIKLQKQGKLKEAEEKFKKALSIFEEIGDKEGAASSLNNLGLLYQSQGKLEEAEKY,0.0,-1.4712508767648274,43.341333333333324,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,124,MGEAEKREKLKKARQLNEEAIKLQKQGKLKEAEEKFKKALSIFEEIGDKEGIASQLNNLGLLYQSQGKLKEAEKY,0.0,2.5210084373499058,34.289333333333325,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,125,MNEAEKREKLIKADQLNEEAIKLQQQGKLKEAEEKFKKALSIFEEIGDKEGIASLLNNLGLLYQSQGKLKEAEKY,0.0,-1.4758627998122478,31.010666666666662,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,126,MNEEELFEKLYKAKQLYEEAIKLQQQGKLKEAEEKYKEALSIFREIGDKEGIASLLNNLGLLYQSQGKLKEAEKY,0.0,-2.4761711007768827,37.42533333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,127,MNEEELFEKLVKAKQLYEEAIKLYQQGKLKEAEEKYKEALKIFREIGDKEGEASCLNNLGLLYQSQGKLKEAEKY,0.0,-2.4842606299016836,34.903999999999996,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,128,MNEEELKEKLKKARELYEEAIKLYQQGKLKEAEEKYKEALKIAREIGDKEGEASCLNNLGLLYQSQGKLKEAEKY,0.0,-1.482459168827475,29.872000000000003,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,129,MTEEELKEKLKKARELYNEAIKLYQQGKLKEAEEKYKEALKIAREIGDKEGEASRLNNLGLLLSSQGKLKEAEKF,0.0,0.5266193613963281,21.077333333333335,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,130,MTEEERKEKKKKAKELYDEAIKLYQQGKLKEAEEKYKEALKIAREIGDKEGEASRLNNLGLLLSSQGKLKEAEDK,0.0,0.5268628812780136,29.06666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,131,MTEEEIKEKIKKAKELNDEALKLYQQGKLKEAEDKYKEALKIKREIGDKKGEASDLNNLGLLYSSQGKLKEAEEK,0.0,-0.47580582095435275,24.596000000000004,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,132,MTEEEIKEKIKKAKELNKEGLILYNQGKLKEAEDKYLEALKIDREIGDKKGEASVLNNLGELYSEQGKLKEAEEK,0.0,-3.4693076559497733,23.78666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,133,MTEEEIKEKKKKAKELNKQGLILYNQGKLKEAEDKYLEALKIMREIGDKAGEASVLNNLGNLYSEQGKLKEAEEK,0.0,-0.4760493408360382,30.207999999999984,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,134,MTEEEIKEKKKEAKELNEQAVILQNQGKLKEAEDKLNEALKIMREIGDKAGEASVLNNLGLLYSEQGKLKEAEEK,0.0,-4.466432412893617,30.81333333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,135,MTEEEIKRKKKEAKELFNQGVILQNQGKLKEAEEKLNEALKIMREIGDKAGEASSLNNLGLLYSDWGKFKEAEEK,0.0,-1.4720633367400389,30.806666666666658,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,136,MTEEEIKRKKKEATELFNQGVILQKQGKFKEAEEKYQEALKICREIGDKAGLASSLNNLGLLYSDQGKLKEAEEK,0.0,-0.4857737898112582,44.62533333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,137,MTDEEIKRKQKEAGELFNQGVSLQEKGKFKEAEEKYQEALKLRREIGDKAGVASSLNNLGLLYSDQGKLKEAEEK,0.0,-1.4737630376734039,43.210666666666654,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,138,MTDEEKKRKQKESEELFNQGVRLSEKGKFKEAEEKYNEALKLRREIGDKKGEAASLNALGLLYSDQGKLKEAEEK,0.0,-0.4701501156249819,40.64266666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,139,MTDEEKKRKQKESAELFNQGVRLSEKGKFKEAEEKLNAALKLRREIGDKKGEAASLNALGVLYSDQGKLKEAEEK,0.0,1.5252279614275928,32.59599999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,140,MTDEEKKRKQKESAGLFNQGVRLSEKGKFKEAEEKLNAALKIRREIGDKSGEAATLNNLGILYSDQGKLKEAEEK,0.0,1.5234165004533846,32.59599999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,141,MTDEEKRRKQKEAAGLFNQGVRLSEKGKFKEAEEKLNAALKIRREIGDKSGEAATLNSLGILYSDQGKLKEAEEK,0.0,1.5244055015523852,37.66533333333333,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,142,MTDEEKRRKQKEAADLYNQGVRLSEKGKFKEAEEKLNAALKIRREIGDKSGEAATLNSLGNLYSDQGKLKEAEEK,0.0,0.5245272614932297,33.96533333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,143,MTDEEKRRKQKEAADLYNQGVRLSEKGKFKEAEEKLNAALKIRREIGDKSGVAATLNSLGNLYSDQGKLKEAEEK,0.0,1.5217167995200178,34.97066666666665,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,144,MTDEEKRRKQKEAADLYSQGVRLSERGQFKEAEEKYNAALKIRREIGDKSGEAATLNSLGNLYSDQGKLKEAEEK,0.0,-0.4744837374077697,38.79733333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,145,MTDEEKRAKQKEAASLYSQGVRLAERGQFEEAEEKLNAALKIRREIGDKSGEAATLNSLGNLYSDQGKSKEAEEK,0.0,-2.4707860344764025,37.20666666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,146,MTDEEKRAKQKEARSLYIQGVRLGQRGQFEEAEEKLNAALKIRREIGDKSGEAATLNSLGNLYSDIGKSKEAEEK,0.0,-0.47360649634961405,40.49733333333332,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,147,MTDEEKRAKREEARSLYIEGVRLGQRGQFLEAEEKLNAALKIRREIGDKSGEAATLNSLGNLYSDLGKYKEAEEN,0.0,-2.469807033277405,47.55066666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,148,MTDEEKRAKREEARRLVDEGVRLGQRGQFREAEEKLNAALKIRREIGDKKGLAATLNNLGNLYSELGKYKEAEEN,0.0,0.5301729669225956,43.907999999999994,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,149,MTDEEKRAKREEARRLHDEGVRLGRRGQYREAEEKLLAALKIREEIGDKKGEAATLNNLGNLYSELGKYKEAEEF,0.0,-1.3780309218753963,46.99866666666666,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-1,150,MTDEEKRAKIEEARRLHDEGVDLVRRGRYREAEAKELAALKIRREIGDKKGKAATLNDLGNLYSDLGKTKEAEEF,0.0,-0.38310002497549434,42.75599999999999,high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-2,0,VLMEEHPTTNRDPIWIWPGFMYALLMCKYDFAGECQWCWPEALDDPHYEFLVRVIELFHWHCYIMGWIHTNYEWP,0.0,-7.851602357390111,39.36666666666666,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,1,,504.11688945185796,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,2,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,3,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,4,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,5,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,6,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,7,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,8,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,9,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,10,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,11,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,12,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,13,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,14,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,15,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,16,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,17,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,18,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,19,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,20,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,21,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,22,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,23,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,24,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,25,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,26,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,27,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,28,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,29,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,30,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,31,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,32,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,33,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,34,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,35,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,36,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,37,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,38,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,39,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,40,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,41,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,42,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,43,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,44,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,45,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,46,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,47,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,48,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,49,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,50,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,51,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,52,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,53,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,54,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,55,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,56,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,57,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,58,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,59,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,60,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,61,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,62,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,63,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,64,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,65,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,66,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,67,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,68,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,69,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,70,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,71,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,72,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,73,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,74,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,75,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,76,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,77,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,78,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,79,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,80,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,81,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,82,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,83,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,84,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,85,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,86,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,87,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,88,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,89,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,90,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,91,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,92,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,93,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,94,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,95,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,96,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,97,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,98,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,99,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,100,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,101,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,102,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,103,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,104,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,105,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,106,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,107,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,108,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,109,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,110,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,111,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,112,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,113,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,114,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,115,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,116,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,117,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,118,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,119,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,120,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,121,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,122,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,123,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,124,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,125,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,126,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,127,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,128,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,129,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,130,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,131,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,132,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,133,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,134,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,135,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,136,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,137,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,138,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,139,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,140,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,141,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,142,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,143,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,144,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,145,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,146,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,147,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,148,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,149,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-2,150,,512.7889024131928,,,not high charge at pH7 + high molecular weight,high charge at pH7,high molecular weight
-3,0,VLMEEHPTTNRDPIWIWPGFMYALLMCKYDFAGECQWCWPEALDDPHYEFLVRVIELFHWHCYIMGWIHTNYEWP,0.0,-7.851602357390111,39.36666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,1,MVMELHPTTNRPPINDWGGFYYAALACAYRRHGECQWDGPIPLLDLDTQFLVRRILDFHETSAIMLWIHVNNELP,0.0,-4.156951889543271,50.47346666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,2,MVMELHPEYSYPPENPGPMFYYAALACAARRLGEWQWERSIPLADDETQTLVRSALDGHETSAIELWIQVLTSQP,0.0,-7.313387951039282,58.920133333333325,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,3,MKSELGPEAGAPTEHSGIDFYRAAGAFGARRLGFPPLERGAPLIDDEKQTLLTSLLDGVSTEPREFAIQVLRSQD,0.0,-4.387070186482079,48.35879999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,4,MGLELLPWAGAATGASLIDFYRANGAAGAGRLGLPPLERLAPLSDDEAATLLPQLLGGVSDEDLELRIARARSQI,0.0,-4.481048198292388,31.517466666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,5,MELWLLPLPSAALGAQLVDLYRAWGAKLMGRLVLAAEERLAKLSDDEAAGLLAESLPGVSDEDLARLIRRARRQI,0.0,-1.4802557381171813,42.09733333333334,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,6,MENQLLVLLSKDYGLDLVDLARADGIKRMGRLRAAAVERLADLSAEEAAALLRESLPGISDEDLASLARRARRRP,0.0,-0.478044215937496,47.07866666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,7,MENQLLRLLRENSGLDLEDLARADGFRRLGRLRAAATERLADLSAEEAAALLREGLPGSSDERLASLARRARRRP,0.0,1.5282921895262334,64.60533333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,8,MENPLLRLLRERTGLDIENLAPALGFRPLGRLIAAATERLADLSAEERAAHLVEGLPGESDEQLARLLRRFRRRP,0.0,0.6160553176743431,66.44666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,9,MEDPLLRELRERTGLDYEELADLLGFRPLGELAAQARERLADLSAEERAALLREGLPGLSGEQLARLLRRLRRRA,0.0,-1.465386186592978,58.172,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,10,MEDPLLAELEERTGLDGEELADLLGEDPLGELAAEAREDLPDLSAEERAAELVELLAGLSGEQLARLLRRLRRRA,0.0,-12.450853816321445,56.504,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,11,MSDPLLAELEELTGLSAEELADLLGEDPLGELLAAAGEDEWDSSAEERAAELVELLAGLSGEQLALLLRRLRRAA,0.0,-14.454745039634494,53.72666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,12,MSDPLFAELHELTGLSAEELADLLGEDPLGELLDADGEDADGAPAEERFDELDELLAGLSGEQLALLLRELRRAA,0.0,-18.365888269693738,41.996,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,13,MSDPLLAELAELTGLSAEELADLREEDPLGDLLDADGELANGAEAPERFAELDELLAGLSGEQAAQLLRELRRAA,0.0,-15.455313979728016,41.23866666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,14,MSDDLLAQLAELTGLSAEDLAALREADPLGDLLKALVELAVGAEALEELAKLVELLAGLSAEKAAQLLRELRRAA,0.0,-8.468973890624335,31.18933333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,15,MSDDLLAQLAELTGLSAEDLEALNEADSGGELLTGLAELLPFAERAEVLQKLQELLAGLDAEKAAQLLRLLRRSG,0.0,-9.467974889625335,52.002666666666656,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,16,MSDDLLAQLAELTGLSAEDLEALAAADSGGELLTGLAELLPAAERAELLQKLQEVAAGLDAEKAAELLRLLRRLG,0.0,-9.467974889625335,46.14399999999999,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,17,MSDDLLAQLAELTGLSAPDLRALAAADSGGELLAGLAELLPAAERAELLQKLREIAAGLPEETAAETLRLLRRLG,0.0,-6.470927111339392,56.291999999999994,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,18,MSDSELAVLAALTGLSAPDLAALAAADSLGELLAALAELLPAAQRAELLQALRELVAGLPEEGERALLRLLRRLG,0.0,-5.473859333253445,54.773333333333326,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,19,MSDSELAELAALTALEAPDLRALRAADGVGELLAALDELLPAGRRAELLQALGELRAGLPERAIRETLRRLRRYG,0.0,-2.470977110839396,66.13199999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,20,MSDAELAELAAAFALEAPLLRALRAADGPGELLTALDELLPAGRREELLQALGERRAGRPERARRHTLRRLRREG,0.0,0.6188557797475536,83.88666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,21,MSDAELAELGAAFAQEAPLLRALVTADGPSELLTAVGERLPAQRREELLQALHEQDAGREVAARRQTLRRLRAEG,0.0,-3.3811042206524426,72.61333333333332,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,22,MSDAELAELGAALAQAAPLLRALVTADGPRELLLALAERLPAARRRELLHALREQPAERVDAARLQLLRRLLALG,0.0,0.6104543935279239,59.69066666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,23,MSDAERAELGAALAAAAPELRALVTADRAAEALLALAERLPAARALELLAALRGAPAERVDAARRGALRTLLELG,0.0,-1.473899332853449,35.29066666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,24,MSDAERAELGARLAAAAPAVRALVEDGRAAEAARALAERLPAARALELLAALREATAERVDAAARRALRTLLELG,0.0,-0.47110887068024176,38.202666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,25,MSDAERAELGARLAAAAPAVAALVEAGRAAEAARALAERLGAARAVELLAALREAPAERDDADARSAARTLLEGG,0.0,-3.4699681099403943,32.67333333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,26,MSDAERAELAARLAAADPAVAARVEAGRAAEAARALAERFGAARAAGLLATLITRGAERDDADARSAARRLLEGG,0.0,-0.47448827274697436,27.774666666666665,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,27,MSDAERAELAARIAAADPEVAAEVEAGRAAEAARALAERFGAARAAGLLAWLRTRGAERDDAAARAAARRLLEGG,0.0,-1.469988109740397,27.01066666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,28,MTDAERAELAARIAARDPEVAAEVEAGRAAEAARALAERAGAARAAGLLAELRRQVAERADAAAIAAARRLLEGG,0.0,-1.4682984087070317,30.586666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,29,MTDAERAELARRIAARDAEVAAAVEAGRAAEAARARAERAEAARAAQGLAEKRQLVAERADAAAIAAARRLLEGG,0.0,0.5306925903939668,32.18533333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,30,MTDAERAELARRIAARDAEVAAAVEAARAAERARAAAERAEAAGAADALAELRRLVANVAGAEAAAAARRLLEGG,0.0,-1.4682984087070317,33.212,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,31,MTDAERAELARRIAARDAEVAAAVEAARAAERARAAAEAAEAAGAARALAELRRLVAEGAGAEAADAARRLLEGL,0.0,-2.4654879467338215,30.434666666666665,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,32,MTDAERAELARRRADRDAEVAAAVEAARAAERARAAAEAARAAGAARALAELRRLVAAGAGAEAADAARRLLEGL,0.0,0.5299918904596019,35.934666666666665,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,33,MTDAERAELARARAARDAEVAAAVEAARAAERARAAAEAARAAGAAERLAELRRLVAAGAGAEAAQEARRLLEGL,0.0,-0.46661870757366763,26.497333333333334,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,34,MTDAERAELARLRAARDADVAAAVEAARAAERARAAAEAARAAGAREVLAELRRLVAAGAGPEAAAEARRLLEGL,0.0,-0.46830840860703304,28.814666666666664,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,35,MTDEERAELARLRAARDADVAAAVEAARAAERARAAAEAARAAQATEALAELRRLVAAAAGPEAAASLRRLLEGL,0.0,-1.4682984087070317,40.56133333333334,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,36,MTDEERAELARLRAARDADVAAAVEAAVAAERAKAEAEARRAAAATEALAELRRLAAAAPGPEAAATLRRLLEGL,0.0,-2.4664769478328203,50.766666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,37,MTDEERAELARLRAARDAEVAAAVEAARAAERATAEAEARRAAAAEEALAELRRLAAAAPGPEAAGTARRLLEGL,0.0,-3.460987783727246,49.97733333333332,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,38,MTDEERAELDRLRAARDAEHAAAVEAARAAEAATAAAEARRAARAEEALAELARLAALAPGPEAAGWARRLLEGL,0.0,-4.375493296606024,38.534666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,39,MTDEERAELARLRAARDAEAAAAAEAARAAAAAAAAARARRAARIEAALAELARLAALAPGPEAAGAARRLLESL,0.0,0.5277703683799135,43.852,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,40,MTDEERAELARLRAARDAEAAAAAEAARAAAAAAAAADAERAARIEAALAELARLAAGARSPEAAAAARRLLESL,0.0,-2.4682884088070303,44.232,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,41,MTDEERAELARLRAERDAEAAAAAEAAAAAAAAAAAADAARAARIEAARARLAALAGGARSPEAAAAARRLLERL,0.0,-0.47110887068024176,43.30933333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,42,MTDEERAHLARLRAERDAEAAAAAEAAAAAAAAAAAADAAEAARIEAARARLAAIAGEARSPLAAAAARRLLERL,0.0,-1.3839246825256541,38.341333333333324,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,43,MTDEERAELARLRAERDAEAAAAAEAAAAAAAAAAAADAAAAARREAARARLRAVAGGARSPDAAAAARRLLEEL,0.0,-1.469988109740397,48.68,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,44,MTDEERAELARLRAERDAEAAAAAEAAAAAAAAAAAAAAAAAARREANRARLRAVAGMYVSPAAAAAARVLLEEL,0.0,-1.4732086328190839,42.53333333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,45,MTDEERAELARLRAEREAESAAAARAAAAAAAAAAAAAAAAAGAEEAQRAWLRAVAEMAVSPEAAAAARRALQEL,0.0,-3.4676994689135068,50.766666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,46,MTDEERAELARLRAEREAERAAAAAAAAAAAAAAAAAAAAAAAAAEARRALLRAVAEGAVSPETAAAARRLLAEL,0.0,-1.4705199307867183,41.284,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,47,MTDEERAELLRLRAEREAERAAAAAAAAAAAAAAAAAAAAAAAAAEAARALARAVAEGAVSPEEAEAARALLDAL,0.0,-5.466568708073661,30.355999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,48,MTDEERAELARLRAEREAARAAAAAAAAAAAAAAAAAAAAAAAAAAAARALAAAVAEGSISPEEAEAARALLEAG,0.0,-4.470489931086715,28.92,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,49,MTDEERAELARLRAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARALAAAVAAGNITPEEAEAARALAEAL,0.0,-4.473290393159925,27.788,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,50,MTDEERAELAALRAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAVAAGEITPSEAEAARAQAEAL,0.0,-6.473270393359922,23.096,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,51,MTDEERDELAALRAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAGTITEEEAEALRAAAEAL,0.0,-8.469339170446867,29.09466666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,52,MTDEERDELAALRAERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAGPITEEEAEALRAAAENA,0.0,-7.472149632420077,30.226666666666663,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,53,MTDEERQELAALRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGPITEEEAEALRAASEVA,0.0,-7.473260393459921,37.93066666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,54,MTDEERAELEALRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVPMTEEEATALRAAFWKA,0.0,-5.4770698564321325,31.40533333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,55,MTDEERAELERLRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVPMTDEEAAALRAARGKA,0.0,-3.4787795572655016,22.226666666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,56,MTDEERAELERLRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAMTDEEAAALRAARGLA,0.0,-4.4777805562665005,21.796,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,57,MTDEERAELARLRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAMTDEEIAALRAARGIA,0.0,-3.480591018239709,23.231999999999996,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,58,MTDEERAELARLRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMTDEEIAALRAARGIA,0.0,-3.480591018239709,23.231999999999996,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,59,MTDEERAELARLRAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMTDEEWAALRAARGIS,0.0,-3.480591018239709,16.656,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,60,MTDEERAELARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMTAEEWAALLAKHGGD,0.0,-3.394025391550028,16.61466666666667,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,61,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMTAEELAALKAKNGGE,0.0,-1.478462501510065,30.570666666666668,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,62,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTAEELAALKGALGGE,0.0,-2.477463500511064,30.310666666666663,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,63,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGTPEELAALIGLLGGE,0.0,-3.476464499512063,35.27599999999999,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,64,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTPEEEAALIILLGGE,0.0,-4.473654037538852,42.93866666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,65,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTPEQRAALARLLGGE,0.0,-0.4792949612852757,34.24533333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,66,MTDEERAELARRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLYGGE,0.0,-1.4763727392712225,32.574666666666666,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,67,MTDEERARLARLRXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERAELARLRGGE,0.0,-1.4753737382722223,22.604054054054057,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,68,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRGGE,0.0,0.521805799854568,22.436,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,69,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRGGR,0.0,2.5137480582138654,23.441333333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,70,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRGGR,0.0,2.5137480582138654,23.441333333333333,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,71,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGR,0.0,2.5137480582138654,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,72,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGR,0.0,2.5137480582138654,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,73,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGR,0.0,2.5137480582138654,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,74,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGR,0.0,2.5137480582138654,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,75,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGA,0.0,1.5137580581138668,21.048,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,76,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAGA,0.0,1.5137580581138668,21.048,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,77,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAGA,0.0,1.5137580581138668,21.796,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,78,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,79,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETDEERARLARLRAAA,0.0,0.5165685200870778,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,80,ETDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,0.8502309892705151,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,81,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETDEERARLARLRAAA,0.0,0.5165685200870778,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,82,ETDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,0.8502309892705151,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,83,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETDEERARLARLRAAA,0.0,0.5165685200870778,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,84,ETDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,0.8502309892705151,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,85,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETDEERARLARLRAAA,0.0,0.5165685200870778,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,86,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,87,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,88,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,89,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,90,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,91,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,92,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,93,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,94,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,95,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,96,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,97,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,98,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,99,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,100,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,101,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,102,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,103,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,104,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,105,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,106,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,107,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETDEERARLARLRAAS,0.0,0.5165685200870778,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,108,MTDEERARLARLRAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAW,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,109,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAE,0.0,0.521805799854568,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,110,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAE,0.0,0.521805799854568,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,111,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.5137580581138668,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,112,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,113,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,114,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,115,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,116,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,117,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARQRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,118,MTDEERARLARERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,0.5165685200870778,19.612000000000002,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,119,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARERAAA,0.0,0.5165685200870778,19.612000000000002,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,120,MTDEERARLARERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,0.5165685200870778,19.612000000000002,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,121,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARERAAA,0.0,0.5165685200870778,19.612000000000002,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,122,MTDEERARLARERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,0.5165685200870778,20.36,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,123,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARERAAA,0.0,0.5165685200870778,20.360000000000003,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,124,MTDEERARLARERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,0.5165685200870778,20.36,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,125,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,126,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,127,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,128,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,129,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,130,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,131,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,132,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,133,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,134,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,135,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,136,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTDEERARLARLRAAA,0.0,1.5137580581138668,22.18,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,137,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,138,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,139,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,140,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTDEERARLARLRAAA,0.0,1.5137580581138668,22.928,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,141,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.5137580581138668,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,142,MTDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.5137580581138668,23.312,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,143,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,144,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,145,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,146,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,147,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,148,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,149,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
-3,150,ATDEERARLARLRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATDEERARLARLRAAA,0.0,1.8092779584266072,23.695999999999998,not high charge at pH7 + not high molecular weight,high charge at pH7,high molecular weight
+experiment_id,step,sequence,activation,molecular_weight,positive_gravy,label,x_match_string,y_match_string
+0,0,NPTGQVWEQPMYMKWPHHLCPRKTWNQDCYGFVRDHFGAMHIEDAVRNDDDHCGFEQLLIMSHCLISDVAMKHVRELPACPRLKMGVYLAITHDERPGPS,0.0,11657.270199999992,-0.5340000000000003,high molecular + high gravy,high molecular,high gravy
+0,1,NPTGQVWEQPMYMKWPHHLCPRKTWNQDCYGFVRDHFGAMHIHDAWRHDDDHCGHHQLLIMSHCLWSDVAMKHVRHLPACPRRKHGVYLAITHDERWGPS,0.0,11992.545599999992,-0.8140000000000005,high molecular + high gravy,high molecular,high gravy
+0,2,NHTGWVWEQPMGMKWPHHLCPRKTWNQDCHGFVRDHFGAMHIHDAWRHDDDHCGHHQLLIMGHCLWSDVAMKHVNHLPACHRRKHGVYLAITWDEDWGPS,0.0,11934.381899999993,-0.7830000000000007,high molecular + high gravy,high molecular,high gravy
+0,3,NHTGWVWEWNWGMKWGHHLCPRKTNNQDCHGFVRDHFGAMHIHDAWRHDDDHCGHHQLLIMGHCLWSDVAMKHFNHLWACHRRKHGVTLAITWDEDWGWS,0.0,12116.455599999996,-0.8120000000000012,high molecular + high gravy,high molecular,high gravy
+0,4,HHHGWVWEWNWGMKWGHHLWPRKTNNQDCHGFVRDHFGAMHIHDAWREDDDHHGHHQLLIMGHCLWSWVAMKHHNHLWACHRRKHGVHLAITWDEDWGWS,0.0,12381.689199999997,-0.9870000000000012,high molecular + high gravy,high molecular,high gravy
+0,5,HHHGWWWEWNWHMKWGHHLWPRKTNNHDCGGFVRDHFGAMHIHDAWREDDDHHGHHQLHIMGHCLWSWVAMHHHNLWACHRRKHGVHLAITWDEDWGWF,0.0,12433.684099999997,-1.0404040404040416,high molecular + high gravy,high molecular,high gravy
+0,6,HHHHWWWEWNWGMKDGHHLWPRKTNNHDCGGFVRDHFGAHHIHDAWHEDDDHHGHHQLHIMGHNLWSWVAMHHHNLWACHRRKHGVELAITWDEHWGWF,0.0,12374.444799999997,-1.165656565656567,high molecular + high gravy,high molecular,high gravy
+0,7,HHHHWWWEWNWGMKDGHHLWPRKTNNHDCGGFVRDHFHAHHHHDAWHEDDDHHGHHQLHIMGHHLWSWVAMHHHNLWACRRKHGHELAITWDEHWQWF,0.0,12473.498099999999,-1.356122448979593,high molecular + high gravy,high molecular,high gravy
+0,8,HHHHWWWEWNWGHKDGWHLWPRKTNNHDCGGFVRDHFHAHHHHHAWHEDHDHHGHHQLHIMGHHLWSHVAMHHHNLWACRRKHGHELAITWDWHWQHF,0.0,12531.570499999996,-1.3989795918367356,high molecular + high gravy,high molecular,high gravy
+0,9,HHHHWWWEWNFGAKDGWHLWPRSTNDHDCGGFVHWHFHAHHHHHAWHEDHDHHGHHQHHIMGHHLWSHVAMHHHNLWACRRKHGHELAITWDWHWQHF,0.0,12462.420599999994,-1.310204081632654,high molecular + high gravy,high molecular,high gravy
+0,10,HHHHWWWEWNFGAKDGDWLWPRSTNDHDCGGFVHWHFHAHHHHHAWHEDHDHHEHHQHNWMWHHLWSHVCMHHHNLWACRRKHGHELAITWDWHWQHF,0.0,12723.670599999996,-1.401020408163266,high molecular + high gravy,high molecular,high gravy
+0,11,HHFHWWWEWNDGAKDGDWLWPRSTNDHDCGDFVHWHFHAHHHHHAWHEDHDHHEHHQHNWMWHHLWSHVCMHHHNLWACRRHHGHELAITWDWHQQHF,0.0,12710.541099999997,-1.455102040816327,high molecular + high gravy,high molecular,high gravy
+0,12,HHFHWWWEWNDGAKDGDWLWPRSHNDHDCGHFHHWHFHAHHHHHAWQEDHDHHEHHQHNWMWHHLWSHVCMHHHNLWARRHHGHELAITWDWHHQHF,0.0,12703.493799999995,-1.5948453608247422,high molecular + high gravy,high molecular,high gravy
+0,13,HHFHWNWEWNDGAKDGDWLWPRSHNDHDEGHFHHEHHHAHHHHHAWQEDHDHHEHHQFNWMWHHLWSHVCMHHHNLHARRHHGHELAITWDWHHQHF,0.0,12551.191099999993,-1.7340206185566998,high molecular + high gravy,high molecular,high gravy
+0,14,HHFWWNWEWNDGAKWGDWLWWRSHPDHDEGHFHHEHHHAHHHHHHWQEDHHHHEHHQFNWMWHHLWSHVCMHHHNLHARRHHWHELAITWDWHHQHF,0.0,12960.763399999993,-1.710309278350514,high molecular + high gravy,high molecular,high gravy
+0,15,HHFWWNWEWNDGAKWGWWLWCRSHPDHDEGYFHHEHHHAHHHEHHWQEHHHHHEHHQFNWMWHHLWGHVCMHHHNLHARRHHWHELHITWDWHHQHF,0.0,13024.914799999993,-1.676288659793814,high molecular + high gravy,high molecular,high gravy
+0,16,HHFWWNWEWWDGAKWGWWLWCRSHHWHDEGYFHHEHHHAHHHEHHWQEHHHHHEHNQFNWMWHFLWGHVCMHHHNLHAWQHHWHELHITWDWHHQHG,0.0,13107.011699999997,-1.5659793814432994,high molecular + high gravy,high molecular,high gravy
+0,17,HHFWWNWEWWDGAKWGWWLWCRSHHWHDEGSFHHEHGHADHHEHHWQEHEHHHEHGQFNWMWHFLWGHVCMHHHNGHAWQGHWHELHITWWWHEQHG,0.0,12790.6022,-1.4969072164948458,high molecular + high gravy,high molecular,high gravy
+0,18,HHFWWNWEWWDGHKWGWWLWCRSHHWHDEGSFHHEHGHADHHEHHWQGDEHHHEHGHFGWMWHFLWGHVCMHHHNGHAWQGHWHEAHITWQWHEQHG,0.0,12614.3474,-1.5319587628865987,high molecular + high gravy,high molecular,high gravy
+0,19,HHFWHNWEWWDGHNWGWWLWCRSHHWHWEGSFHHENGHADHHNHHWQGDHHHHEHGHFGWMWHFLWGHVCMHHHNGHAWQGHWHEAHITWQWHEQHG,0.0,12592.3068,-1.5247422680412377,high molecular + high gravy,high molecular,high gravy
+0,20,HHFWHNWEWWDGHNWGHNLWCRHHHWHWEGHFHHENGHADHHNHHWQGDHHHHQHGHFGWMGHFLWHHVCMHHHNGHAWQGHWHEAHITWQWHEQHG,0.0,12521.1975,-1.648453608247423,high molecular + high gravy,high molecular,high gravy
+0,21,HHFWHNWEWWDWRNWGHNGWCRHHHWHWEGHFHHENGHADHHNHHWQGNHDHHQHGSFGWMGHFCWHEVCMHEHNGHAWQGHWHEAHITWQWHEQHG,0.0,12514.132200000004,-1.7082474226804125,high molecular + high gravy,high molecular,high gravy
+0,22,FHFWHNWEWWDWDNWGHNGWCRHFHWHFEGHFHHENGHAHHHNHHWQGNHDHHQHGDFGWMGHHDWHEVCMHEHNHHAWQGHWHEAHITWQWHEQHG,0.0,12586.126800000002,-1.7134020618556702,high molecular + high gravy,high molecular,high gravy
+0,23,FHFWHNWEWWDWDNWGHNGWCRHFHWHFEGHFDHENHHAHHHNHHWQGNHDHHSHDDFHWMGHHDWHEVGMHEHNHHAWQGHWHEAHITWQWHEQHG,0.0,12695.1435,-1.8082474226804122,high molecular + high gravy,high molecular,high gravy
+0,24,FHFWHHWEWWDWDNWGHNGWCDHFHWHFEGHFDHENHHDHHHNHHWQGNHDHHSHDDHWMHHHDWHEVGMHEHNHHAWQGHWHEAHITWQWHHQHG,0.0,12662.030900000002,-1.923958333333333,high molecular + high gravy,high molecular,high gravy
+0,25,FHFWHHWEWWDWDNWHNGWCDHFHWHFEGHWHHENHHDHHHNHHWGGNHDHHSHHDHWMHHHDWHEVGMHEHNHHADQGHWHEAHITHQWHHQHG,0.0,12496.848499999998,-1.9915789473684202,high molecular + high gravy,high molecular,high gravy
+0,26,FHFDHHWEWWDWDNWHNGWCDHFHWHFEGHWRHENWHDHHHNHHWGGNHDHHSHHHHWMHHHDWHEVGMHWHNHHADQGHWHEAHITHQWHHQWG,0.0,12622.0614,-1.9536842105263155,high molecular + high gravy,high molecular,high gravy
+0,27,FHFGHHWEWWDWDNGHNGWCDHFHWHFEGHWRHHNWHDHHHNCHHGGNHDHHSHHHHWMHHHDWHEVGMHWHNHHHDQGHWHEHHITHQWHHQWG,0.0,12491.947800000002,-1.9821052631578941,high molecular + high gravy,high molecular,high gravy
+0,28,FHFQHHWGWWDWDNGHNGWCDHFYWHWEGHWRHHNWGDHHHNCHHGGNHDHHSSHHHWMHHHDWHEHGMHWHNHHHDQGHWHEHHITHQWHAQWG,0.0,12397.8299,-1.9715789473684202,high molecular + high gravy,high molecular,high gravy
+0,29,FHFQHHWGWWDWDHGHNGWCDHFYWHWEGHWRNHNWGDHHSWCHHWGNHDHHSSHGHWMHHHDWHYHGMHWHNHHHDQGHWHEHHGTHQWHAQWG,0.0,12446.898700000002,-1.9231578947368417,high molecular + high gravy,high molecular,high gravy
+0,30,FHFQHHWDWWDWDHGHNGWCDHFYWHWEGHWNNHNWGDHHSWCHHWGNHDHHSSHGHWMHHHDWHYHGWHNHNHHHDQGHWHEHHSTHQWHAQWA,0.0,12489.810899999999,-1.9831578947368416,high molecular + high gravy,high molecular,high gravy
+0,31,FHFQHHWDWWHWDHGHNGWCDHFYWHWEGHWNNGNWGDWHSSPHHWGNHDHHSSHLHHMHHHDWHYHGWHNHNHHHDGGHWHEHHSTHQWHAQWA,0.0,12311.642899999999,-1.9157894736842098,high molecular + high gravy,high molecular,high gravy
+0,32,FHFQHHWDWWHWDHGHNGYCDHGYWHWEGHWNNGNWGDWWSSPHHWGDHSHHSSHLHHMDHHDWHYHGWHNHNHHHDGGHWHEHHSTHQWHCFWA,0.0,12249.586699999998,-1.8305263157894731,high molecular + high gravy,high molecular,high gravy
+0,33,NHFQHHWDWWHWDHGHNGYCDHGYWHWEGHWNNGNWDWHDSCPHHWGDHSHHSSHLHHMDHHDWHYHGWHNHNHHHDGGHWHEHHWTHQWHCFWA,0.0,12340.679199999999,-1.9199999999999993,high molecular + high gravy,high molecular,high gravy
+0,34,NHFQHHWDHWHWDHGHNGYCNHGHWHWEGHWNNGNWDWHDNCPHHWGDHSHHSDHLHHMDHHDWHYHGHHNHNHNWDGGHWHEHHWTHQWHCFHA,0.0,12247.517999999998,-2.048421052631578,high molecular + high gravy,high molecular,high gravy
+0,35,NHFQHHWDHWHWDHGHWGYFNNGHWHWEGHSNNGNWNWHDNCPHHWGDHSHHHDHLHHMDHHDHHYHGHHNHNHNWDGGHRHEHNWTHQWHCFHA,0.0,12188.432599999995,-2.110526315789473,high molecular + high gravy,high molecular,high gravy
+0,36,NHFQHHWDHWHWDHGYWGYFNHGHWFWEGHSNNGNWNWHDNCPHHWGDHSHHHDHDHHMDHHHHHYHGGHNHNHNWDGGHRCEHNWWHQWHCFHA,0.0,12242.540999999997,-2.0105263157894733,high molecular + high gravy,high molecular,high gravy
+0,37,NDFQHHWDHWHWDHGYWGYFHHGHWFWEGHSNNGNFNWHDNCPGHWGDHSHHHDHDHHMDHHHHHYHGGHWHNHNWDGWHDCEHNWWHQWHCWHA,0.0,12323.6054,-1.9484210526315788,high molecular + high gravy,high molecular,high gravy
+0,38,NDFQHHWDHWHWDHGYWGYFHHYHWFWEGHSNNGNENWHDHCPGSWGDHSHHHDHDHHMDNHHHHYHGGHWHNHNWDGNHDCEHNWWHQWHWFHA,0.0,12333.529099999998,-2.0231578947368414,high molecular + high gravy,high molecular,high gravy
+0,39,NDFWHHWDHWNWDHHYWGHFHEYHWFWEGHSNNGNENWHDHCPGSWGDHSHHHDHDHHMDNHHHHYHGGHHYNHNWDGNHDCEHNDWHQWHWFHA,0.0,12320.442699999994,-2.0831578947368414,high molecular + high gravy,high molecular,high gravy
+0,40,NDFWHHWDHWNWDHHEWGHFHEYHWWWEGHSNNGNENWHDHCPGSWGDHSHHHDHDHHMDHHHHYHGGGHYNHNWDGHHECWHNDWHQWHWFHA,0.0,12225.3882,-2.070212765957446,high molecular + high gravy,high molecular,high gravy
+0,41,NDWDHHWDHWNWDHHEWGHFHEYHWWWEGHSNNGNENWHDHCPGSWGDHSHHHDHHHHMDHHHHYHGGGHYGHNWSGHHNCWHNDWHQWHWDHA,0.0,12083.1945,-2.1393617021276587,high molecular + high gravy,high molecular,high gravy
+0,42,NDSDHHWDHWNDDHHEWGHHHEYHHWWEGHSNNGNENWHDHCPGSWYDHSHHHDHHHNMDHHHHYHGGGHYGHNWSGHHNCWHNDWHQWHWDHG,0.0,11922.892899999999,-2.290425531914893,high molecular + high gravy,high molecular,high gravy
+0,43,NDSDHHWDHWNDDHHEWGQHHEYHHWHEGHSNNGNEFWHDHWPGSHYDHSHHHDHHHNMDHHHHYHWGGHYGWNWSGHHNCDNNDWHQWHWDHG,0.0,12015.949799999999,-2.3234042553191485,high molecular + high gravy,high molecular,high gravy
+0,44,NDSDHHWDHWNDWHHEWEQHHEYHHWHEDHSNNGNEFWHDHNPGSHYDHSHHHDHHHNMDHHHHYHWGGHHGWNWSGHHNCDNNDWHQWHWDHG,0.0,12119.029899999998,-2.4095744680851054,high molecular + high gravy,high molecular,high gravy
+0,45,NDSDHHWDHHNDWHHEWEQHHEYHHWHEDHSNNHNEFWHDHNPGSHRDHSHHHDHHHNNDHHHWYHWGGSHGWNWHGHHNCDNNDWHQHHWDHG,0.0,12125.966399999996,-2.555319148936169,high molecular + high gravy,high molecular,high gravy
+0,46,HDSDHHWDEHNDWHHEWEQGHEYHHGHEDHSNNHNEFWHDHNPNHHRDHSHHHDHHHNNDHHHWHHHGGSHGWNWHGHHNCDNNDWHQHHWDHG,0.0,11963.739999999996,-2.6234042553191474,high molecular + high gravy,high molecular,high gravy
+0,47,HDSDHHWDEHNDWWHHWEQGHEYHHDHEDHSENHNHFWHDHNPNHHDHSHHGDHHHNNDHHHWHHHGGSHGWNWHGHHNCDNWFWHQHHWDHG,0.0,11969.828699999996,-2.479569892473117,high molecular + high gravy,high molecular,high gravy
+0,48,HDSDHHWGEHNDWWHHWGQGHEYHHDHEDHSENHNHFWHDHNPNHHDHSHHGDHHHNNDHHHWHHHGGSWGGNWHGHHACDNWFKHQHHWDNG,0.0,11635.542899999995,-2.361290322580644,high molecular + high gravy,high molecular,high gravy
+0,49,HDSDHHWGEHNDWWHHWGQGHEYHHDHEHHSEHHNHFWHDHNPHHHHHDHHGDHHHNNDHHHWHHHGGSWHGNWHGHHACDNWFKHQHHWDNG,0.0,11833.818199999992,-2.407526881720429,high molecular + high gravy,high molecular,high gravy
+0,50,HDHDHHWGEHNDWWWHWGQGHDYHHDHEHHSEHHNHFWHDHNHHHHHHGHHGDHHHNNDHHHWHDHHGSWHGNWHGHHACDNWFKHQHHFDNG,0.0,11919.91219999999,-2.386021505376343,high molecular + high gravy,high molecular,high gravy
+0,51,HDHHHHWGEHNDWWWHWGQGHDNHHDHEHHSEHHNHFWHWHNHHHHHHGHHGDHHHNNDHHYWHDHHHSWFGNWHGHHACDNWFKHQHHFDNS,0.0,12110.19839999999,-2.327956989247311,high molecular + high gravy,high molecular,high gravy
+0,52,HDHHHHWGEHHDWWWHWGQGHDNHHHHEHHSEHHNHFWHWHNHHHHHHGHFNDHHHENDHHYWSDHHHSWFGNWHGHHACDNWFKHQHHNDNS,0.0,12154.250999999991,-2.3322580645161284,high molecular + high gravy,high molecular,high gravy
+0,53,HDHHHHGGEHHDWWWHWGQHHDNHHHHEHHSEHHNHFWHWHNHHHHHDDHFNDHHQENDHHYWSDHHHSWFGNWHGHHACDNWFKHQHHHDNW,0.0,12254.323799999993,-2.394623655913978,high molecular + high gravy,high molecular,high gravy
+0,54,HDHHHHGGEHHDWWWNWGQHHDHHHHHEHHSEHHNHFWDWHKHHHHHDSHFNDHHQENDHHYWSDHHHHWFGNWHGHHAHDNWFKHQHHHDNH,0.0,12253.319299999992,-2.4849462365591384,high molecular + high gravy,high molecular,high gravy
+0,55,HDHHHHGYEHHDWWWNWGQHHDHWHHDEHHSEHHNHFWDDHKHHHHDGSHHNDHHQENDHHYWSDHHHHWFGNWHHHHAHDNWHKHQHHHDNH,0.0,12295.268399999994,-2.630107526881719,high molecular + high gravy,high molecular,high gravy
+0,56,HDHHHHGYEHWDWWWNWGQHHHHWHHDEWHSEHHNHFWDDHKHHHHDGSHHNDHHQENDHHYWSDWHSHHFGNWHHHHAHDNFHKHQHHHDNH,0.0,12326.363399999993,-2.511827956989246,high molecular + high gravy,high molecular,high gravy
+0,57,HDHHHHGYEHWDWWWNWGQHHHHWHHDEHHSEHHNEFHDDHKHHHHDGSHHNDHHQENDHHYWSDWHSHHFWNWHHHHAHDNFHHHQHHHDNH,0.0,12358.322499999993,-2.562365591397848,high molecular + high gravy,high molecular,high gravy
+0,58,HDFHHHGYEHWDWWWNWGQHHHHQHHDEHHSEHHNEFHDDHKHHCHDGSHHHDHHQENDHHYWSDWHSHHFWNWHWHHHHDNFHHHQHHHDNH,0.0,12414.448599999992,-2.49032258064516,high molecular + high gravy,high molecular,high gravy
+0,59,EDFHHHGYWHWDWWWNWWQHHHHQHHDEHHSEHHNEFHDDHKHHCHHHSHHHDHHQEHDHHYWSDWHSHHFWNEHWHHHHDNFHHHQHHHDNH,0.0,12660.758499999993,-2.522580645161289,high molecular + high gravy,high molecular,high gravy
+0,60,EHFHHHGYWHWDWWWNWWQHHHGQHHTEHHSEHHNEFHDDNKHHCHHHSHHHDHHQYHDHHYWSDWHSHHFWNEHHHHHDDNFHNHQHHHDNH,0.0,12505.602199999992,-2.469892473118278,high molecular + high gravy,high molecular,high gravy
+0,61,EHHHHHGYWHWDWWWNWGQHHHGQHHTEHHSEWHSEFHDDNKQHCEHHSHHHDHHQYHDHHYNSDWHSHHFENEHHHHHDDNFHNHQHHHDNH,0.0,12242.215799999989,-2.537634408602149,high molecular + high gravy,high molecular,high gravy
+0,62,EHKHHHGWWHWDWWWNWGQHWHGQHHTEHHSEWHSEFHDDNKQHCEHHSHHHDHHCYHDHHYNHDWHSHHFENEHHHHHDDNFHNHQHFHDDH,0.0,12341.45109999999,-2.41290322580645,high molecular + high gravy,high molecular,high gravy
+0,63,EHKGHHGWWHWDWWWNGGQHWHGQHHHEHHSENHSEFHDDNKQHHEHHSHHHDHHCYHDHHHNHDWHSHHFENEHHHHHDDNFHNHQHFHHDH,0.0,12126.14699999999,-2.510752688172041,high molecular + high gravy,high molecular,high gravy
+0,64,EHKGHHGWWHFDWHWWGGQHHHYQHHHEHHSENHSEFHDDNKHHHEHHSHHHDHHCYHDHHNNHDWHSHHFENEHHHHHDDNFHNHQHFHHDH,0.0,12153.17229999999,-2.502150537634406,high molecular + high gravy,high molecular,high gravy
+0,65,WHKGHGGWWHFDWHWWGGQHHHHQHHHEHHSENHSEFHDDNKFHHEHHSHHHDHHCYHNHHNNHDWHSHHFENEHHHHHDDNFHNHQSFHHDH,0.0,12063.133999999987,-2.374193548387095,high molecular + high gravy,high molecular,high gravy
+0,66,WHKGHGGWWHFDWHWWGSQHHWHQHHHEHHSENHSEFHDDNKFHHEHHSHHHDHHCYHNHHNNHDWHHHHFENEHHHHHHDNFHNHDQHHHDH,0.0,12232.320099999988,-2.469892473118277,high molecular + high gravy,high molecular,high gravy
+0,67,WHKGHGGWDHFDWHWWGSQHWWHQHHHEHHSENHSEFHDDNKFHHEHHSHHHDHHCSHNHHNNHDHHHHHFEHEHHHHHDDNFHNHDQHHHDH,0.0,12086.086499999987,-2.4924731182795674,high molecular + high gravy,high molecular,high gravy
+0,68,WHKGHGGWDWFDWHWWGSQHWWHQHHHEHHSENHSEFHDDNKFHHEHHSHFHDHHCSHNNHNNHDHHHHHFHHEFHHHHDDNFHNHCQHHHDH,0.0,12128.270199999984,-2.2741935483870948,high molecular + high gravy,high molecular,high gravy
+0,69,WHKGHGGWDWFDWHWWGSQHWWHQHHHEHHSENHSEHHDDNKFHHEHCSHFHDHPCSHNNHNNHDHHHHHFHHEFHHHHDDNFHHHCNHHHDH,0.0,12053.225299999986,-2.2569892473118256,high molecular + high gravy,high molecular,high gravy
+0,70,WHKFHGGWDWFDWHWWGSQHWHHQHNHEHHSENHSEHHDDNKDHHECCSHFHDHPCSHNNHNNHDHHHHHFHHEFHHHHDDNFHHHCNHHHDH,0.0,12005.157699999987,-2.2569892473118256,high molecular + high gravy,high molecular,high gravy
+0,71,HHKFHGGWDWFGGHWWGSQHWHHQHNHEHHSENHSEHHDDNKDHHEDCSHFHDHPCSHNNHNNHDHHHHHFHHEFHHHHDDNFHHHNNHHHDH,0.0,11791.796599999987,-2.3720430107526855,high molecular + high gravy,high molecular,high gravy
+0,72,HHKFHGHWDWFGGHWWGSQNWHHQHWHEHHSENHSNHHDDNKDHHEDCNHFHHHPCSHNNHNHHDHHHHHFHHEFHDHHDDNFHHHNNHHHDH,0.0,11956.005799999988,-2.4032258064516103,high molecular + high gravy,high molecular,high gravy
+0,73,HHKFHGHWTWFGGHWWGSQNWHHQSWHEHHSENHSNHHDDNKDHHEHWDHFHHHPCSHNNHNHHDHHHHHFHHEFHDHHDDNFHHHNNHHHDH,0.0,11998.063999999988,-2.38064516129032,high molecular + high gravy,high molecular,high gravy
+0,74,HHKFHGHWTWFHGHNWGSQNWHHQSWHEHHSENHSNHHDGNWDHHEHWDHHHNHPCSHNNHNHHDHHHHHFHHEFHDHHDDNFHDHNNHHHDH,0.0,11950.923099999987,-2.444086021505374,high molecular + high gravy,high molecular,high gravy
+0,75,HWKFHGHNTWFHGHNWWSQNWDHQSWHEHHSENHSNHHDGNWDHHEHYDHHHNHHCSHNNHNHHDHHHHHFHHEFHHHHDDNFHDHNNHHHDH,0.0,12074.032399999987,-2.4741935483870945,high molecular + high gravy,high molecular,high gravy
+0,76,HWKFWYHNTWFHGHNWWSQWWDHQSWHEHHSENHSNHHDGNWDHHEHYDHHHNHHCSHNNHNHHDHHHHHFHHEFHHHHDHNFHDHNNHHHDH,0.0,12323.384099999987,-2.4279569892473094,high molecular + high gravy,high molecular,high gravy
+0,77,HWKFWYHNTWFHGHNWWSAWWDHQSWHEHHDENHNHHDGNWWHHDHYDHHHHHHNSHNNHNHHDHHHHHFHHEFHHHHDHNGHDGNNHHHDH,0.0,12128.147399999989,-2.4554347826086937,high molecular + high gravy,high molecular,high gravy
+0,78,DWKFWYDNTWFHGHNWWSAWWDHESWHEHHDENHNHHDGNWWHHDHNGHHHHGHNSHNNHNHHEHHHHHFHHEFHHHSDHNGHDGNNHHHDH,0.0,11861.79829999999,-2.395652173913042,high molecular + high gravy,high molecular,high gravy
+0,79,DWKFWYDNTWFHGHNWWHAWWDHEWWHEEHDEHHNHSDGNWWHHDHNGHHHHGHNSHNNHNHHEHHHHDFHHEFHHHSDHNGHDGWNHHHDH,0.0,12025.99769999999,-2.371739130434781,high molecular + high gravy,high molecular,high gravy
+0,80,DWKFWYHNTWYHGHNWWHAWWDHEWWHEEHDHHHNWSDGNWWHHDHHGHFHHTHNSHNNHNHHEHHHHDFHHEFHHHSDHNGHDGWNHHHDH,0.0,12198.26869999999,-2.319565217391303,high molecular + high gravy,high molecular,high gravy
+0,81,DWKFWYHNTWYWHHNHWHAWWDHDWWHEGHHHHHNNSDGNWWHHDHHGHFHHTHNSHNNHNHHEHHHHDFHHEFHHHSDHNGHDGWNHHHDH,0.0,12142.21199999999,-2.3413043478260853,high molecular + high gravy,high molecular,high gravy
+0,82,DWKFWYHNTWYWHHNGWHAWWDHDWHHEGHRHHHNNSDGNWWHHDHHGHFHHTHNSHNNHNRHEHHHHDFHHEFHHHSDHNYHDGHNHHHDH,0.0,12108.19749999999,-2.398913043478259,high molecular + high gravy,high molecular,high gravy
+0,83,DHKFWYHNTGYWHHNGWHAWWDHDWHHEGHRSHHNNSDFGWHHHDHHNHFHHTHNSHNNHNRHEHHHHDFHHEFHHHSDHDYHDGHNHHHQH,0.0,11934.984799999991,-2.382608695652172,high molecular + high gravy,high molecular,high gravy
+0,84,WHKFWYHNDSYWHHNGWHAWWCHDWHHEGHRSHHNNSDFGWHHHDHHNHRWHTHNSHNNHNRHEHHHSDFHHEFHHHSDHDYHDGHNHHHQG,0.0,11966.10479999999,-2.3217391304347816,high molecular + high gravy,high molecular,high gravy
+0,85,WHKFWYHWDSYWFHNHWHAWWCLDWHHEGHRSWHNNSDFGWHHHDHHNHRWHTHNSHNKHNRHEHHHSDFHDEFHHHSDHDHHDGHNHHHQG,0.0,12119.40739999999,-2.18586956521739,high molecular + high gravy,high molecular,high gravy
+0,86,WHGFWNHWDSYNFHNHWHAWWCLDWHHEGWRSWHNNSDFGWHHHDHHNHRHHTHDSHNHHNRHEHHHSDFHDEFHHHSDHDHHHGHNHHHQG,0.0,11959.11219999999,-2.1891304347826073,high molecular + high gravy,high molecular,high gravy
+0,87,WHGFWNHWDSYNFHNGWHAWYCLDWHHEGWFSWHNNHDFGWHHHDHHNHRYHTHDSHMHGNRHEHHHSDFHDEFHHHSDHDHHHGHNHHHQG,0.0,11860.076899999993,-1.9999999999999991,high molecular + high gravy,high molecular,high gravy
+0,88,WHGFWNHHDSYNFHNGWHAWNCLDWHHEGWFSWHNNSDFAWHHHDHHNHRYHTHDSHMHGNRHEHHHSDFHNEFHHHSDHDHHHGHHHHHQG,0.0,11747.952199999994,-1.9956521739130424,high molecular + high gravy,high molecular,high gravy
+0,89,WHHFWEHHDSYHFHNGWHAWNHLDWHHEGWFSWHNNSDFAWHHHDHHNHRYHTHDSHMHGNRWEHHHSDFHNEFHHHHDHDHHHGHHHHHQG,0.0,11999.217299999995,-2.08586956521739,high molecular + high gravy,high molecular,high gravy
+0,90,WHHFWEHHDSYHFHNGWHAHNHLDGHHEYWFSWHNNSDFAWHHHDHHNHRYHTHDHHMHGNRWHHHHSDFHNEHHHHHDHDHHHGHHHHHQG,0.0,11975.162799999995,-2.2032608695652156,high molecular + high gravy,high molecular,high gravy
+0,91,WHHFWEHHDSYHFHNGWHAHNHFDGHHEYWFSWHNNQDFAWHHHDHHNHRWSTHDHHMHGNRWHHHHSDFHNEHHHHHDHDHHHGHHHHHEC,0.0,12070.281999999994,-2.1815217391304333,high molecular + high gravy,high molecular,high gravy
+0,92,WHHFDEHHDSYFFHNGWHAHNHFDGHHEYWFSWHNNQDFNHHWHDHHNHRWSTHDHHGHGNRWHHHHSDFHNESHHHHDHDHHHGHHHHHEC,0.0,11928.011999999993,-2.201086956521738,high molecular + high gravy,high molecular,high gravy
+0,93,WHQFDEHHDSYFFHFGWHAWNHFDGHHHYWFSWHNHQDFNHHDHDHHNGRWSTWDHHGHGNRWHHHHSDFHNESHHHHDHDHHHGHHHHHEH,0.0,11964.062199999995,-2.1391304347826074,high molecular + high gravy,high molecular,high gravy
+0,94,WHQSDEHHDSYFFHFGWHAWNHVDGHGHYWFSWHNHQDFNHHDHWHHNGRWSTWDHHGHGNRWHHHHSWFHNEHHHHHDHDHHHGHHHHHEH,0.0,11968.141899999995,-2.1021739130434773,high molecular + high gravy,high molecular,high gravy
+0,95,WHQSDEHRDSYFFHFGSHAWNHVDGHWHYWFSWWNHQDHNHHDHWHHNGRWSTWDHHGHGNRWHHHHWWFHNEHHHHHDHDHHHGHHHHHEH,0.0,12155.382999999994,-2.1619565217391292,high molecular + high gravy,high molecular,high gravy
+0,96,WHQSDEHRDSYDHHFGSHAWDHVDGHWHYWFSWWNHQDHNHHDHWHHNGRWSWWDHHGHGFRWHHHHWWGHNEDHHHHDHDHHHGHHHHREH,0.0,12139.296099999994,-2.281521739130434,high molecular + high gravy,high molecular,high gravy
+0,97,WHQSDEHRDSYDHFFGSHAWDHVDGHWHYWFWWWNHQDHNHYDHWHHNGRWSWWDEHGHHFRWHHHHWWGHNEDHHHHDHNHHHGHHYHREH,0.0,12371.608899999996,-2.209782608695652,high molecular + high gravy,high molecular,high gravy
+0,98,WHQSDEHRDSYDHWFGSHAWDHVDGHWHYWFWWWNHQDHNHYDHWHHNGHWSWWDEHGHHFRWHHHHWWGAEEDHHHHHHNHQHGHHYHREH,0.0,12353.590399999997,-2.1815217391304342,high molecular + high gravy,high molecular,high gravy
+0,99,WHQSDEHRDSYHHWFGSHAWDDVDGHWHYWFWWWHNQDHNHYDHWHHNGHWNWWDDHGHHFRHWHHHWWGAEEDHHHHHHNHQHGHHYHREH,0.0,12366.589099999996,-2.2108695652173904,high molecular + high gravy,high molecular,high gravy
+0,100,GHQSDEHRDSYHHWFGSHAWDDVDGHWHHWFWWWHNQDHNHYDHHHHNGHWNWWDDHGHHFRHHHHHWWHAEEDHHHHHHNHQDNHHYHREH,0.0,12228.342799999993,-2.343478260869564,high molecular + high gravy,high molecular,high gravy
+1,0,NPTGQVWEQPMYMKWPHHLCPRKTWNQDCYGFVRDHFGAMHIEDAVRNDDDHCGFEQLLIMSHCLISDVAMKHVRELPACPRLKMGVYLAITHDERPGPS,0.0,11657.270199999992,-0.5340000000000003,high molecular + low gravy,high molecular,high gravy
+1,1,NPTCQVWEQPMYMHWPHHLCPRKTWNQDCYDFRDHFGAMHIEDAVRDDDDHCGFEQELIMSHCGISDVAMKHRELPDCPRLDMGVYLAITHDERPGPS,0.0,11563.862399999993,-0.792857142857143,high molecular + low gravy,high molecular,high gravy
+1,2,NPTCQVWEQPMYMHWPHHMCDGKTWNQDCYDFRDHFGGMHIEDAVRDDDDHCGDEQELIMSHGGISDVAMKHRELPDCPRLDMVYLAITHDERPGPS,0.0,11351.482699999991,-0.9113402061855671,high molecular + low gravy,high molecular,high gravy
+1,3,NPTCQVWEEPMYMHWDHHMCDGKTWNQDCYDFRDHFGGHAEDAVRDDDDHCGDEGELISSHGGISDVAMKHRELPDCPRLDMVYLAGTHERPGDS,0.0,10928.745899999993,-1.0294736842105265,high molecular + low gravy,high molecular,high gravy
+1,4,APDCQVWEEPMYMHWDHHMCYGKTWNQDCYDGRDHFGGHAEDAGRDDDDHCTDEGELISSHGGSDVAMKHREDPDCPRLDMVYLAGTERPGDS,0.0,10611.273799999994,-1.1806451612903228,high molecular + low gravy,high molecular,high gravy
+1,5,APDCQVWEEPMYMHWDDHMCYGKTWNQDCYDGGDHFGHAEDAGGDDGDHCTDEGELISSHGGSDVAMGHREDPDCRLDMVYLALTERDGDS,0.0,10181.707999999995,-1.0000000000000002,high molecular + low gravy,high molecular,high gravy
+1,6,DDDQVWEEPMYMHWDDHMAYGKTWNQDCYDGGDHFGHAEDAGNDDGDHCTDEGHLISSHGGSDVAMGHSDPDCRLDMVYLALTERDGDS,0.0,9975.335999999994,-1.0898876404494386,high molecular + low gravy,high molecular,high gravy
+1,7,DDDQVWEEPMYMHWDDHMAYGKTSNQGCYDGGDHFGHAEDAGNDDGDHCTDEGHLISHGGSDVADGHSDPDCGLDMVYLATERGGDE,0.0,9486.689999999999,-1.1229885057471272,high molecular + low gravy,high molecular,high gravy
+1,8,DDDQVWEEPMYMHWDDHMAYGKTSNQGCYSGGDHFGHAEDAGNHDGDHCTDEGHLISHGGSDGADGHPDDCGLDMVYLATERGDDE,0.0,9409.610899999998,-1.18139534883721,high molecular + low gravy,high molecular,high gravy
+1,9,DDDQVWEEPMYMHWDDHMAGGKTSKQGCYSGGDHNHAEDAGNHDGDHCTDEGHLISHPGSDGADGHPDCGLMVYLAERGDDE,0.0,8936.2214,-1.2256097560975614,high molecular + low gravy,high molecular,high gravy
+1,10,DDGQVWEEPNYMHWDDHMAGGKTSGQGCYSGGDHNHAEDAGNADDHCTDGGHLISHPGSDGADGHPDCGLMVYLADRGDDE,0.0,8580.768900000001,-1.1209876543209882,high molecular + low gravy,high molecular,high gravy
+1,11,DDGQVWEEPNGHWDDHMGGGKTDGQGCYGGGDHNGAEDAGNADDHCTDGGHLISHPGSDGADGHPDCGLMVYCADRGLDE,0.0,8235.376000000002,-1.0937500000000004,high molecular + low gravy,high molecular,high gravy
+1,12,DDGQVWEEPNGHWDDHMGGGKTDGQGCYGGGDHNGAEDEGNADHCTAGGHLISHPGSDGNSGHPDCGLMVYCARDDE,0.0,7979.1209,-1.1688311688311692,high molecular + low gravy,high molecular,high gravy
+1,13,CDGQVWEEENGHWDDHMGGGKTDGQDCYDGGDHNGAEDEGNADHCDAGGHLISHPGSDGNSGHPDCGLMVYCYDDE,0.0,8065.140500000002,-1.2302631578947372,high molecular + low gravy,high molecular,high gravy
+1,14,CDGQVWSEENGHWDDHMGGGKTDGQDCYDGGDHNGAEDDGNADNCDAGGHLISHPGSDGDDGHPGCGLMVYCYDDE,0.0,7956.999300000004,-1.1934210526315792,high molecular + low gravy,high molecular,high gravy
+1,15,CDGKVWGEENGHWDDHMGGGKTDGQDCYDGGDHNGAEDDGNADNDDAGGHHISHPGSDGDGGHPGCGLMVYCYDDE,0.0,7904.906500000004,-1.323684210526316,high molecular + low gravy,high molecular,high gravy
+1,16,GDGKVWGEGGHWDDMGGGKTDGQDCYDGDDHHGAEDDGNADNDDAGGHHISHPGSDGDGGHPGGGLMVYCYDDE,0.0,7570.491500000003,-1.3432432432432437,high molecular + low gravy,high molecular,high gravy
+1,17,GDGKVWGEGGHWDDMGGGKGDGQDCYDGDDDHGAEDDGNADNDDAGDGHISHPGSDGDHGHPGGGDKVYCYDDE,0.0,7561.329200000005,-1.5621621621621626,high molecular + low gravy,high molecular,high gravy
+1,18,GDGKVWGEGGHWDDMGGGTHDGQDCYDGDDDHGDEDEGNADNDDRGDGHISHPGSDGDHGHPGGGDKVACYDDE,0.0,7665.397400000003,-1.6716216216216222,high molecular + low gravy,high molecular,high gravy
+1,19,GDGKVWGEGHWDDMGGGTHDGQDCYDGDDDHGDYDEGNDNDDRGDGHISHPGSGGDHGHPGGKDKVACYDDE,0.0,7584.412300000003,-1.7125000000000006,high molecular + low gravy,high molecular,high gravy
+1,20,GDGKVWGEGHWDDMGNGTHDGQDCYDGDQDHGDYDESADNHDRGDGHISHPMSGGDHGHPGGKDKHACYDDE,0.0,7775.711600000001,-1.7541666666666673,high molecular + low gravy,high molecular,high gravy
+1,21,GDGKVWGEGHWDDMGNGTHGGQDCYDGYDDHGDDESADNHNRGDGHISHPMSGGDHGHPGGKDKHACYDDE,0.0,7588.561500000002,-1.6859154929577471,high molecular + low gravy,high molecular,high gravy
+1,22,GDGKVWGEGHWDDMNGTHGGQDCYDGYDDHGDDESADNHNRGDEHISHPSSDGDGGHPGGKDKHAGYDDE,0.0,7491.310700000001,-1.8328571428571434,high molecular + low gravy,high molecular,high gravy
+1,23,GDGKWGDGHWDDMNGTDGGKDCQDGYDDHGDDGSADNHGRGDEHISHPSSDGDGGHPGGKDKHAGYDDE,0.0,7191.986300000004,-1.8724637681159426,high molecular + low gravy,high molecular,high gravy
+1,24,GDGGWGDGYWDDMNGTDGGKDCQDGNDDHGDDGSADNHGRGDEHISHPSSDGDGGHPGGKDKDAGYDDE,0.0,7075.776700000004,-1.8304347826086964,high molecular + low gravy,high molecular,high gravy
+1,25,GDGWGDGYSDDMNGTDGGKDCDDGNDDHGDAGSADNHGRGDEHIGHTSSDGDGGHPGGKDKDAGYDDE,0.0,6836.504200000002,-1.7529411764705891,high molecular + low gravy,high molecular,high gravy
+1,26,GDGWGDGYDDDSNSTDGGKDDDGNDDHGDAGSANHGRGDEHIGHTSSDGDGGHPQGKDKDAGYDDE,0.0,6703.269200000003,-1.9257575757575767,high molecular + low gravy,high molecular,high gravy
+1,27,GDGDGDGEDDDSNSTDDGKDDDGNDDHGDAGSDNHGRGDEHIGHTSSDGDGGHPQDKDHDAGYDDE,0.0,6767.136200000003,-2.162121212121213,high molecular + low gravy,high molecular,high gravy
+1,28,GDGDGGEDDDSKSTDDGKDDDGNDDHGDAGSDNHGRGDEHIDHTSDGDGGTPQDKDHDAGYDDE,0.0,6601.041900000003,-2.178125000000001,high molecular + low gravy,high molecular,high gravy
+1,29,GDGSGGEDDDSKGTDDGKDDDGNDDHGDAGSDNHGRGDEHISHTDGDGTPQDKDHDAGYDDE,0.0,6370.867100000003,-2.1354838709677426,high molecular + low gravy,high molecular,high gravy
+1,30,GDGSGGEDDDSKGTDDGGSGDGNDDHGDAGSDNHGRGDEHISHTGDGTPQDKDHDAGYDDE,0.0,6098.612500000003,-1.9606557377049183,high molecular + low gravy,high molecular,high gravy
+1,31,GDGSGGEDDSKGLDDGGSGDGNDDHGDAGSDNHGRGDEHIDSTGGTPQDKDHDAGYDDE,0.0,5858.439500000002,-1.8372881355932207,high molecular + low gravy,high molecular,high gravy
+1,32,GDGSGGEGDSKGLDDGGSGDGNDDHGDAGGDNHGRGDEHIDSTGGTEQGKDHDAGYDDE,0.0,5744.340100000001,-1.7576271186440684,high molecular + low gravy,high molecular,high gravy
+1,33,GDGSGGEGDSKGLDDGGSGDGNDDHGDAGGDNHGRGDEHIDSTGTEQGKDHDAGYDGE,0.0,5629.252700000001,-1.7275862068965522,high molecular + low gravy,high molecular,high gravy
+1,34,GDGSGGEGDSKGLQDGGSGDGNDDHGDAGGDNHERGDEHIDSTGEQGKDHDANDDGE,0.0,5622.218800000002,-1.8929824561403512,high molecular + low gravy,high molecular,high gravy
+1,35,GDGSGGEGDSKGAQEGGSGDGNDGDGDAGGDNHERGDEHIDSTGEQGKDHDANDGGE,0.0,5456.041600000002,-1.8245614035087725,high molecular + low gravy,high molecular,high gravy
+1,36,GDGSGGEGDSKGAQEGGSGDGNDGDGDEGGDNHERGDEHIDSCGEQGKDHDANDDGE,0.0,5574.152800000002,-1.915789473684211,high molecular + low gravy,high molecular,high gravy
+1,37,GDGSGGEGDSKGAQEGGSDDGNDGDGDEGGDNCERGDEHIDSCGEQGKDHDANDPGE,0.0,5580.220300000003,-1.8368421052631583,high molecular + low gravy,high molecular,high gravy
+1,38,GDGSGGEGDNKGAQEGGSDDGNDGDGDEGGDHCERGDEHIDDCGEQGKDHDANGPGE,0.0,5600.256300000001,-1.871929824561404,high molecular + low gravy,high molecular,high gravy
+1,39,GDGSGGEEDNKGAQEGSDDGNDGDGDEGGDVCCRGDEHIDDCGEQGKGHDANGPGE,0.0,5493.252200000001,-1.6589285714285718,high molecular + low gravy,high molecular,high gravy
+1,40,GEGSGGEEDNKGAQEDSDDGNDGDGDEGGDVCCRGDEHLDDCGEQDKGHANGPGE,0.0,5508.2636,-1.7509090909090912,high molecular + low gravy,high molecular,high gravy
+1,41,GEGSGGEEDNKGAQEDSDDGNDGEGDEGGDVCCRGDEHLDDGEDKGHANGPGE,0.0,5291.0181,-1.79811320754717,high molecular + low gravy,high molecular,high gravy
+1,42,GASGGEEDNKGAQEGSDDGNDEEGDEGGDVCRGDEHLDDGEDKGHANGPGE,0.0,5086.814400000001,-1.805882352941177,high molecular + low gravy,high molecular,high gravy
+1,43,GASGGEVDNKGAQEGSDDGNDEEGDEGGEVDRGDEHLDDGEDKGHAGGPGE,0.0,5025.7512000000015,-1.7117647058823535,high molecular + low gravy,high molecular,high gravy
+1,44,GDSGGEVDNKGAQEGSDDGNDEEGDEGGEVDRGDEGLDDGEDQGGGPGE,0.0,4781.412400000001,-1.795918367346939,high molecular + low gravy,high molecular,high gravy
+1,45,GDGGEVDNEGAQEGSDDGNDEEGDEGDEVDKGDEGLDDGEDQGGGPGE,0.0,4725.299500000001,-1.8604166666666673,high molecular + low gravy,high molecular,high gravy
+1,46,GDGGEVDNEGAQEGSDDGNDEEEDEGDEVDKGDEGLDDGEDNGGGPGW,0.0,4840.4315000000015,-1.8708333333333342,high molecular + low gravy,high molecular,high gravy
+1,47,GDGGEDDEGAQEGSDDGNDEEEDEGDEVDKGDEGLDDGEDNGGGPGN,0.0,4670.178000000002,-2.055319148936171,high molecular + low gravy,high molecular,high gravy
+1,48,GDGGEDDEGAQEGSDDGNDEEEDEGDEVKGDEGGDDGEGGGPGN,0.0,4269.794300000001,-2.052272727272728,high molecular + low gravy,high molecular,high gravy
+1,49,GDGGEDDEGAQEGSDDGNDEEEDGDEVKGEGGDDGEGGGPGN,0.0,4025.5929000000015,-1.9833333333333338,high molecular + low gravy,high molecular,high gravy
+1,50,GDGGEDDEGADEGSDDGNDEDGDEVKGEGGSDGEGGGPGN,0.0,3726.313000000001,-1.8399999999999999,high molecular + low gravy,high molecular,high gravy
+1,51,GDGGEEDEGADEGSDDGNDEDDEVKGEGGSDGEGGGPDN,0.0,3741.3244000000013,-1.9564102564102563,high molecular + low gravy,high molecular,high gravy
+1,52,GDGGEEDEGADEGSADGNDEDDEVKGEGGDGEGGGPDN,0.0,3610.2376000000013,-1.8473684210526313,high molecular + low gravy,high molecular,high gravy
+1,53,NDGGLEDEGADESADGNDEDDEVKGEGGDGEGGGPDN,0.0,3594.2812000000013,-1.7729729729729728,high molecular + low gravy,high molecular,high gravy
+1,54,NGGLEDEGADESADGNDEDDDVKGEGGDGEGGGPDN,0.0,3465.167200000001,-1.7249999999999996,high molecular + low gravy,high molecular,high gravy
+1,55,NGGLTEGADESADGNDEDDDVKGEGGDQEGGGPDN,0.0,3393.1476000000007,-1.6828571428571428,high molecular + low gravy,high molecular,high gravy
+1,56,NGGLTEGADESADGNDEDDDKGEGGDQEGDGNDN,0.0,3369.0401000000006,-2.0029411764705882,high molecular + low gravy,high molecular,high gravy
+1,57,NGLTEGACESADGNDEDDDKGEGGDQEGDGNDQ,0.0,3314.0709000000006,-1.8696969696969696,high molecular + low gravy,high molecular,high gravy
+1,58,NGLTEGGCEADWNDEDDDKGEGGDQEGDGNDQ,0.0,3342.1256000000003,-1.9874999999999998,high molecular + low gravy,high molecular,high gravy
+1,59,NGLTEGGEADWTDEDDKGEGGDQEGDGNDQ,0.0,3110.8966,-1.993333333333333,high molecular + low gravy,high molecular,high gravy
+1,60,NGLTEGGEADWTDEDDKGEGNDQEKDGNQ,0.0,3123.981500000001,-2.168965517241379,high molecular + low gravy,high molecular,high gravy
+1,61,NGLTEGGEADWTDEDDKDEGNDQDKDGNQ,0.0,3167.991,-2.2758620689655173,high molecular + low gravy,high molecular,high gravy
+1,62,NGLTEGGEADWTDEDDKDEGNDQDDDGNQ,0.0,3154.9061,-2.262068965517241,high molecular + low gravy,high molecular,high gravy
+1,63,NGLTEGGEADWTDEDDKDEGNQDDGNQ,0.0,2924.7313,-2.17037037037037,high molecular + low gravy,high molecular,high gravy
+1,64,NGLTEGGSADWTDEDDKDEGNQDDNQ,0.0,2825.6432999999997,-2.134615384615384,high molecular + low gravy,high molecular,high gravy
+1,65,NGEDEGGSADWTDEDDKDEGNQDDNQ,0.0,2855.5832,-2.523076923076923,high molecular + low gravy,high molecular,high gravy
+1,66,NGEDEGGSDWTDEDDKDQGNQDDNQ,0.0,2783.5204999999996,-2.6959999999999997,high molecular + low gravy,high molecular,high gravy
+1,67,NGEDEGGSDWTDEDDKDQANQDDNQ,0.0,2797.5470999999993,-2.6079999999999997,high molecular + low gravy,high molecular,high gravy
+1,68,NGEEGGSDWTDEDDKDQANQDNQ,0.0,2567.3722999999995,-2.5304347826086957,high molecular + low gravy,high molecular,high gravy
+1,69,NGDEGGSDWHDEDDKDQANQDNQ,0.0,2589.3810999999996,-2.6391304347826083,high molecular + low gravy,high molecular,high gravy
+1,70,NGDEGGDWHDEDDKDQANDNQ,0.0,2374.1745999999994,-2.6857142857142855,high molecular + low gravy,high molecular,high gravy
+1,71,NGDEGGDHHDEDDDDQANDNQ,0.0,2312.0190999999995,-2.7761904761904765,high molecular + low gravy,high molecular,high gravy
+1,72,NGDEGDHHDEDDDDQGNDNQ,0.0,2240.9411999999998,-3.005,high molecular + low gravy,high molecular,high gravy
+1,73,NGDEGHHDEDDDDQGNDNQ,0.0,2125.8538,-2.9789473684210526,high molecular + low gravy,high molecular,high gravy
+1,74,NGDEGHHDKDDDDQGNDNQ,0.0,2124.9121,-2.9999999999999996,high molecular + low gravy,high molecular,high gravy
+1,75,NGDEGHHDKDDDDGGNDNQ,0.0,2053.8342,-2.8368421052631576,high molecular + low gravy,high molecular,high gravy
+1,76,NGDEGHHDKDDDDGGNDNQ,0.0,2053.8342,-2.8368421052631576,high molecular + low gravy,high molecular,high gravy
+1,77,NGDEGHHDKDDDDGGNDNQ,0.0,2053.8342,-2.8368421052631576,high molecular + low gravy,high molecular,high gravy
+1,78,NGDEGHHDKDDDGGNDNQ,0.0,1938.7467999999994,-2.7999999999999994,high molecular + low gravy,high molecular,high gravy
+1,79,NGDEGHHDKDDDFGNDNQ,0.0,2028.8692999999998,-2.622222222222222,high molecular + low gravy,high molecular,high gravy
+1,80,NGYEGHHDKDDDFGNDNQ,0.0,2076.9550999999997,-2.5,high molecular + low gravy,high molecular,high gravy
+1,81,NGYEGHHDKADDFGNDNQ,0.0,2032.9456,-2.2055555555555553,high molecular + low gravy,high molecular,high gravy
+1,82,NGYEGHHDKADDFGDDNQ,0.0,2033.9303999999997,-2.2055555555555553,high molecular + low gravy,high molecular,high gravy
+1,83,NGYEGHHDKADDFGDDNQ,0.0,2033.9303999999997,-2.2055555555555553,high molecular + low gravy,high molecular,high gravy
+1,84,NGYEGHHDKADDGGDDNQ,0.0,1943.8078999999998,-2.383333333333333,high molecular + low gravy,high molecular,high gravy
+1,85,NGYEGHHDKADDGGDDNQ,0.0,1943.8078999999998,-2.383333333333333,high molecular + low gravy,high molecular,high gravy
+1,86,NGYEGHHDKADDGGDDNQ,0.0,1943.8078999999998,-2.383333333333333,high molecular + low gravy,high molecular,high gravy
+1,87,NGYEGHHDKADDGGDCNQ,0.0,1931.8633999999997,-2.0499999999999994,high molecular + low gravy,high molecular,high gravy
+1,88,NGYEGHCDKADDGGDCNQ,0.0,1897.8669999999997,-1.7333333333333332,high molecular + low gravy,high molecular,high gravy
+1,89,NGYEGHCDKAGDGGDCNQ,0.0,1839.8309,-1.561111111111111,high molecular + low gravy,high molecular,high gravy
+1,90,NGYEGHCDKAGDGGDCPQ,0.0,1822.8435,-1.4555555555555553,high molecular + low gravy,high molecular,high gravy
+1,91,DGYEGHCDKAGDGGDCPQ,0.0,1823.8283000000001,-1.4555555555555553,high molecular + low gravy,high molecular,high gravy
+1,92,DGYEGHCDDAGDGGDCPQ,0.0,1810.7433999999998,-1.4333333333333331,high molecular + low gravy,high molecular,high gravy
+1,93,DGYEGHCNDAGDGGDCPQ,0.0,1809.7586000000001,-1.4333333333333331,high molecular + low gravy,high molecular,high gravy
+1,94,DGYEGHCNDAGDGQDCPQ,0.0,1880.8365,-1.6055555555555554,high molecular + low gravy,high molecular,high gravy
+1,95,DGYEGHCNDAGDGDDCPQ,0.0,1867.7947,-1.6055555555555554,high molecular + low gravy,high molecular,high gravy
+1,96,DGYEGHCNQAGDGDDCPQ,0.0,1880.8365,-1.6055555555555554,high molecular + low gravy,high molecular,high gravy
+1,97,DGYEGHCNQAGDGDGCPQ,0.0,1822.8004,-1.4333333333333331,high molecular + low gravy,high molecular,high gravy
+1,98,DEYEGHCNQAGDGDGCPQ,0.0,1894.8631,-1.6055555555555554,high molecular + low gravy,high molecular,high gravy
+1,99,DEYEGHCNQAGHGDGCPQ,0.0,1916.915,-1.5888888888888888,high molecular + low gravy,high molecular,high gravy
+1,100,DEYEGHCNQAGHGDGPQ,0.0,1813.7721000000001,-1.8294117647058823,high molecular + low gravy,high molecular,high gravy
+2,0,NPTGQVWEQPMYMKWPHHLCPRKTWNQDCYGFVRDHFGAMHIEDAVRNDDDHCGFEQLLIMSHCLISDVAMKHVRELPACPRLKMGVYLAITHDERPGPS,0.0,11657.270199999992,-0.5340000000000003,low molecular + high gravy,high molecular,high gravy
+2,1,NPTGLVWEQPMYRKWPVHLCPRKTWNQDCYGFVRDHFGAMHIERAVRNDTDHCGFEQLLLMSHCLISDVAMKHVKELYACERLKMGVYLAITHDDRPGPS,0.0,11712.411599999992,-0.4500000000000003,low molecular + high gravy,high molecular,high gravy
+2,2,NPTGLVVEQPLYRKWPVHLCPTKTWNQDRYGFVRDHFGANHIERAVRNDTDHCGFEQLLYMSHCLISDVAMKHVKELYACIRLKMNVYLAITHDDRPGRS,0.0,11738.34289999999,-0.49700000000000005,low molecular + high gravy,high molecular,high gravy
+2,3,NPTDLVVEQPLYRKWPVHLCPTKTWNQDRYGFVRDHFGINHIERAVRNDTDGCGFEDLLYMSHCSISPVAMKHVKEMYACIRLKIKVYLAITHDDRSGRS,0.0,11705.30819999999,-0.489,low molecular + high gravy,high molecular,high gravy
+2,4,NPTDLVVEQPLYRKWPVHLCRTKTWNQDRYGFARDHFGINHIARAVRNDTDGCGREDLLLMDHCSYSPVAMKDVKEMYACIRLKIKVYLAITHDDRSIRS,0.0,11749.36589999999,-0.55,low molecular + high gravy,high molecular,high gravy
+2,5,NVTDLVVEQPLYRKWPVHFCRTKTWNQDRYGFARDHFGINALRRLVRNDTDGHGREDLLLMDHCAYSPVAMKDVKEMYACGRLKIKVYLAITHDDRYIRS,0.0,11884.51059999999,-0.5870000000000001,low molecular + high gravy,high molecular,high gravy
+2,6,NVTDLWVEQPLYRKWPVENCRTKTWNGDRYGFARDHFGINALRRLVRNDTDGMGREDLLLMDHCAYSPVAMKILKDMYACGRGKIKVYLASTHDDRYIRS,0.0,11769.35539999999,-0.6410000000000002,low molecular + high gravy,high molecular,high gravy
+2,7,NVTDLWVYQPLYRKWPVENCRTKTTNGDRYGFARDHKGINALRRLVRNDTRGMGREDLLLMDHCAYSPVAMKILKDMYACGTGGIKVYIASTHDDDYIRS,0.0,11573.104299999992,-0.6040000000000001,low molecular + high gravy,high molecular,high gravy
+2,8,NVTDLWVYQPLYRKWPNENCRTKTTTGDRYGFDRDHKGINALRYLVRNDTRGMGREDYLLAYECAYSPVAMKILKDMYAHGTGGIKVYIASTHDMDYIRS,0.0,11706.137199999994,-0.71,low molecular + high gravy,high molecular,high gravy
+2,9,NVTDLWVYQPLYRKKPNENCRTKTTTGDRRGMDRDHKGIDALRKMVRNDTRGMGREEYLLAYRCAYSPVAMHILKDMYAHGTGGIKVYIASTHDMDYIRS,0.0,11659.221899999993,-0.8290000000000002,low molecular + high gravy,high molecular,high gravy
+2,10,NVTDLWVYQPLYRKKPNENCRTKTTTGDRRGMDFDHAGIDALRKMVREDTGGGGIEEYLLAYRSAYSPVAMHILVIMYAHGTGGIKVYYASTHDMDYIRS,0.0,11394.798699999994,-0.5210000000000001,low molecular + high gravy,high molecular,high gravy
+2,11,NVTDLWVYKPLYRKKPVENCYTKTTTLDRRGMDFDHAGISALRKMLREDPGGGGIEEYLLAYRSAYSPVAMHILVIMYAHKTGGIKVYYACTHDMDYIRS,0.0,11512.178399999992,-0.36199999999999993,low molecular + high gravy,high molecular,high gravy
+2,12,NVLDLWVYKPLYRKKPVENCYTKTTTLDRRGMDFDHAGISALIKMLREGPGGGGIEEYLLAYRHAYSPVAMHILVIMYAKKTDKIKVYWACTHDMLYITS,0.0,11559.445099999992,-0.1779999999999998,low molecular + high gravy,high molecular,high gravy
+2,13,NKMDLWVYKPLYRKFPVLNCYTKTTTLARRGMDFDHAGISALIKMLPEGPGGGGILEYLLYYRHAYSPVAMHILVIMYAKKTDKIKVYWACTHDMRNITS,0.0,11576.586299999988,-0.11899999999999997,low molecular + high gravy,high molecular,high gravy
+2,14,NKMDAWVHKPLYRKFPVLTCYTKTTTLARRGMDFGHAGISALIKMLPEVPGGGGILEYLLYLRHAYSPVAMHILYIMYAKKTDKAKVYWACTHDMRNIRS,0.0,11506.546299999989,-0.12199999999999996,low molecular + high gravy,high molecular,high gravy
+2,15,NKMDAWVHKPLRRKFPVLTCAFKTTQLARRGMDFGHAGISALIKMLPEVPGGGGLLEPLLYLRHAYCPVAMHILYAMYAKKTDKAKVYYACTHDMRNIRS,0.0,11365.449899999987,-0.12399999999999997,low molecular + high gravy,high molecular,high gravy
+2,16,NKMDAWVHKPLRDKFPVLKCAFKTTQLKRRGMDFGHAGISALIKMAPEVPGIGGLLCPLLYLELAYCPVAMHKLYAMYAKKTDKAKVYGACTHDMRNIRS,0.0,11254.409299999987,-0.10899999999999994,low molecular + high gravy,high molecular,high gravy
+2,17,NKMDAWVHKPLRDKFPVFKCAFKTTQLKRRGMDFGHAGISALLKMAPEVAGIGQDLCPLVELEDAYCPVAMWKLYAMYAKKTDKAKMYGACTHDMRNIRS,0.0,11370.37549999999,-0.28699999999999987,low molecular + high gravy,high molecular,high gravy
+2,18,NKMDAWVHKPLQDKFPVFKCAFKTTLLQRRGMDFGHAGFSALLKDAPRVAFQGQDLCPLVELEDRYCPVAMWKLYAMYAKKTDKAKMYGACTHDMRNIRL,0.0,11588.56579999999,-0.34599999999999986,low molecular + high gravy,high molecular,high gravy
+2,19,NKMLAWVHKPLQDKFNVFKRAFKTTLLQLRGMDFGHAGFSYLLKDAPRVAFQGQDLCPLVELEDRYCPVAMWKLYHMKAKKTDKAKMYGACTPDMRNIRL,0.0,11696.769799999991,-0.37,low molecular + high gravy,high molecular,high gravy
+2,20,MKMLIWVHKPLQDKFNVFKYAFKTTLLILRGQDFGHAGFSNVLKDAPRVAFQGQDLCALVELEDRYCPVAMWKLYHMEAKKTDKAKMYGACTPGMRNIRL,0.0,11598.663099999994,-0.17999999999999997,low molecular + high gravy,high molecular,high gravy
+2,21,MKMLIWVHKPLIDKFNVFKYAIKTTLLILRGQDFGHAGFSNVLKDAPRADFQGQDLLALVELEDRYCPVAMWKLYHMEGKKTDKAKMYGACTPGMRNKRL,0.0,11576.634499999993,-0.253,low molecular + high gravy,high molecular,high gravy
+2,22,MKMIIWVHKPLLDKFNVFRYAIKTTLRIGRGQDFGHAGFYNVLKDAPRADFWGQDLLALVELEDRYFMFAMWKLYHMEGKKTDKAKMYGACTPGMRNKRL,0.0,11851.900799999994,-0.3390000000000001,low molecular + high gravy,high molecular,high gravy
+2,23,MKMIIWVHKPLLDEKNVFRYAIKTTLRIGRGQDFLHAGFYNVLMDAPLAAFWHQDLLALVELEDYVFMFAMWKLYHMEGKKDDKAKMYGACTPGMRNKRL,0.0,11842.950199999994,-0.13500000000000004,low molecular + high gravy,high molecular,high gravy
+2,24,MKMIIEVHLPLLDNKNVFPYYIKTTLRILRGQDFLHAGFYNVLMDAPLRAFWHQDLLALVELIDYVFMFALWKLYHMEGKKDKKAKMYGACTPGMRNKRL,0.0,11909.157199999992,-0.011999999999999914,low molecular + high gravy,high molecular,high gravy
+2,25,MLMIIEVHLPLLDNKNVFPYYIKTTLRILRGQDFLHAGFYNGLMDAPLRAFYHQRLLALFELIDYVFMLALWKLYHMEGFQDKSGKMYGACTPGMRNKRL,0.0,11847.987799999994,0.08099999999999995,low molecular + high gravy,high molecular,high gravy
+2,26,MLMIIEVALPTLDNKRLFPYYIKTTLRILRGQDFLHAGFYLGLMDRPLRAFYHQRLLALFELIDYVFLLALWKLYHMEGFQDKQGKMYGACTPGMKNKRL,0.0,11905.145299999993,0.07999999999999997,low molecular + high gravy,high molecular,high gravy
+2,27,MLMIDEVALPTLDNGRLFQYYIKTTLRILRGQDKLHAGFYLGLMDRYLEAFYHQRLLALFETIDYVFNLALVKLYHMEGFQDKQGKMYGACTPGMKNDRL,0.0,11775.680399999992,-0.10100000000000002,low molecular + high gravy,high molecular,high gravy
+2,28,MLMIDEVALPTLDNGRLFQYYIKTTLRILRGQDTLAAGFYLGLMDRYLEAFYHNRLRALFETLVGVFNLAYVKLYHMEGEQAKQGKMYGACTPGMKNDRL,0.0,11577.420099999994,-0.08400000000000002,low molecular + high gravy,high molecular,high gravy
+2,29,MLMIDEIALPTLDNGLLFQYYVKTTLYILRGQDTLAAGFYLGIMDRYLEARYKNRLRALFETLVMVFNLAYVKLYHMEGEQAKQGYMYGACTPGMKNDRL,0.0,11650.569999999996,0.007000000000000055,low molecular + high gravy,high molecular,high gravy
+2,30,MLMIDENALPTLNNGTLFQNYVKPALYILRGYDTLPAGFYLGIMDRYLEARYKNRLRALFETLVMVFNLAYVKLYHMEMEQAKQGYMYGACTLGMKNDRL,0.0,11706.659599999997,-0.05900000000000001,low molecular + high gravy,high molecular,high gravy
+2,31,MLMIDENALRTLNNGTLFQNYVKPALYILRKYLTLPAGFYLVCMDRYLEARYKNRLRALFETNVMVFNLAYVKLYHMEMEQAKQGYMYLLCTLGMKNTRL,0.0,11952.133799999998,-0.007000000000000064,low molecular + high gravy,high molecular,high gravy
+2,32,MDMIDENALRKLNGGELFQNYVKPALYILRKYLTLPAGKYLVCMDMYLEARYKNRLRALFRTNVMVFNQAYVKLYHMEAEQAKQGYMYLLCTLGMKNTRL,0.0,11890.024799999996,-0.19599999999999995,low molecular + high gravy,high molecular,high gravy
+2,33,MDMLDLNALRKKNGGELEQNYVKPALYILRKYLTLPAGKYLVCMDMYLEARYKNRLRRLFRTNVMVFNQAYVKLYHMLAEQLKQGYMKLLCTLGMKRTRL,0.0,11989.336599999993,-0.27599999999999986,low molecular + high gravy,high molecular,high gravy
+2,34,MDMLDLNAEQKKNGGELEQNYVKPALYILRKYLRLPAGKYLKCMDMYLYARYKNRLRRLFRTNVMVLNNAYLKLYHMLAEQLKQGYMKLLCTLGMKRTRL,0.0,12061.402599999992,-0.43000000000000027,low molecular + high gravy,high molecular,high gravy
+2,35,MDMLDLNAIRKKNGGILEQNYVKPALYISRKYLRLPAGKYLKCMDMYLYARYKNRLRRLFRTNVMVLNNAYLKLYHMIAEQLKQGYQKLLCNLGMKRVRK,0.0,12054.439699999992,-0.4289999999999998,low molecular + high gravy,high molecular,high gravy
+2,36,MDMLDLNAIRKSNGGILEQNYVKPALYESRLYLELPAGKYLLCMDMYLYARIKNRLRMLFRTNVDVLNLAYLKLYHMIAEQLKQGYQKLLCNLGMKRVRK,0.0,11880.14109999999,-0.17300000000000001,low molecular + high gravy,high molecular,high gravy
+2,37,MDMNRLNAYRKSNGGILEQNYVKPLLDESRLYLELPAGKYLLCMDLILRARIKNRLRMLFRTNVDVLNLAYLKLYHMIAEQLKQLYQKLLCNLGMTRVRK,0.0,11920.190299999987,-0.19699999999999993,low molecular + high gravy,high molecular,high gravy
+2,38,MDMNRANAYRKSNGGGLEQNYVKPLLDESRLYLELPAGKYLFCMDLILRARIKNRLRMLFYTNVDVLNLAYLKGYHMIAELLKQLYQKLLCPLLMTRVRL,0.0,11816.034299999987,-0.07499999999999969,low molecular + high gravy,high molecular,high gravy
+2,39,MDMNRANTYRKSNGGYLEQNYVKPLLDESRLYNELPAGKYLFCMDLILRARIKNRLRMYFYTNVDWLNLAYLKGYHYIAENLTQLYQQLLCPLLMTRVRL,0.0,12096.03239999999,-0.3530000000000003,low molecular + high gravy,high molecular,high gravy
+2,40,MDMNRANTYRKSFGGYLEVNYVKPLLDESRLYNILPAGKYLFCMDLILRARIKNRLRMYLYTNVDWLNIAYLKGYHYIAENLTQLYQQLACPLLMTRVTL,0.0,11952.97129999999,-0.09799999999999986,low molecular + high gravy,high molecular,high gravy
+2,41,MDMNRANTYRKVFKGYLEVNYVLALEDESQLYNILPAGKYLFCMDLILRNRIKNRLRMYDYTNVDWLNIAYLKGYHYIAENLTQLYQQLACPLLSTRDTL,0.0,11999.786099999987,-0.26499999999999985,low molecular + high gravy,high molecular,high gravy
+2,42,MDMNKANTYRQVFKGYYEVNYVLALELESQAYNILPAGKYLFCMDLYKRNRIKNRLRMYDYTNVDWLNQAYLKGYHYIAENLTVLYQQLACLLLSTRDTL,0.0,12044.78179999999,-0.3370000000000002,low molecular + high gravy,high molecular,high gravy
+2,43,MDMNKANTYRQVFKGYYEVNYVLALELEYQAYNILPAGKYLFCMDVYKRNRIKNRLRMYDTTNVDWKNRAPLFGYHYINENLTVLLQQLACVLLSTRDTL,0.0,12019.778999999988,-0.35300000000000026,low molecular + high gravy,high molecular,high gravy
+2,44,MDSNKANTYRQVFKGYYEVAYVLAHELEYQAYNILPAIKYLFAMDVYKRERIDNRLRMYAMTNVDWKNRAPLFGYHYINENLTVLLQQLACLLLSTRDTL,0.0,11982.694299999986,-0.27600000000000013,low molecular + high gravy,high molecular,high gravy
+2,45,MDINKANTYRQVFKGYYENAYVLAHELEYQAYNHLPAIKYLFAMQVYKRERIDNRLRMYAMTNVDWKNRAVLFGKHYINENLTVLLQVLACLLLSTRDTL,0.0,11998.786399999988,-0.2680000000000001,low molecular + high gravy,high molecular,high gravy
+2,46,MKINKANTYRQVFKGYYENAYVLAHVQEYQAYNHLPAIKYLFAMQVYKRERIDNRARMYAMYNLDWKLRAVDFGKHYINENCNVLLQVLACLLLSTRDTL,0.0,12034.84489999999,-0.3390000000000002,low molecular + high gravy,high molecular,high gravy
+2,47,MKINKYNTYRQVFKGQYEKVYVLACVQEYQAYNHLPAIKYLFAMQVKKRERIDNRARMAAMYNLDWKLRAVDFGKVYINENCILLLQVLACLLLSTRDTL,0.0,11947.99969999999,-0.16000000000000006,low molecular + high gravy,high molecular,high gravy
+2,48,MKINKYNTYRQVFKGQVAKVYVHHCVQEYQAYNHLPAIKYLFAMQVKKRERIDNRARMAAMYNLDWKCRAVLFEKVYIKENCILLLQVLACLLLSTRDTL,0.0,11990.152399999988,-0.1469999999999999,low molecular + high gravy,high molecular,high gravy
+2,49,MKINKYNTYRQVFKGQVAQVYVHHCKQEYQAYLHLVAIKYLCAEQVKKRSRIDNRARMAAMYNLDWKCPAVLFEIVYIKENCILLLQVLACLLLSTRDTL,0.0,11857.98659999999,-0.010000000000000009,low molecular + high gravy,high molecular,high gravy
+2,50,MKINKYNLYRQVFKGQVAQVYVVHCKQEYQAYLHLVAIKYLCAIQMKKRSRIDNRARMPAMYNLDWKCPAVLFEKVYIKEQCILLLQVLAVLLLVTRDTL,0.0,11911.26099999999,0.11500000000000002,low molecular + high gravy,high molecular,high gravy
+2,51,MAINKYNLYRQVFKGLVYQVYVVHCKQEYQMYLHLVAIKYRCAIQHKKRSRIDNRARMPAMYNLDWKCPAVLFEKVYIKEQCKCLLQVLAVLLLVTRDRE,0.0,12116.41799999999,-0.12700000000000003,low molecular + high gravy,high molecular,high gravy
+2,52,MAINKYNLYRQVFKGYVYMVYVVHCKQEYQMYLHLVIIKYRCAIIKKKRSRIDNRARMPAMYNLDWKCPAVLFEKVYKKELCKCLLQVLAVLLLVTRDRE,0.0,12187.68459999999,-0.03499999999999993,low molecular + high gravy,high molecular,high gravy
+2,53,MAINKYNLYLQVFKGYVEMVYVVHCRWEYQMYLHLVIIKYRCAIIKKKRSRIDNRARMQAMYNLDWKCGAVLFRKVYKKELCKTLLQVLAVLLLVTRDRE,0.0,12212.674199999989,-0.0029999999999999714,low molecular + high gravy,high molecular,high gravy
+2,54,MAINIYNLYLQVLKGYVEMVYVVHCRWIYQMYLHLVIIKYRCGIIKKKESRIDNRARMQAMYNLEWKCGAVLFRKVYKKLLCKDLLQVLAVLLLVGRDRV,0.0,12044.60669999999,0.2840000000000001,low molecular + high gravy,high molecular,high gravy
+2,55,MAINIYNLVLQVLKGYVEMVYVVHCRWIYQMYLHLVIIKYRCGIIYKKESIRDNRATMQAMYNLEWKCGAVLFRKVYKKLLCKDLLIVLAVLLLVGRVRV,0.0,11929.555599999989,0.5600000000000002,low molecular + high gravy,high molecular,high gravy
+2,56,MAINIYNTTLQVLKGYVEMVYVVHCLWIYQMNIHHVRIKYRCNILYKKESIRDNRATMQAMYNLEWKCGAVLFRKVYKKVLCKDLLIVLAVLLLVGRVRV,0.0,11937.41059999999,0.3400000000000001,low molecular + high gravy,high molecular,high gravy
+2,57,MAINIYNTRLQVLKGYVEMVYVVHCLWIYQMNIHHVRIKYRCNILYILEMIRDNRATMQAMYNKEVKCGAVLPRKVYKKVLCDDLLIVLAVLLLVGRVRV,0.0,11871.373999999989,0.42400000000000015,low molecular + high gravy,high molecular,high gravy
+2,58,MYINIYNTRKQVLKGYVEMVYVVHCLWRYQMNIHHVRIKYRCNILYILEQIRDNRATMQAAYNKEVKCGAVYPRLVYKKVLCDDLLIVLAVVLLVGRVLV,0.0,11936.273399999991,0.28400000000000003,low molecular + high gravy,high molecular,high gravy
+2,59,MYINIYNTRKQVLKGYVEMVYVVHCLWRYQYNIHHVRGKYRCNILYILEQIIDNRATMQAAYNKLVLCGANYPRLVYKKVLCDDQLIVLAVVLLVGRVHD,0.0,11908.02639999999,0.14600000000000005,low molecular + high gravy,high molecular,high gravy
+2,60,MYINIYNTRKQVLYGYVEMVYAVHCLWRYQYNIHHFRGKYRCNYLYISEQIIDNRVTWQAAYNKLSLCGANYPRLVYKKVLYDDQLIVLMVVLLVGRVHD,0.0,12178.11399999999,-0.06100000000000014,low molecular + high gravy,high molecular,high gravy
+2,61,MYINIYNTRKQVLYGYVEMVYDVHCLWRYQYNIHHFRGKYRCVYLYNYRWIIDNRITWQAAYNKLSLCGANYPRLWYKKVLYDKQLIVLMVVLLVGRVHD,0.0,12483.535599999992,-0.15799999999999984,low molecular + high gravy,high molecular,high gravy
+2,62,MYINIYNTRKQVLYGYVNMVYDVLNLWRYQYNIHHFQGKYRCVYLYVLRWIIDNRITWQAAYNKLILCGANYKRLWYKKVLYDAQLIVLMVVLLVLRVHD,0.0,12418.60779999999,0.11900000000000002,low molecular + high gravy,high molecular,high gravy
+2,63,MYINIYNTRKQVLYDYVNMTYDVLNLLRYQYNIHHGQGKYRCDYLYVLRAIIINRITWVAAYNQLILCGANYKRLWYKKVLYDAQLIVLMVDLLVLRVHD,0.0,12201.251699999992,0.08800000000000004,low molecular + high gravy,high molecular,high gravy
+2,64,MYINIYNTRKSVLYDYVYMTYDVLNLKRYQYNIHIGQGKYRCDVLYVLRAIIINRIVWVAAYNQLILCHANYKRLWYKKVHYDAQLIVLMVDLLVLRVHD,0.0,12238.357999999993,0.14300000000000002,low molecular + high gravy,high molecular,high gravy
+2,65,MYINIYNTRGSVLYDYVYMTMDVLGLDRYQYNINIGQGKYRCDVLYVLTAIIINRIEWVAAYNQAILCHAYYKGLWYKKVHYDAQLIVLMVDLLVLRVHD,0.0,11924.844599999993,0.24600000000000002,low molecular + high gravy,high molecular,high gravy
+2,66,MYINIYNTRGSVLKDYVYMTMDVLGLDRYQGNINIGLGKYRCDVLYVLTKIIINIIEWVRAYNQAILCHAYYKGLGYKKVHYDAQLIVLMVDYLVLRVHD,0.0,11788.781299999991,0.22599999999999998,low molecular + high gravy,high molecular,high gravy
+2,67,MYCNIYNTRNSVDKDYVYMTMDVLGLDRVQGNINIGLGKYNCDVLYVLTRIIINIIEWVRAYNEAILCRAYYKGLGYKDVHYDAYLIVLMVDYLVLRVHD,0.0,11801.62609999999,0.174,low molecular + high gravy,high molecular,high gravy
+2,68,MICNIYNTRNSIDKDYVYMTMDVLGIDRVQTNINIGLGKYNCDVLYVLTRDIINIINWVYAYNEAILCWAYYKGLGYKDVHYDADLIVLMVDYLVLRVHD,0.0,11785.533999999994,0.20499999999999996,low molecular + high gravy,high molecular,high gravy
+2,69,MICNIYNTRNSIDKDYVYMTMDVLGADIYQTNINILLGKYNADVLYVLTRDIINIINWVYADNEAILCWAYYYGLGYKDVHYDADLIVLDVDYGVLRVHD,0.0,11703.209899999993,0.15600000000000006,low molecular + high gravy,high molecular,high gravy
+2,70,MICNAYGTTNSILKDYVYMTMDVLYADVYQTNINILLGKYNAALLYVLTRDIINIINWVYADNEAILCWAYYYGLGYKDVHYDADLIVLDVDNGVLRVHD,0.0,11560.10909999999,0.28600000000000003,low molecular + high gravy,high molecular,high gravy
+2,71,MDCNAYGTTNSILKDYVYMTMDVLYADVYRTNINGLLGKYNAALYYVLTRDIINIINWVYVSNEAILCWAYYYGLGEKDYHYDADLIVLDVANGVLRVHD,0.0,11570.021199999992,0.12299999999999997,low molecular + high gravy,high molecular,high gravy
+2,72,MDCNAYGTTNSIQKDYVYMHMDVFYADVYRTNILGLLGKYYAALYYVLTRDIINIINWVYVSNEAILCWAYYYGLGEKDYHYDDDTIVLDVANGVAQVHD,0.0,11664.989599999992,0.0019999999999999753,low molecular + high gravy,high molecular,high gravy
+2,73,MDCNAYGTTGSIQKDYVYMCYDVFYADVYRTNILGLLGKYAAALYYVLTRDIIFIINWVYVSNEAILCWAYYYGLGEKDYHYDDDLILLDVANGVAYVHK,0.0,11621.10419999999,0.21100000000000005,low molecular + high gravy,high molecular,high gravy
+2,74,MDCNSYGTTGYIQKGYVYMCYDVFYADVLRTNSNGLLGKYAAALYYVLTRDIIFIINHVYVCNEAILCWAYYYGSGEKDYHYDDDLILKDVANGVAYVHK,0.0,11535.941899999993,0.022999999999999986,low molecular + high gravy,high molecular,high gravy
+2,75,MDCNSYGTTGYIQKTYVYMCYDDFYADVLRTNSNGLLGRYAAALYYVLTRDIIFIINHKYVCNEAILCWAYYYGSGENKYHQDDSLILKDVANGVAYQHK,0.0,11617.964899999992,-0.21599999999999994,low molecular + high gravy,high molecular,high gravy
+2,76,MDCFSYGTTYYIQKTYVYMCYDDFYADVLITNSNGLLGRYAAALYYVLTRDIIFIINHKYVCNEAINCFAYYYGSGENKYHQDDSLILKDYLNGVSYQHK,0.0,11798.160099999992,-0.169,low molecular + high gravy,high molecular,high gravy
+2,77,MDCFSYGTTYYIQKTYVYMCYDDFYADVLIKNLGGLLGRYAAALYYVLTRDIIFYINDKYVCNEAINCFAYYYISGENKYHVDDFLILKDYLNGVSYQHK,0.0,11909.425799999992,-0.023000000000000066,low molecular + high gravy,high molecular,high gravy
+2,78,MDCFSYVTTYYIQKTYVYMCFDAFYADVLIKVLGGLLGRYAAALYYVITRIIIFYINDKYVCNEAINKFAYYYISGELKYHVDDYLILKDYLNGVSYWHK,0.0,11972.759699999991,0.2750000000000003,low molecular + high gravy,high molecular,high gravy
+2,79,MDCFSYVTTEYIQKTDVYMCFDAFYADVLIKVLGTLLGRYAAFLYYWITRIILFYKNDKYVCNEAFNKFAYYYISSEVKYHVDDYLILKDYLNGVSYWHK,0.0,12162.872399999991,0.07900000000000007,low molecular + high gravy,high molecular,high gravy
+2,80,MDCFSYVTTEIVKTDVYMCFDAFYADVLIKVLGTLLGFYAAGQYYWITRIILFPKNDKYVCNEAFNKFAYYYASSVVRYHVDDYLILKIYLNGVSYWHK,0.0,11774.501099999992,0.26060606060606073,low molecular + high gravy,high molecular,high gravy
+2,81,MDCFSYVNTEHVKTDVYMCRDAFYADVLIKVLGTRLGFYAAGQYYWITRIILFPKFDKYVCNEAFNKYAYYYASSVVRYDVDDYLILKIYLNGVSYWNK,0.0,11867.503499999992,0.013131313131313072,low molecular + high gravy,high molecular,high gravy
+2,82,MDCFSRVNLEHVKTDVYMCRDAFYADVNIKVLGTRLGCYAAGQYYSITRIIFFPKFDKYVCNEAFNKYALYYASSLVRYDVDDYYILKIYLNGVSYWNK,0.0,11778.393999999991,-0.06363636363636364,low molecular + high gravy,high molecular,high gravy
+2,83,MDCFSRYNLEHVHTDVYMCRDAFYADVNIKVLGTRGGCYAAGQYSVITRIIYFVKFDKYVINEAFNKYALYYASSLVRYDVDDYYITKIYLNGVSYWNK,0.0,11747.230899999991,-0.10707070707070711,low molecular + high gravy,high molecular,high gravy
+2,84,MCCFSRYNLEHVHTRVYMCRDAFYADVNDKVLGTRGGCYAKGQYSVITRIIYFVKFNNYVINEAFNKYALYYASSLVRYDVDDRYITKIYQNGVSYVNK,0.0,11741.25959999999,-0.24545454545454554,low molecular + high gravy,high molecular,high gravy
+2,85,MCCFSRYNLEHDHTRVYMCRDAFEADVNDKVLGTRGCCYAKGQYSKITRIIYFVKFNYYVINEAFNKLALYYASSLVRYDVDDRYIYKIYQNGVWYVNK,0.0,11958.54659999999,-0.3313131313131313,low molecular + high gravy,high molecular,high gravy
+2,86,MCCFSRYNLEHDHTRRYMCRDAFEADVNDYVLGTRGCIYAKGQYSKITRIIYFVKFNYYVRNEAFNKNALQYASSLVRYHVDDRYIYKICQNGVWYVNK,0.0,12031.56759999999,-0.518181818181818,low molecular + high gravy,high molecular,high gravy
+2,87,MCCFSRYNLEHDHTMRYMCRDALEADVNDYVLGTRGMIYAKGFYSGITRIIYFVKFNYYVRNYAINKNALQYASSLVRYHVDVRYIYKICQNRVWYVNK,0.0,12031.759399999988,-0.2747474747474747,low molecular + high gravy,high molecular,high gravy
+2,88,MCCFSRYNLEHDHTMRYMCRDALEAAVNDYYLGTRGMIYAMGFMSGITRIIYAVKFNYYVRNYSINKNALQYASSLVRPHVDVRYIYKICQNRVWYVNK,0.0,11896.684099999988,-0.2252525252525253,low molecular + high gravy,high molecular,high gravy
+2,89,MCCFKRYNLEHDHTMRYMCRDALEAAVNDHYLGTRGMIYAMGFMSDITRIIYAVYFNYYVRNYSINKNALQYAGSLVRPHIDVRYIYYICQNRVWYVNN,0.0,12009.713999999989,-0.24343434343434334,low molecular + high gravy,high molecular,high gravy
+2,90,MCCFKRYNLNHDHTMRYYCRDALEAAVNDHYLGAYGMIYAMCFRYVITRIIYAVYFNYYVRNYVINKNALQYAGSLVRPHIDVRYIYYICQNRVWYVNN,0.0,12146.91579999999,-0.13030303030303028,low molecular + high gravy,high molecular,high gravy
+2,91,MCCFNRDNLNGDHTMRYYCRDALEAAVNDHYLGAYGMIYAMCFRCVITRIIYAVYFNYGVRNEVITKYALQYAGSLVRPHIDVRYIYYICQNRVWYVNN,0.0,11840.53279999999,-0.04444444444444442,low molecular + high gravy,high molecular,high gravy
+2,92,MCFFNRDNTNGDHTMRYYCMDALEARVNDHYLGAYGMIYAGCFRCVITRIIYAVLFNYGVRNEVITKYALQYAGSFVRPHINVRYIYYICQNRVWYWNN,0.0,11928.578099999992,-0.11919191919191918,low molecular + high gravy,high molecular,high gravy
+2,93,MCFFNRDNTNGLHTMRYYCTDALEARYYDHYLAAYGRTYAGCFRCVITRIIYAVLFNYGVRNSVITTYALQYAGSFVRPHINVRYIYYICQNRVWYWNN,0.0,11967.52649999999,-0.14040404040404036,low molecular + high gravy,high molecular,high gravy
+2,94,MCFFNRDNTNGLHTMRYYCTDALEARYYDHYLAAYGRTYAVCFRCNITRIIYARLFNYGVRNSDITTYALQYAGSFVRGHIVVRYIYYICFNRAWYWNN,0.0,12033.54489999999,-0.20808080808080803,low molecular + high gravy,high molecular,high gravy
+2,95,MCFLNRDNTNFLHTMRNYCTDALEARYYDHYLAAYGRTLAVCFRCNITRIIYARRFNYGCRNSDINTYALQYAGSFVRGHIVVWYIYYICFNRASYWNN,0.0,11981.495299999991,-0.22828282828282823,low molecular + high gravy,high molecular,high gravy
+2,96,MCFLNRDYTNFYHTMRNYCTDALEARYYDHYLYAYGRTLAVCFRCNITRIIYARRFNYTCRNSDINTYALQYAGSFVRGHIVVGYPFYIWMNRASYWNN,0.0,12122.61819999999,-0.3505050505050505,low molecular + high gravy,high molecular,high gravy
+2,97,MCKLIRDYTNFYHTMRNYKTDALEARYYDAYKYAYGRTLAVCFRCNITRIIYYRRFNYTCRNSDANTYALQYAGSFVRGHIVVPYPFYIWMNRATYWNN,0.0,12180.76049999999,-0.498989898989899,low molecular + high gravy,high molecular,high gravy
+2,98,MCKLIADYTNFYHTMRNYKTDALEARGYDALKYAYGRTLAVIFRCVITRIIYYRRFNYTCANSDANTYALQYAGSFVRGHIVVPYPFYIGMNRDTYWNN,0.0,11764.30139999999,-0.26161616161616147,low molecular + high gravy,high molecular,high gravy
+2,99,MCKLIADYTEFYHTMRNYKTDALEARGYDALKYALARTLAVIWRCVYTRIIYYRRFNYLCANSDANTYALQYAGSFVRYHIVVPYPFYYGMNDTYWNN,0.0,11844.380999999992,-0.26326530612244886,low molecular + high gravy,high molecular,high gravy
+2,100,MCKLIADYTEFYCTMRNTDTDALEAPGYFALKYALARTLAVIWRCVYTRIIYYRRFNYLCANQDASTYALQYAGSFVIYHIVVPYPFYYIMNDTYWNN,0.0,11735.351099999994,0.04081632653061212,low molecular + high gravy,high molecular,high gravy
+3,0,NPTGQVWEQPMYMKWPHHLCPRKTWNQDCYGFVRDHFGAMHIEDAVRNDDDHCGFEQLLIMSHCLISDVAMKHVRELPACPRLKMGVYLAITHDERPGPS,0.0,11657.270199999992,-0.5340000000000003,low molecular + low gravy,high molecular,high gravy
+3,1,NPPGQVWEQPMYMKWPHHLCPRKHWTQDCYGFARDHFTAMHIEDAVTNDDDHCGFETLLIMSHCLTSDVAMKHVRELPTCPRLKMGRYLAITHDERPGPS,0.0,11685.23759999999,-0.6650000000000006,low molecular + low gravy,high molecular,high gravy
+3,2,NPPGQVWEQPMYMKWPHHLCPRKHWTQDCPGLATDHTTAMHIEDAVTNDDTHCGFETLLIMSHCLTSDTAMKHVRELPTCPRLPMGRYLAITHPERPGAS,0.0,11396.934499999987,-0.6000000000000008,low molecular + low gravy,high molecular,high gravy
+3,3,NLPGQVWEPPMYMTWTHHLCPRKHWTQDCPALATDHTTATHIEDATTNADTHCGFETLLITSHCLTSDTAMKHVRELPTCPRLPMGTYLAITHPERPGAS,0.0,11215.607199999988,-0.4740000000000005,low molecular + low gravy,high molecular,high gravy
+3,4,TLPGQVWTPPMYMTWTHHLCPRKHWTQDCPALATDHTTATHIEDATTNADTHCGFTTLTIPSHCLTSDTAMPHVRTLPTCPRLPMLTYTAITHPTRPGAS,0.0,11087.521199999985,-0.36800000000000016,low molecular + low gravy,high molecular,high gravy
+3,5,TLPGQVWTPPMYMTWTHHLCPRKHWTADTPTLATDHTTATHIPDATTNAATHCGFTSLTIPSHCLTSDTAMPHVRTLVTCPRLPMLTYTATTHPTRPGAS,0.0,10958.384099999985,-0.2949999999999999,low molecular + low gravy,high molecular,high gravy
+3,6,TLHGQVWTPPMYMTWTHHLCPRKHWTADTPTLATVHTTATHIPDATTNAATHCGFTSLTIPSHCLTSDTAMPHVPTLVTCPRLPTLTYTATTHPTRPGAN,0.0,10920.314499999982,-0.25799999999999984,low molecular + low gravy,high molecular,high gravy
+3,7,TLHGQVWTPPMYMTWTHHTCPRTHWTADTPTLATVHTTATHIPTATTNTATHSGFTSLTTPSTCLTSDTAMPHVPTLVTCTRLPTLTYTATTPPTRPGAN,0.0,10797.044799999983,-0.3029999999999998,low molecular + low gravy,high molecular,high gravy
+3,8,TLHGQVWTPPMYMTWTHHTCPRTHWTADTPTPARVHTTATHIPTATTNTATTSGFTILVTTSTCLTSTTAMPHVPTLVTCTRLPTLTTTATTPPTRPGAN,0.0,10752.092099999982,-0.22499999999999978,low molecular + low gravy,high molecular,high gravy
+3,9,TTHRQTWTPPMYMTWTTHTCPRTHWTADTRTPARVHTTATRIPTTTTNTATTSTFTILVTTSTTLTSTTAMPHVPTLVTCTRLPTLTTTATTPPTRPGAN,0.0,10955.266799999981,-0.4370000000000007,low molecular + low gravy,high molecular,high gravy
+3,10,TTHRQTTTPPMYMTRTTHTCPRTHWTADTRTPARVHTTRTRIPTTTTTTATTSTFTILGTTSTTLGSTTAMPHVPTAVTCTRLPTTTRTATTPPTRPGAN,0.0,10827.061799999981,-0.6520000000000011,low molecular + low gravy,high molecular,high gravy
+3,11,TTHRQTTTPPMYMTRTTHTCPRTHWTADTRRRARVRRTRTRIPTTTTTTATTSTFTILGTTSTTLGSTTAMPHVPTAVTCTRLTTTTRTATTRPTRPLAN,0.0,11134.50779999998,-0.7480000000000007,low molecular + low gravy,high molecular,high gravy
+3,12,TTHRQTTTPPMPMTRTTHTCPRTHWTADTRRIARQRRTRRRIPTTTTTTATTSTFTILGTTSTTLGSTTAMPTVPTAVTCTRLTTTRRTATTRPTRPLAN,0.0,11128.548099999978,-0.789000000000001,low molecular + low gravy,high molecular,high gravy
+3,13,TTHRQTTTPPMTMTRTTVRCTRTVWTADTRRITPQRRTRRRIPTTTTTTATTSTFTILGTTSTTLGSTTAMPTVPTAVTCTRLTTTRRRATTRPTRPTAN,0.0,11129.574299999977,-0.7400000000000007,low molecular + low gravy,high molecular,high gravy
+3,14,TTHRQTTTPPMTMTRRTVTCTRVVWTADTRRITPQRRTRRRIPTTPTTTATTSTFTIRGPTSTTLGSTTAMPTVPTTVTCTRLTTTRRRATTRPTRPTAT,0.0,11179.679399999977,-0.7890000000000008,low molecular + low gravy,high molecular,high gravy
+3,15,TTHRQTTTPPMTMTRRTVTCTRAVWTADTRRITPRRRRLRRIRTTPTTTATTSTFTIRGPTSTTLGSTTAMTTVPTTVTCTRLTTTRRRATTRPTRPTAT,0.0,11254.795699999977,-0.7980000000000008,low molecular + low gravy,high molecular,high gravy
+3,16,TTTRRTTTRPMTMTRRTVTCTRAVWTADTRRIRPRTRRLRRIRTTPTTTATPSTFRIRGPTSTTLGRTTAMTRVPTTVTHTRLTTTRRRATTRPTRPTAT,0.0,11515.166999999974,-0.9910000000000007,low molecular + low gravy,high molecular,high gravy
+3,17,TTTRRTTTRPRTMTRRTVTRTRAVWTADTRRIRPRTRRLRRIRTRRTTTATPSTFRRRRPTTTTLGRTTAMTRVPTTVTHTRLTTTRRRATTRPTRPTAT,0.0,11863.54089999997,-1.322,low molecular + low gravy,high molecular,high gravy
+3,18,TTTRRTTTRPRTMTRRTVTRTRAVWTATTRRIRPRRRRLRRIRTRRTTRRTPSTFRRRRRTTTTLGRTTAMTRVPTTVTHTRTTTRRRRATTRPTRPTAT,0.0,12146.92739999997,-1.5449999999999997,low molecular + low gravy,high molecular,high gravy
+3,19,TTTRRTTTRPRTMTRRTVTRTRAVWTARTRRIRPRRRRLRRIRTRRTTRRTTSTFRRRPRTTRTLGRTTRMTRVTTTVTHTRTTTRRRRATTRPTRPTAT,0.0,12291.10569999997,-1.6369999999999993,low molecular + low gravy,high molecular,high gravy
+3,20,TTTRRTTTRPRTMTRRTVTRTRAVWTARTRRIRPRRRRLRRIRTRRTTRRTTPTFRRRTRTTRTLPRTTRMTTVTTTTRHTRPTTRTRRATTRTTRPTAT,0.0,12292.087299999968,-1.658999999999999,low molecular + low gravy,high molecular,high gravy
+3,21,TTTRRTTTRPRTMTRRTVTRTRAVWTARTRRIRPGRRRLRRTRTRRTTRRTTPTFRRRTRTTRTLPRTTRMTTVTTRTRHRRPTTRTRRATTRTTRPTAT,0.0,12291.062799999969,-1.7459999999999989,low molecular + low gravy,high molecular,high gravy
+3,22,TTTRRTRTRPRTMTRRTVTRTRAVWTARTRRIRPRRRRLRRTRTRRTTTRRTPTFRRTRRATRTLPRTTRMTTVTTRTRHRRRTTRTRRATTRTTRPTAT,0.0,12474.323499999968,-1.8289999999999984,low molecular + low gravy,high molecular,high gravy
+3,23,TTTTRTRTRPRTMTRRTVTRTRAVWTARTRRIRPRTRRLRRTRTRRTTTRRTPTFRRTRRARRTAPRTTRMTTVTRRTRHRRRTTRTRRATTRTTRPTAT,0.0,12432.243799999967,-1.8489999999999986,low molecular + low gravy,high molecular,high gravy
+3,24,TTTTRTRTRPTTTTRRTPTRTRAVWTTRARRIRPRTRRLRRTTTRRTTTRTTPTFRRTRRARRTAPRRTRMTTVTRRTRHRRRTTRTRRATTRTSRPTAT,0.0,12275.945699999971,-1.857999999999999,low molecular + low gravy,high molecular,high gravy
+3,25,TTTTRTRTRPTTTTRRTPTRTRAVTTTRTRRTRPRTRRTRRTTTRRTTTRTTPTFRRTRTARRTAPRRTTMTTVTRRTRHRRRTTRTRRATTRTSRRTAT,0.0,12145.665199999972,-1.9309999999999987,low molecular + low gravy,high molecular,high gravy
+3,26,TTTTRTRTRPTTTTRRTPTRTRAVTTGRTRRTRPRTRRVRRTTTRRTTTRTTPTFRRTRPARRTAPRRTTMTTVTRRTRHRRRATRTRRATTRTSRRTAT,0.0,12065.624999999975,-1.8629999999999987,low molecular + low gravy,high molecular,high gravy
+3,27,TTTTRTRTRPTTTTRRTPTRTRAVTTGRTRRTATRTRRVRRTTTRRTTTRTTPRFRTTRPARRTAPRRTTMTTPTRRTRHRRRATRTRRATTRPSRRTAT,0.0,11978.501399999974,-1.8579999999999992,low molecular + low gravy,high molecular,high gravy
+3,28,TTRTRTRTRPTTTTRRTPTRTRAVRTGRTRRTATRTRRVRRTTTRRTLTRTTPRFRTTVPARRTAPRRTTMTTPTRRTRHRRRATRTRRATTRPSRRTAT,0.0,12043.663999999973,-1.8019999999999994,low molecular + low gravy,high molecular,high gravy
+3,29,TTRTRTRTRPTTTTTRTPTRTRAVRTGRTRRTATRTTRPRRTTTRRTLTRTTPRFRTTVPARRTAPRRRTMTTPTRRTPHRRRATRTRRVTTRPSRRTAR,0.0,12010.630799999975,-1.8069999999999993,low molecular + low gravy,high molecular,high gravy
+3,30,TTRTRTRTRPTTTTTRTPTLTRAVRTGRTRRTATRTTRPRRTTTRRTLRRTTPRFRTTLPARRTAPRRRTMTTPTRRTTHPRRATRTRRVTTRPSRRTAR,0.0,11981.629299999973,-1.7279999999999995,low molecular + low gravy,high molecular,high gravy
+3,31,TTRTRTRTRPTTTTTRTPTLTRATRTGRTRRTRTRTTRPRRTTTRRTLRRTTPTFRTTLPARRTAPRRRTRTTTTRRTTHPRRATRTTRVTTRPSRRVAR,0.0,11985.551899999973,-1.7699999999999991,low molecular + low gravy,high molecular,high gravy
+3,32,TTRTRTRPRPTTTTTRTPTLTAATRTGRTRRTRTRTTRTRRTTTRRTLRRTTTTFRTTLPARRTAPRRRTRTTTTRRTTHPRRATRTTRVTTRPSRRVAR,0.0,11904.432799999973,-1.6979999999999997,low molecular + low gravy,high molecular,high gravy
+3,33,TTRTRPRPRRTTTTTRRPRLTAATRTGRTRRTRTRTTRTRRTTTRRTLRRTTTTFRTTLPARRTAPVRRTRTTTTRRTTTPRRATRTTRVTTRPSRRVAR,0.0,11976.588099999972,-1.7,low molecular + low gravy,high molecular,high gravy
+3,34,TTRTPPRPRRTTTTRRRPRLTAARGTGRTRRTRTRTTRTRRTTTRRTLRRTTTTFRTTLPARRTCPVRRTRRTTTRRTTTPRRATRTTRVTTRPSRRVAR,0.0,12015.693599999973,-1.7369999999999992,low molecular + low gravy,high molecular,high gravy
+3,35,TTRTPTRPRRTTTTRRRPRLTAARGTGRTRRTRRRTTRTRRTTTRRTLRRTTTTFRTTLPATRTCPTRRTRRTTTRRTTTPRRATRTRRVTTRPSTRVAR,0.0,12021.655199999972,-1.7769999999999992,low molecular + low gravy,high molecular,high gravy
+3,36,TTRTTTRPRRTTTTRRRPRLTAALGTGRTRRTRRRTRRTRRTTTRRTLRRTTTTFRTTLPATRTCPTRTTRRTTIRRTTTPRRATRTRRVTTRPSTTVAR,0.0,11939.587699999973,-1.5949999999999998,low molecular + low gravy,high molecular,high gravy
+3,37,TTRTTRRPRRTTTTRVRPRLRAAAGTGRTRRTRRRTRRTRRTTTRRTLRRTTTTFRTTLPRTRTCPTRTTRRTTIRRTTRTRRATRTRRATTRTSTTVAR,0.0,12070.73079999997,-1.7109999999999992,low molecular + low gravy,high molecular,high gravy
+3,38,TTRTTTRPRRTTTTRVRPRLRAAAGTGRTRRTRRTTRRTRRTTTRRTLRRTRTTFRTTLPRTRTTPTRTTRRTTIRRTTRTRRATRTRRATTRTSTTVAR,0.0,12013.60999999997,-1.7049999999999992,low molecular + low gravy,high molecular,high gravy
+3,39,TTRTTTRPRRTTTTRVRPRLRAAAGTTRTRRTRRTTRRTRRTTTRRTLRRTRTTFRTTLPRTRTTPTRTTRRTTIRRRTRTRRATSTRRATTRTSTTVTH,0.0,12054.61559999997,-1.7209999999999992,low molecular + low gravy,high molecular,high gravy
+3,40,TTRTTTRPRRTRTTRVRPRLRAAARTTTTRRTRRTTRRTRRTTTRRTRRTTRTTFRTTLPRTRTTPRRTTRRTTIRRRTRTRRATSTRRATTRTRTTVTH,0.0,12265.88649999997,-1.881999999999999,low molecular + low gravy,high molecular,high gravy
+3,41,TTRTTTRRRRTRTTRVRPRLRAAARTTTTRRTRRTTRRTRRTTTRRTRRTTRTTFRTTLPRTPTTPRRTTRRTRIRRRTRTRRRTSTRTATTRTRTTVTH,0.0,12350.99429999997,-1.944999999999999,low molecular + low gravy,high molecular,high gravy
+3,42,TTRTTTRRRRTRRTRVRPRLRAAARTTTTRRTTRRTRRTRRTTTRRTRRTRRTTFRTTLPRTPTTTRRTTRRTRTRRRTRTRRRTRTTTATTRTRTTRTH,0.0,12524.174199999965,-2.149999999999998,low molecular + low gravy,high molecular,high gravy
+3,43,TTRTTTRRRRTRRRRVRPRPRAAARTTTTRRTTRRTRRTRRTTTRRTRRTRRTRFRTTLPTTPTTTTRTTRRTRTRRRTRTRARTRTTTATTRTRRTRTH,0.0,12478.105799999965,-2.1789999999999967,low molecular + low gravy,high molecular,high gravy
+3,44,TTRTTTRRRRPRRRRVRPTPRTAARTTTTRRTTRRTRRTRRTTTRRTRPTRRRRFRTTLTTTPTTTTRTTRRTRTRRRSRTRARTRTTTATTRTRRTRTH,0.0,12435.034699999967,-2.175999999999997,low molecular + low gravy,high molecular,high gravy
+3,45,TTRTTTRRRRPRRRRVRPTPRTAARTATTRRTTRRTRRTRRTTTRRRRPTRRRRFRTTLTTTPTTTTRTTRRTRRRRASRTRARTRTTTATTRTRRTRTH,0.0,12430.064499999966,-2.163999999999997,low molecular + low gravy,high molecular,high gravy
+3,46,TTRTTTRRRRPRRRRVRRTPRTAARTATTRRTTRRTRRTRRTTTRRRRPHARRRFRTTLTTTPRTTTRTTRRTRRRRASRTRARTTTTTATPRTRRTRTH,0.0,12436.073899999967,-2.1639999999999975,low molecular + low gravy,high molecular,high gravy
+3,47,TTRTTTRRRRPRPRRVRRTPRTAARTATTTRTTRRRRRTRRTTTRRRRPHATRRFRTTLTTTPRTTTRTTRRTRRRRASRPRTRTTTTTATPRTRRTRTT,0.0,12311.923499999966,-2.105999999999998,low molecular + low gravy,high molecular,high gravy
+3,48,TTRTTTRRRRRRPRRVRRTPRTATRTTTTTRTTRRTRRTRRTTTRRRRPHATRRFRTTLTTTPRTTTRTTRRTRRRRASRPRTRTTTTTATPRTRRTRTT,0.0,12375.964199999968,-2.146999999999997,low molecular + low gravy,high molecular,high gravy
+3,49,TTRTTTRRRRRRPRRVRRTPRTATRTTTTTRTTRRTRRTRRTDTTRRRPHATRRFRTTRTTTPRTTTRTTRRTRRRRASRPRTRTTTTRATRRTRTTRTT,0.0,12436.964499999967,-2.2489999999999974,low molecular + low gravy,high molecular,high gravy
+3,50,TTRTTTRRRRRRPRRVRRTPRTATRTTTTTRTTRRTRRTRRTDTTRRRPHATRRFRTTRTRTPRRTTRPTRTTRTRRASTPRTRTTTTRATRRTRTTRTT,0.0,12377.893999999967,-2.2199999999999975,low molecular + low gravy,high molecular,high gravy
+3,51,TTRTRTRRRRRRPRRVRRTPRTATRTTTTTTTTRRTRRTRRTDRTRRRPHATRRFRTTRTRTPRRTTRSTRTTRTRRASTPRTRRTTTTRTRRTRTTRTT,0.0,12508.045699999968,-2.312999999999998,low molecular + low gravy,high molecular,high gravy
+3,52,TTRTRTRRRRRSRRRVRRTPRTATRTTTTTTRTRRTRRTRRTDRTRRRPHATRRRRTTRTRTPRRTTRSTRTTRTRRASTPRTRRRTTTRRRRTRTTRTT,0.0,12672.265099999966,-2.4919999999999978,low molecular + low gravy,high molecular,high gravy
+3,53,TTRTRTRRRRRSRRRVRRTPRTATRTTTTTTRTRRTRRTRRTDRTRTRPHATRRRRTTRTTTTRTTTRSTRTTRTRRASTPRTRRRTTTRRTRTRTTRTT,0.0,12455.926599999968,-2.3309999999999977,low molecular + low gravy,high molecular,high gravy
+3,54,TTRTRTRRRRRRRRNVRRTPRTATRTTTTTTRTRRTRRTRRTDTTRTRPHATRRRRTTRTTTTRTTTRRTRTTRTRRASTPRTRRRTTTRRTRTRTTRRT,0.0,12552.060299999966,-2.394999999999998,low molecular + low gravy,high molecular,high gravy
+3,55,TTRTRTRRTRRRRRNTRRTPRTATRTTTTTTRTRRTRRTRRPDTTTTRPHATRLRRTTRTTTTRTTTTRTRTTRTRRASTPRTRRRTTTRRTRTRTTRRT,0.0,12341.770999999968,-2.2559999999999976,low molecular + low gravy,high molecular,high gravy
+3,56,TTRTRTRRTRRRRRNTRRTPRTATRRTTTTTRTRRTRRTRRPDTTTTRPHSTRLTRTTRTTTTRTTTTRTRTTRTRTASTPRTRRRTTTRRTRTRTTRRT,0.0,12302.688599999969,-2.243999999999997,low molecular + low gravy,high molecular,high gravy
+3,57,TTRTRTRRTRRRPRNTRRTPRTATRRTTTTTRRRRTRRTRRPDTTTTRPTSTRTTRTTRTTTRRTTTTRTRTTATRTASTPRTRRRTTTRRTRTRTTRRT,0.0,12220.584799999968,-2.247999999999997,low molecular + low gravy,high molecular,high gravy
+3,58,TTRTRTRRTRRRPRNTRRTPRTATRVTRTTTRRRRTRRTRRPDTRTTTPTSTRTTRTTRTTTRRTTTTRTRTTATRTASTPRTRVRTTTRRTRTRTTRRT,0.0,12161.55719999997,-2.1119999999999974,low molecular + low gravy,high molecular,high gravy
+3,59,TTRTRTRRTRRRPRNTRRTPRTATRVTRTTTRRRRTRRTRRPDTRTTTPTSTRTHRTTRPTTRRTTTTRTRTTATRTASTPTTRVRATTRRTRTRTTRRT,0.0,12108.49609999997,-2.0829999999999975,low molecular + low gravy,high molecular,high gravy
+3,60,TTRTRTRRTRRTPRNTRRTPRTATRVTRVTTRRRRTRRTRRPDTRTTTPTSTRTHRTTRTTTRRTTTTRTRTTARRTASTPTTRVRATTRRTRTRTTRRT,0.0,12110.51189999997,-2.024999999999998,low molecular + low gravy,high molecular,high gravy
+3,61,TTRTRTRRTRRTPRNTRRTPRTPTRTTRVTTRRRRTRRTRRPDTTTTTPTTTRTHRTTRTTTRRTTTTRTRTTARRTRTTRTTRVRRTTRRTRRRTTRRT,0.0,12395.86139999997,-2.260999999999998,low molecular + low gravy,high molecular,high gravy
+3,62,TRRTRTRRTRRTPRNTRRTPRTPTRTTRVTTRRRRTVRTRRPDTTTTTPTTTSTHRTTRTTTRRTTTTRTRTTRRRTRTTRTTRARRTTRRTRRRTTRRT,0.0,12381.83479999997,-2.261999999999998,low molecular + low gravy,high molecular,high gravy
+3,63,TRRTRTRRRRRTPTNTRRTRRTPTRTTRVTTRRRRTVRTRRPDTTTTTPTVTSTHRTTRTTTRRTTTTRTRTTRRRTRTTRTTRARRTTRRTRRRTTRRT,0.0,12438.932399999969,-2.241999999999998,low molecular + low gravy,high molecular,high gravy
+3,64,TRRTRTRRRRRTPTNTQRTRRTRTRTTRRTTRRRRGVRTRRPDTSRTTPTVTSTTRTTRTTTRRTTTTRTRTTRRRTRTTRTTRARRTTRRTRRRTTRRT,0.0,12487.968299999968,-2.3589999999999973,low molecular + low gravy,high molecular,high gravy
+3,65,TRRTTTTRRRRTPTNTQRTRRTRTRTTRRTTRRRRGVRTRRPDTSRTTRTVTSTTRTTRTTTRRTTTTRTRTTRRRTRTRRTTRTRRTTRRTRRRTTRRT,0.0,12521.982999999967,-2.3749999999999982,low molecular + low gravy,high molecular,high gravy
+3,66,RRRTTTTRRRRTPTRTQRARRTRTRTTRRTTRRRRGVRTRRPDTSRTTRTVTSTTRTTTTTTRRTTTTRTRTTTRRTRTRRTTRTRRTTRRTRRRTTRRT,0.0,12478.958299999967,-2.3219999999999974,low molecular + low gravy,high molecular,high gravy
+3,67,RRRTTTTRRTRTPTRTQRARRTRTRTTRRTTRRRRTVRTRRPDTSRPTRTVTSTTRTTTTTTRRTTTTRTRTTTRRTTTRRTTRTRRRTRRPRRRTTRRT,0.0,12459.951699999967,-2.304999999999998,low molecular + low gravy,high molecular,high gravy
+3,68,RRRTTTTRRTRTPTRTQRARRTRTTTTRRTTRRRRTPRTRRPDTSRPTRPVTSTTRTRTTTTRRTTTTRTRTTTRRTTTRRTTRTVRRTRRPRRRTTRRT,0.0,12396.892499999969,-2.2849999999999975,low molecular + low gravy,high molecular,high gravy
+3,69,RRRTTRTRRTRTPTRTQRARRTRTTTTRRTTRRRRTPRTRRPTTSRPTRPVTSTTRTRTTTTRRTTTTRTRTTTRRTTTRRTTRTVRRLRRPTRRTTRRT,0.0,12394.96269999997,-2.2119999999999975,low molecular + low gravy,high molecular,high gravy
+3,70,RTRTTRTRRTRTTTRTQRTRRTRTTTTRRTTRRRRSPSTRRPTTSRPTRPTTSTTRTRTTTTRRTTTTRTRTTTRRTTTRRTTRTVRRLRRPTRRTTRRT,0.0,12292.73349999997,-2.2029999999999976,low molecular + low gravy,high molecular,high gravy
+3,71,RTTTTRTRRTRTTTRTQRTRRRRTTTTRRTTRRRRSPSTRRPTTSRPTRPTTSTTRTRTTTTRRTTTTRTRTTTRRTTTRRTTRTVRRLRAPTRRRTRRT,0.0,12262.70749999997,-2.1779999999999977,low molecular + low gravy,high molecular,high gravy
+3,72,RTTTTRTRRTRTTTRTRRTRVRRTTTTRRTTRRRRSPSTRRPTTSRPTRTTTSTTRTRTTTTRRTTTTRTRATTRRTRTRRTTRTVRRLRARTPRRTRRT,0.0,12262.75379999997,-2.104999999999998,low molecular + low gravy,high molecular,high gravy
+3,73,RTTTTRTRRTRTTTRTRRTRVSRTTTTRRTTRRRRSPSTRRPTTTRPTRTTTSTTRTRTTTTRRTTTTTTRATTRRTRTRRTTRTVRRLRVRTPRRTRRT,0.0,12180.64329999997,-2.0049999999999986,low molecular + low gravy,high molecular,high gravy
+3,74,RTTTTRTRRTRTTTRTRRTRVRRTTTTRRARRRRRSPSTRTPTTTRPTRTTTSTTRTRTTTTRRTTTTTTRATTTTTRTRRTTRTVRRLRVRTPRRTRRT,0.0,12109.56209999997,-1.9409999999999983,low molecular + low gravy,high molecular,high gravy
+3,75,RTTTTRTRRTRTTTRTRRTRVRRTTTTRRARRRRVSPTTRTPTTTRPTRTTRSTTRTRTTTTRRTTTTTTRATTTTTRTRRTTRRVRRLRVRTPRRTRRT,0.0,12176.69759999997,-1.9289999999999983,low molecular + low gravy,high molecular,high gravy
+3,76,RTTTTRTRRTRRTPRRRRTRVRRTTTTRRARRRRVSPTTRTPTTTTPTRTTRSTTRTRTTTTRRTTTTTTRARTTTTRTRRRTRRTRRLRVRTPRRTRRR,0.0,12395.00899999997,-2.1389999999999985,low molecular + low gravy,high molecular,high gravy
+3,77,RTTRTRTRRTRRTPRRRRTRVRRTTTTRRARRRRVTPTTRTPTRTTPTTTTRSTTTTRTTTTTRTTTTTTRARRTTTRTRRRTRRTRRLRVRTPRRTRRR,0.0,12409.03559999997,-2.1379999999999986,low molecular + low gravy,high molecular,high gravy
+3,78,RTTRTRTRRTRRTRRRRTTRVRRTTTTRRARRRRVTPTTRTTTRTTRATTTTSTTTTRTTTTTRTTTTTTRRRRTTTRTRRRTRRTRRLRVRTPRRTRRR,0.0,12476.08349999997,-2.1489999999999996,low molecular + low gravy,high molecular,high gravy
+3,79,RTTRTRTRRTRRTRRRRTTRVRRTTRTRRARRRRVTPTTRTTTRTTRATTTTSTTTTRTTTTTRTTTTTTRLRRTTTRTRRRTRRTRRLRVRTPTRTRRR,0.0,12433.05539999997,-2.065999999999999,low molecular + low gravy,high molecular,high gravy
+3,80,RTTRTRTRRTRRTRRRRTTRVRRTTRTRRAARRRVTPTTRTRTRTTRARTTTSTTTTRTTTTTTTTTTTTRLRRTTTRTRRRTRRTRRARVRTPTRTRRR,0.0,12360.94969999997,-2.0609999999999986,low molecular + low gravy,high molecular,high gravy
+3,81,RTTRTRTRRTRRTRRIRTTRVRRTTRTRRATRRRVTPTTRIRTRTTRARTRTSTTTTRTTTTTTTTTTTTRLRRTTTRTRRRTTRTRRARVRTPTRTRRR,0.0,12360.001299999969,-1.9439999999999995,low molecular + low gravy,high molecular,high gravy
+3,82,RTTRTRTRRTRRTRRIRTTRVRRTTRTRRATRRRVTPTTRIRTRTTRARTRTSTTTTRTTTTTTTTTTTTRLRRTTTRTRRRTRRTRRARVRTPTRPRRR,0.0,12411.094399999969,-1.9909999999999997,low molecular + low gravy,high molecular,high gravy
+3,83,RTTRTRTRRTPRTRRTRTRRVRRTTRTRRATRRRVTPTTRIRTRTTRARTRTSTTTTRTTTTTTTTTTTTRARRTTTRTRRRTRRTRRARVRRPTIPRRR,0.0,12365.025999999969,-2.0199999999999996,low molecular + low gravy,high molecular,high gravy
+3,84,TTTRTRTRRTPTTRRTRTRRVRRTTRTRRATRRRVTRRTRIRTRTTRARTRTRTTTTRTTTTTTTTTTTTRARRTRRRTRRRTRRTRRARVRRPTIPRRR,0.0,12548.286699999968,-2.123999999999999,low molecular + low gravy,high molecular,high gravy
+3,85,TTTRTRTRRTPTTRRTRTRRVRRTTRTRRATRRRVTRRTRIRTRTTRARTRTRTTRTRTTTTTTTTTTTTRATRTRTRTRRRTRRTVRARVRRPTIPRRR,0.0,12436.15019999997,-1.9989999999999983,low molecular + low gravy,high molecular,high gravy
+3,86,TTTRTRTRRTPTTRRTRRRRVRRTTRTRRATRRRRTRRTRIRTRRTRARTRTRTTRTRTTTTTTTTTTTRRATRTRTRTRRRTRRTVRARVRRPTIPRRR,0.0,12658.450299999968,-2.1999999999999975,low molecular + low gravy,high molecular,high gravy
+3,87,TTTRTRTRRTPTTRRTRRRRVRRTTRTRRARRRRRTRRTRITTRRTRARTRTRTTRTRTTTTTTTTTTTRTATRTRTRTRRRTRRTVRARTRRPTIPRRR,0.0,12605.341399999967,-2.210999999999997,low molecular + low gravy,high molecular,high gravy
+3,88,TTTRTRTRRTPTTRRTRRRRVRRTSRTRRARRRRRTRRTRITTRRTRARTRTRTTRTRTTTTTTTRTTTRRATRTRTRTRRRTRRTVRARTRRPTIPRRR,0.0,12701.478399999965,-2.2879999999999976,low molecular + low gravy,high molecular,high gravy
+3,89,TTTRTRTRRTPTTRRTRRRRVRRTSRTTRARRRRRTRRTRITTRRTRARTRTRTTRTRTTTTTTTRTTTRRATRTRTRTRRRTRRTVRARTRTTTIPRRR,0.0,12595.303499999965,-2.2029999999999976,low molecular + low gravy,high molecular,high gravy
+3,90,TTTRTRTRRTPTTRRTRRRRVRRTSTTTRARRTTRTRRTRTTTRRTRARTRTRTTRTRTTTTTTTRTTTRSATRTRTRTRRRTRRRVRARTRTTTIPRRT,0.0,12348.89599999997,-2.103999999999998,low molecular + low gravy,high molecular,high gravy
+3,91,TTTRTTTRRTRTTRRTSRRRVRRTSTTTRARRTTRTRRTRTTTRRTRARTRRRTTRTRTTTTTTTRTTTRSATRTRTRTRRRTRRRVRARTRTTTIPRRT,0.0,12338.858099999969,-2.095999999999998,low molecular + low gravy,high molecular,high gravy
+3,92,TTRRTTTRRRRTTRRTSRRRVPRTTTTTRARRTTRTRRTRTTTRRTRARTRRRTTRTTTTTTTTTRTTTRSATRTRTRTRRRTRRRVRARRRTTTIPRRT,0.0,12403.977799999968,-2.1419999999999977,low molecular + low gravy,high molecular,high gravy
+3,93,TTRRTTTRRRRTTRRTSTRRVPRTTTRTRARRTTRTRRTRTPTRRTRGRTRRRTTRTTTTTTTTTRTTTRSATRTRTRTRRRTRRRVRARRRTRTIPRTT,0.0,12385.962499999969,-2.1729999999999974,low molecular + low gravy,high molecular,high gravy
+3,94,TTRTTTTRRRRTTRTTSTRRVRRTTTRTRARRTRRTRRTRTPTRRTTGRTRRRTTRTTTTTTTTTTTTTRSATRTRTRTRRRTRRRVRARRRTRTIPRTT,0.0,12279.787599999969,-2.087999999999998,low molecular + low gravy,high molecular,high gravy
+3,95,TTRTTRTRRRRTTRTTSTRRRRRTTTRTRATRTRRTRRTRRPTRRTTGRTRRRTTRTTTTTTTTTTTTRRSATRTRTTTRRRTRRRVRARRRTRTIRRTT,0.0,12450.994599999969,-2.2419999999999978,low molecular + low gravy,high molecular,high gravy
+3,96,TTRTTRTRRRRTTRTTSTNRRRRTTTRTRATRTRRTRRTTAPTRRTTGRTRRRTTRTTTTTTTTTTATRRSATRTRTTTRRRTRRTVRARRRTRTIRRTT,0.0,12183.614099999972,-2.067999999999998,low molecular + low gravy,high molecular,high gravy
+3,97,TTRTTRTRRRRTTRRTSTNRRRRTTTRTRAPRTRRTRRTTAPTRRKTGRTTRRTTRTTTTTTTTTTATRRRATRTRTTTRRRTRRTVRARRRTRTRRRTT,0.0,12318.830299999969,-2.2359999999999975,low molecular + low gravy,high molecular,high gravy
+3,98,TTRTTRTRRRRTTRRTSTTRRRRTTTRTRAPRTRRTRRRTAPTRRTTGRATRRTTRTTTTTTTTTTATRRRATRTRPTTRRRTRRTVRARRRTRTRRRTT,0.0,12299.83029999997,-2.1979999999999977,low molecular + low gravy,high molecular,high gravy
+3,99,TTRTTRTRRRRTRRRTSTTRRRRTTTRTRAPRTRRTRRRTPPTRVTTGRATTRTTRTTTTTTTTTTATRRRATRTRPTTRRRTRRTVRARRRTRTRRRRT,0.0,12323.89469999997,-2.182999999999998,low molecular + low gravy,high molecular,high gravy
+3,100,TTRTTRTRRRRTRRTTSTTRRRRTTTRRRATRTRRTRRRTPPTRVTTGRTTTRTTRTTTTTTTTTTATRRRATRTRPTTRRRTRRTVRARRRTRTRRRRT,0.0,12357.90939999997,-2.1989999999999976,low molecular + low gravy,high molecular,high gravy

@@ -1,0 +1,809 @@
+step,metric_value,label,metric_name
+0,24297.50180000003,high molecular,Molecular Weight
+1,23978.14140000002,high molecular,Molecular Weight
+2,23683.789000000015,high molecular,Molecular Weight
+3,23961.20740000001,high molecular,Molecular Weight
+4,23900.382600000004,high molecular,Molecular Weight
+5,23837.310100000002,high molecular,Molecular Weight
+6,23780.381100000002,high molecular,Molecular Weight
+7,23739.339600000007,high molecular,Molecular Weight
+8,23303.68179999999,high molecular,Molecular Weight
+9,23289.559400000002,high molecular,Molecular Weight
+10,23148.499400000004,high molecular,Molecular Weight
+11,23187.663300000004,high molecular,Molecular Weight
+12,22898.494500000004,high molecular,Molecular Weight
+13,23112.597100000003,high molecular,Molecular Weight
+14,22943.2819,high molecular,Molecular Weight
+15,22862.038900000014,high molecular,Molecular Weight
+16,22741.06750000001,high molecular,Molecular Weight
+17,22837.986100000013,high molecular,Molecular Weight
+18,22665.796300000013,high molecular,Molecular Weight
+19,22726.69760000001,high molecular,Molecular Weight
+20,22914.26130000001,high molecular,Molecular Weight
+21,22684.003700000005,high molecular,Molecular Weight
+22,22584.96070000001,high molecular,Molecular Weight
+23,22651.121100000015,high molecular,Molecular Weight
+24,22845.15090000002,high molecular,Molecular Weight
+25,22903.316100000022,high molecular,Molecular Weight
+26,23116.55450000002,high molecular,Molecular Weight
+27,22950.67360000002,high molecular,Molecular Weight
+28,23117.824200000025,high molecular,Molecular Weight
+29,22969.331000000024,high molecular,Molecular Weight
+30,22941.291100000028,high molecular,Molecular Weight
+31,23010.53350000003,high molecular,Molecular Weight
+32,22798.16710000003,high molecular,Molecular Weight
+33,22750.09490000003,high molecular,Molecular Weight
+34,22860.398800000024,high molecular,Molecular Weight
+35,22850.43550000002,high molecular,Molecular Weight
+36,22952.61800000002,high molecular,Molecular Weight
+37,23173.034200000024,high molecular,Molecular Weight
+38,23311.448200000028,high molecular,Molecular Weight
+39,23532.644700000033,high molecular,Molecular Weight
+40,23531.803900000035,high molecular,Molecular Weight
+41,23491.650600000034,high molecular,Molecular Weight
+42,23611.813800000033,high molecular,Molecular Weight
+43,23591.67710000003,high molecular,Molecular Weight
+44,23750.053700000033,high molecular,Molecular Weight
+45,23709.817600000035,high molecular,Molecular Weight
+46,23589.57440000003,high molecular,Molecular Weight
+47,23589.60410000003,high molecular,Molecular Weight
+48,23499.425600000028,high molecular,Molecular Weight
+49,23559.422800000026,high molecular,Molecular Weight
+50,23626.730800000038,high molecular,Molecular Weight
+51,23926.950500000035,high molecular,Molecular Weight
+52,23541.60260000003,high molecular,Molecular Weight
+53,23460.809200000032,high molecular,Molecular Weight
+54,23014.375700000026,high molecular,Molecular Weight
+55,22776.09450000003,high molecular,Molecular Weight
+56,22719.86770000002,high molecular,Molecular Weight
+57,22892.254600000026,high molecular,Molecular Weight
+58,22809.176400000026,high molecular,Molecular Weight
+59,22619.995700000025,high molecular,Molecular Weight
+60,22764.09770000002,high molecular,Molecular Weight
+61,22893.41500000002,high molecular,Molecular Weight
+62,22914.437400000013,high molecular,Molecular Weight
+63,23023.520200000014,high molecular,Molecular Weight
+64,22971.37260000001,high molecular,Molecular Weight
+65,22952.32320000001,high molecular,Molecular Weight
+66,22890.378000000004,high molecular,Molecular Weight
+67,22860.087200000005,high molecular,Molecular Weight
+68,22686.579900000008,high molecular,Molecular Weight
+69,22661.749300000003,high molecular,Molecular Weight
+70,22970.24230000001,high molecular,Molecular Weight
+71,22853.168800000014,high molecular,Molecular Weight
+72,22656.69590000001,high molecular,Molecular Weight
+73,22558.491600000012,high molecular,Molecular Weight
+74,22430.47980000001,high molecular,Molecular Weight
+75,22330.313100000007,high molecular,Molecular Weight
+76,22601.688800000025,high molecular,Molecular Weight
+77,22493.41000000002,high molecular,Molecular Weight
+78,22350.499500000024,high molecular,Molecular Weight
+79,22693.64130000003,high molecular,Molecular Weight
+80,22492.400500000025,high molecular,Molecular Weight
+81,22221.94170000002,high molecular,Molecular Weight
+82,22299.156700000018,high molecular,Molecular Weight
+83,22421.453000000012,high molecular,Molecular Weight
+84,22523.69690000001,high molecular,Molecular Weight
+85,22538.688300000016,high molecular,Molecular Weight
+86,22390.303300000014,high molecular,Molecular Weight
+87,22397.33520000002,high molecular,Molecular Weight
+88,22391.376900000017,high molecular,Molecular Weight
+89,22525.360200000025,high molecular,Molecular Weight
+90,22415.410000000033,high molecular,Molecular Weight
+91,22521.679700000033,high molecular,Molecular Weight
+92,22516.580800000032,high molecular,Molecular Weight
+93,22647.59120000004,high molecular,Molecular Weight
+94,22752.787900000036,high molecular,Molecular Weight
+95,22472.27950000003,high molecular,Molecular Weight
+96,22207.908000000025,high molecular,Molecular Weight
+97,22225.11870000003,high molecular,Molecular Weight
+98,22225.95610000003,high molecular,Molecular Weight
+99,22024.923500000026,high molecular,Molecular Weight
+100,21919.607700000026,high molecular,Molecular Weight
+0,24297.50180000003,low molecular,Molecular Weight
+1,24092.855000000032,low molecular,Molecular Weight
+2,23750.909800000038,low molecular,Molecular Weight
+3,23441.753100000045,low molecular,Molecular Weight
+4,23436.05840000006,low molecular,Molecular Weight
+5,23297.04080000006,low molecular,Molecular Weight
+6,23139.12770000006,low molecular,Molecular Weight
+7,23002.18900000006,low molecular,Molecular Weight
+8,22518.627700000055,low molecular,Molecular Weight
+9,22330.571000000054,low molecular,Molecular Weight
+10,22037.36380000005,low molecular,Molecular Weight
+11,21812.08660000005,low molecular,Molecular Weight
+12,21677.967900000054,low molecular,Molecular Weight
+13,21573.807300000055,low molecular,Molecular Weight
+14,21516.668500000054,low molecular,Molecular Weight
+15,21512.92660000006,low molecular,Molecular Weight
+16,21319.76090000006,low molecular,Molecular Weight
+17,21304.830800000058,low molecular,Molecular Weight
+18,21213.72350000006,low molecular,Molecular Weight
+19,21178.631300000055,low molecular,Molecular Weight
+20,21028.345900000048,low molecular,Molecular Weight
+21,20752.169100000046,low molecular,Molecular Weight
+22,20620.92990000004,low molecular,Molecular Weight
+23,20575.71250000004,low molecular,Molecular Weight
+24,20482.387600000035,low molecular,Molecular Weight
+25,20416.261700000035,low molecular,Molecular Weight
+26,20448.189500000033,low molecular,Molecular Weight
+27,20241.75160000003,low molecular,Molecular Weight
+28,20340.728900000027,low molecular,Molecular Weight
+29,20375.83580000003,low molecular,Molecular Weight
+30,20364.78480000003,low molecular,Molecular Weight
+31,20332.921400000032,low molecular,Molecular Weight
+32,20337.919600000037,low molecular,Molecular Weight
+33,20229.623200000027,low molecular,Molecular Weight
+34,20355.796200000033,low molecular,Molecular Weight
+35,20412.976500000033,low molecular,Molecular Weight
+36,20422.046100000032,low molecular,Molecular Weight
+37,20521.28640000003,low molecular,Molecular Weight
+38,20552.297100000033,low molecular,Molecular Weight
+39,20630.496600000035,low molecular,Molecular Weight
+40,20628.52370000003,low molecular,Molecular Weight
+41,20563.44530000003,low molecular,Molecular Weight
+42,20590.43090000003,low molecular,Molecular Weight
+43,20558.566100000033,low molecular,Molecular Weight
+44,20503.57200000003,low molecular,Molecular Weight
+45,20517.797000000035,low molecular,Molecular Weight
+46,20575.876200000035,low molecular,Molecular Weight
+47,20545.741100000036,low molecular,Molecular Weight
+48,20427.61010000003,low molecular,Molecular Weight
+49,20511.79420000003,low molecular,Molecular Weight
+50,20491.572900000036,low molecular,Molecular Weight
+51,20546.76050000004,low molecular,Molecular Weight
+52,20482.630500000036,low molecular,Molecular Weight
+53,20470.533700000033,low molecular,Molecular Weight
+54,20557.743300000035,low molecular,Molecular Weight
+55,20499.664100000035,low molecular,Molecular Weight
+56,20479.609900000036,low molecular,Molecular Weight
+57,20533.91880000004,low molecular,Molecular Weight
+58,20536.000800000045,low molecular,Molecular Weight
+59,20531.75400000004,low molecular,Molecular Weight
+60,20551.874500000045,low molecular,Molecular Weight
+61,20608.007400000046,low molecular,Molecular Weight
+62,20708.29850000005,low molecular,Molecular Weight
+63,20738.241900000052,low molecular,Molecular Weight
+64,20724.131100000053,low molecular,Molecular Weight
+65,20654.96000000005,low molecular,Molecular Weight
+66,20638.92240000005,low molecular,Molecular Weight
+67,20510.879300000055,low molecular,Molecular Weight
+68,20408.873500000056,low molecular,Molecular Weight
+69,20501.08130000006,low molecular,Molecular Weight
+70,20468.99830000006,low molecular,Molecular Weight
+71,20442.984100000063,low molecular,Molecular Weight
+72,20372.90430000006,low molecular,Molecular Weight
+73,20266.736000000063,low molecular,Molecular Weight
+74,20315.895800000064,low molecular,Molecular Weight
+75,20404.970600000066,low molecular,Molecular Weight
+76,20437.141500000067,low molecular,Molecular Weight
+77,20435.125500000067,low molecular,Molecular Weight
+78,20362.84600000006,low molecular,Molecular Weight
+79,20404.882700000064,low molecular,Molecular Weight
+80,20466.952100000068,low molecular,Molecular Weight
+81,20476.087800000063,low molecular,Molecular Weight
+82,20515.11880000006,low molecular,Molecular Weight
+83,20515.11880000006,low molecular,Molecular Weight
+84,20534.95490000006,low molecular,Molecular Weight
+85,20500.93530000006,low molecular,Molecular Weight
+86,20390.62950000006,low molecular,Molecular Weight
+87,20454.86860000006,low molecular,Molecular Weight
+88,20370.775300000056,low molecular,Molecular Weight
+89,20347.831400000054,low molecular,Molecular Weight
+90,20279.75420000005,low molecular,Molecular Weight
+91,20125.61100000005,low molecular,Molecular Weight
+92,20149.634200000055,low molecular,Molecular Weight
+93,20170.784000000054,low molecular,Molecular Weight
+94,20121.58440000005,low molecular,Molecular Weight
+95,20024.490800000047,low molecular,Molecular Weight
+96,20088.577800000046,low molecular,Molecular Weight
+97,20070.41210000005,low molecular,Molecular Weight
+98,20102.561200000047,low molecular,Molecular Weight
+99,20196.765000000047,low molecular,Molecular Weight
+100,20354.934900000047,low molecular,Molecular Weight
+0,-0.6725000000000003,high gravy,GRAVY Score
+1,-0.4049999999999998,high gravy,GRAVY Score
+2,-0.20800000000000005,high gravy,GRAVY Score
+3,0.113,high gravy,GRAVY Score
+4,0.23549999999999982,high gravy,GRAVY Score
+5,0.12250000000000004,high gravy,GRAVY Score
+6,0.10050000000000006,high gravy,GRAVY Score
+7,0.17085427135678402,high gravy,GRAVY Score
+8,0.13165829145728652,high gravy,GRAVY Score
+9,0.01758793969849244,high gravy,GRAVY Score
+10,0.12171717171717192,high gravy,GRAVY Score
+11,0.10757575757575774,high gravy,GRAVY Score
+12,0.16868686868686888,high gravy,GRAVY Score
+13,0.09242424242424237,high gravy,GRAVY Score
+14,0.2621212121212123,high gravy,GRAVY Score
+15,0.22828282828282845,high gravy,GRAVY Score
+16,0.22979797979797972,high gravy,GRAVY Score
+17,0.23939393939393958,high gravy,GRAVY Score
+18,0.3949494949494951,high gravy,GRAVY Score
+19,0.46363636363636357,high gravy,GRAVY Score
+20,0.49141414141414114,high gravy,GRAVY Score
+21,0.7353535353535348,high gravy,GRAVY Score
+22,0.6671717171717165,high gravy,GRAVY Score
+23,0.6838383838383835,high gravy,GRAVY Score
+24,0.7343434343434337,high gravy,GRAVY Score
+25,0.7401015228426391,high gravy,GRAVY Score
+26,0.7390862944162433,high gravy,GRAVY Score
+27,0.7035532994923852,high gravy,GRAVY Score
+28,0.7857868020304564,high gravy,GRAVY Score
+29,0.755329949238578,high gravy,GRAVY Score
+30,0.6999999999999994,high gravy,GRAVY Score
+31,0.656852791878172,high gravy,GRAVY Score
+32,0.8499999999999996,high gravy,GRAVY Score
+33,0.8025510204081628,high gravy,GRAVY Score
+34,0.6882653061224486,high gravy,GRAVY Score
+35,0.8499999999999996,high gravy,GRAVY Score
+36,0.7153061224489791,high gravy,GRAVY Score
+37,0.6326530612244892,high gravy,GRAVY Score
+38,0.6364102564102561,high gravy,GRAVY Score
+39,0.5907692307692304,high gravy,GRAVY Score
+40,0.6020512820512817,high gravy,GRAVY Score
+41,0.5979487179487174,high gravy,GRAVY Score
+42,0.6076923076923073,high gravy,GRAVY Score
+43,0.5312820512820509,high gravy,GRAVY Score
+44,0.5820512820512816,high gravy,GRAVY Score
+45,0.5953846153846145,high gravy,GRAVY Score
+46,0.5456410256410247,high gravy,GRAVY Score
+47,0.49179487179487097,high gravy,GRAVY Score
+48,0.5107692307692298,high gravy,GRAVY Score
+49,0.5092307692307685,high gravy,GRAVY Score
+50,0.5656410256410248,high gravy,GRAVY Score
+51,0.5476923076923069,high gravy,GRAVY Score
+52,0.5399999999999991,high gravy,GRAVY Score
+53,0.5235897435897429,high gravy,GRAVY Score
+54,0.4738461538461533,high gravy,GRAVY Score
+55,0.5112820512820507,high gravy,GRAVY Score
+56,0.6374358974358968,high gravy,GRAVY Score
+57,0.6364102564102558,high gravy,GRAVY Score
+58,0.5938461538461532,high gravy,GRAVY Score
+59,0.566666666666666,high gravy,GRAVY Score
+60,0.5989743589743581,high gravy,GRAVY Score
+61,0.5764102564102557,high gravy,GRAVY Score
+62,0.6764102564102558,high gravy,GRAVY Score
+63,0.667692307692307,high gravy,GRAVY Score
+64,0.6005128205128198,high gravy,GRAVY Score
+65,0.6164102564102558,high gravy,GRAVY Score
+66,0.5682051282051275,high gravy,GRAVY Score
+67,0.6020618556701024,high gravy,GRAVY Score
+68,0.539690721649484,high gravy,GRAVY Score
+69,0.6407216494845352,high gravy,GRAVY Score
+70,0.5237113402061848,high gravy,GRAVY Score
+71,0.5538860103626936,high gravy,GRAVY Score
+72,0.5968911917098441,high gravy,GRAVY Score
+73,0.6036269430051807,high gravy,GRAVY Score
+74,0.7632124352331604,high gravy,GRAVY Score
+75,0.6244791666666661,high gravy,GRAVY Score
+76,0.6374999999999994,high gravy,GRAVY Score
+77,0.7177083333333328,high gravy,GRAVY Score
+78,0.6505208333333327,high gravy,GRAVY Score
+79,0.6999999999999997,high gravy,GRAVY Score
+80,0.7218749999999998,high gravy,GRAVY Score
+81,0.6781249999999993,high gravy,GRAVY Score
+82,0.5614583333333328,high gravy,GRAVY Score
+83,0.4333333333333331,high gravy,GRAVY Score
+84,0.3651041666666664,high gravy,GRAVY Score
+85,0.4296874999999996,high gravy,GRAVY Score
+86,0.37916666666666615,high gravy,GRAVY Score
+87,0.316145833333333,high gravy,GRAVY Score
+88,0.15624999999999986,high gravy,GRAVY Score
+89,0.3369791666666662,high gravy,GRAVY Score
+90,0.5046874999999993,high gravy,GRAVY Score
+91,0.4666666666666661,high gravy,GRAVY Score
+92,0.46510416666666604,high gravy,GRAVY Score
+93,0.5234374999999992,high gravy,GRAVY Score
+94,0.5484374999999994,high gravy,GRAVY Score
+95,0.5255208333333327,high gravy,GRAVY Score
+96,0.3781249999999994,high gravy,GRAVY Score
+97,0.38802083333333276,high gravy,GRAVY Score
+98,0.48645833333333277,high gravy,GRAVY Score
+99,0.46354166666666624,high gravy,GRAVY Score
+100,0.516666666666666,high gravy,GRAVY Score
+0,-0.6725000000000003,low gravy,GRAVY Score
+1,-0.5315000000000001,low gravy,GRAVY Score
+2,-0.419,low gravy,GRAVY Score
+3,-0.4444999999999999,low gravy,GRAVY Score
+4,-0.43399999999999994,low gravy,GRAVY Score
+5,-0.32949999999999974,low gravy,GRAVY Score
+6,-0.3344999999999998,low gravy,GRAVY Score
+7,-0.47149999999999986,low gravy,GRAVY Score
+8,-0.45849999999999985,low gravy,GRAVY Score
+9,-0.43649999999999983,low gravy,GRAVY Score
+10,-0.5214999999999999,low gravy,GRAVY Score
+11,-0.5286432160804019,low gravy,GRAVY Score
+12,-0.508040201005025,low gravy,GRAVY Score
+13,-0.4798994974874371,low gravy,GRAVY Score
+14,-0.5266331658291458,low gravy,GRAVY Score
+15,-0.5467336683417087,low gravy,GRAVY Score
+16,-0.3979899497487437,low gravy,GRAVY Score
+17,-0.3060301507537691,low gravy,GRAVY Score
+18,-0.2010050251256281,low gravy,GRAVY Score
+19,-0.20804020100502513,low gravy,GRAVY Score
+20,-0.1778894472361808,low gravy,GRAVY Score
+21,-0.16884422110552758,low gravy,GRAVY Score
+22,-0.2628140703517589,low gravy,GRAVY Score
+23,-0.18693467336683414,low gravy,GRAVY Score
+24,-0.10301507537688441,low gravy,GRAVY Score
+25,-0.057286432160804014,low gravy,GRAVY Score
+26,-0.021608040201005048,low gravy,GRAVY Score
+27,0.03869346733668332,low gravy,GRAVY Score
+28,-0.06683417085427135,low gravy,GRAVY Score
+29,-0.2206030150753769,low gravy,GRAVY Score
+30,-0.3261306532663316,low gravy,GRAVY Score
+31,-0.5150753768844221,low gravy,GRAVY Score
+32,-0.46130653266331656,low gravy,GRAVY Score
+33,-0.3909547738693466,low gravy,GRAVY Score
+34,-0.4693467336683417,low gravy,GRAVY Score
+35,-0.5412060301507537,low gravy,GRAVY Score
+36,-0.6884422110552764,low gravy,GRAVY Score
+37,-0.4472361809045226,low gravy,GRAVY Score
+38,-0.49045226130653286,low gravy,GRAVY Score
+39,-0.32713567839195984,low gravy,GRAVY Score
+40,-0.3462311557788944,low gravy,GRAVY Score
+41,-0.3507537688442211,low gravy,GRAVY Score
+42,-0.34824120603015074,low gravy,GRAVY Score
+43,-0.277889447236181,low gravy,GRAVY Score
+44,-0.2633165829145729,low gravy,GRAVY Score
+45,-0.19648241206030148,low gravy,GRAVY Score
+46,-0.23417085427135678,low gravy,GRAVY Score
+47,-0.20904522613065327,low gravy,GRAVY Score
+48,-0.03919597989949747,low gravy,GRAVY Score
+49,0.14623115577889434,low gravy,GRAVY Score
+50,0.1306532663316583,low gravy,GRAVY Score
+51,0.22060301507537683,low gravy,GRAVY Score
+52,0.15728643216080412,low gravy,GRAVY Score
+53,0.2507537688442209,low gravy,GRAVY Score
+54,0.24020100502512562,low gravy,GRAVY Score
+55,0.24321608040201007,low gravy,GRAVY Score
+56,0.23969849246231154,low gravy,GRAVY Score
+57,0.22914572864321606,low gravy,GRAVY Score
+58,0.10603015075376887,low gravy,GRAVY Score
+59,0.08442211055276386,low gravy,GRAVY Score
+60,0.061306532663316586,low gravy,GRAVY Score
+61,0.048743718592964856,low gravy,GRAVY Score
+62,0.15075376884422115,low gravy,GRAVY Score
+63,-0.01859296482412055,low gravy,GRAVY Score
+64,0.030150753768844265,low gravy,GRAVY Score
+65,0.008542713567839175,low gravy,GRAVY Score
+66,-0.10351758793969842,low gravy,GRAVY Score
+67,-0.17437185929648244,low gravy,GRAVY Score
+68,-0.18040201005025136,low gravy,GRAVY Score
+69,-0.1733668341708543,low gravy,GRAVY Score
+70,-0.07336683417085431,low gravy,GRAVY Score
+71,0.17638190954773855,low gravy,GRAVY Score
+72,0.2271356783919597,low gravy,GRAVY Score
+73,0.3462311557788943,low gravy,GRAVY Score
+74,0.2824120603015075,low gravy,GRAVY Score
+75,0.32160804020100503,low gravy,GRAVY Score
+76,0.25778894472361796,low gravy,GRAVY Score
+77,0.25075376884422096,low gravy,GRAVY Score
+78,0.2462311557788944,low gravy,GRAVY Score
+79,0.29698492462311554,low gravy,GRAVY Score
+80,0.236180904522613,low gravy,GRAVY Score
+81,0.1221105527638191,low gravy,GRAVY Score
+82,0.07738693467336683,low gravy,GRAVY Score
+83,-0.11959798994974877,low gravy,GRAVY Score
+84,-0.013065326633165798,low gravy,GRAVY Score
+85,-0.1562814070351759,low gravy,GRAVY Score
+86,-0.16834170854271358,low gravy,GRAVY Score
+87,-0.11206030150753775,low gravy,GRAVY Score
+88,-0.07939698492462309,low gravy,GRAVY Score
+89,-0.14271356783919595,low gravy,GRAVY Score
+90,-0.243718592964824,low gravy,GRAVY Score
+91,-0.04371859296482414,low gravy,GRAVY Score
+92,-0.06080402010050256,low gravy,GRAVY Score
+93,-0.2125628140703517,low gravy,GRAVY Score
+94,-0.24572864321608032,low gravy,GRAVY Score
+95,-0.19246231155778892,low gravy,GRAVY Score
+96,-0.2884422110552764,low gravy,GRAVY Score
+97,-0.21206030150753774,low gravy,GRAVY Score
+98,-0.29045226130653273,low gravy,GRAVY Score
+99,-0.2929648241206031,low gravy,GRAVY Score
+100,-0.14221105527638192,low gravy,GRAVY Score
+0,30.0685,low instability,Instability Index
+1,29.0645,low instability,Instability Index
+2,31.5195,low instability,Instability Index
+3,40.7905,low instability,Instability Index
+4,36.42349999999999,low instability,Instability Index
+5,38.98391959798995,low instability,Instability Index
+6,39.607537688442214,low instability,Instability Index
+7,36.53467336683417,low instability,Instability Index
+8,36.40452261306534,low instability,Instability Index
+9,31.619597989949757,low instability,Instability Index
+10,28.063316582914577,low instability,Instability Index
+11,30.84371859296482,low instability,Instability Index
+12,39.47085427135678,low instability,Instability Index
+13,48.100502512562805,low instability,Instability Index
+14,44.313567839195976,low instability,Instability Index
+15,44.58743718592964,low instability,Instability Index
+16,38.023115577889435,low instability,Instability Index
+17,41.31608040201006,low instability,Instability Index
+18,38.94020100502513,low instability,Instability Index
+19,38.46733668341709,low instability,Instability Index
+20,34.001507537688454,low instability,Instability Index
+21,27.676884422110547,low instability,Instability Index
+22,40.05879396984924,low instability,Instability Index
+23,33.18737373737372,low instability,Instability Index
+24,37.58383838383838,low instability,Instability Index
+25,34.38984771573603,low instability,Instability Index
+26,28.002040816326538,low instability,Instability Index
+27,27.805612244897965,low instability,Instability Index
+28,23.205612244897956,low instability,Instability Index
+29,21.41020408163265,low instability,Instability Index
+30,13.105102040816316,low instability,Instability Index
+31,11.363265306122447,low instability,Instability Index
+32,10.732653061224488,low instability,Instability Index
+33,4.8602040816326575,low instability,Instability Index
+34,3.1142857142857183,low instability,Instability Index
+35,0.3515306122448966,low instability,Instability Index
+36,5.0107142857142914,low instability,Instability Index
+37,5.66938775510204,low instability,Instability Index
+38,2.4239795918367366,low instability,Instability Index
+39,-0.3892857142857138,low instability,Instability Index
+40,1.7244897959183683,low instability,Instability Index
+41,4.391326530612248,low instability,Instability Index
+42,5.058673469387756,low instability,Instability Index
+43,9.59234693877551,low instability,Instability Index
+44,12.974999999999996,low instability,Instability Index
+45,14.1734693877551,low instability,Instability Index
+46,14.204081632653066,low instability,Instability Index
+47,16.287244897959184,low instability,Instability Index
+48,14.045408163265305,low instability,Instability Index
+49,11.301020408163255,low instability,Instability Index
+50,11.094897959183664,low instability,Instability Index
+51,12.883163265306113,low instability,Instability Index
+52,10.818367346938771,low instability,Instability Index
+53,10.1219387755102,low instability,Instability Index
+54,14.332142857142854,low instability,Instability Index
+55,13.074489795918367,low instability,Instability Index
+56,17.871428571428567,low instability,Instability Index
+57,16.329591836734693,low instability,Instability Index
+58,14.853061224489794,low instability,Instability Index
+59,15.659693877551016,low instability,Instability Index
+60,15.472959183673465,low instability,Instability Index
+61,13.507653061224488,low instability,Instability Index
+62,9.907653061224483,low instability,Instability Index
+63,7.4484693877550985,low instability,Instability Index
+64,8.648469387755096,low instability,Instability Index
+65,6.032653061224484,low instability,Instability Index
+66,4.616836734693879,low instability,Instability Index
+67,2.15765306122449,low instability,Instability Index
+68,-0.45969387755101715,low instability,Instability Index
+69,2.9229591836734725,low instability,Instability Index
+70,6.1892857142857185,low instability,Instability Index
+71,6.964285714285713,low instability,Instability Index
+72,6.964285714285716,low instability,Instability Index
+73,7.281122448979594,low instability,Instability Index
+74,7.181632653061229,low instability,Instability Index
+75,4.665306122448982,low instability,Instability Index
+76,3.634183673469391,low instability,Instability Index
+77,1.6673469387755095,low instability,Instability Index
+78,0.10459183673469447,low instability,Instability Index
+79,-1.5933673469387755,low instability,Instability Index
+80,1.2188775510204088,low instability,Instability Index
+81,3.084693877551021,low instability,Instability Index
+82,1.2372448979591848,low instability,Instability Index
+83,0.03724489795918397,low instability,Instability Index
+84,2.7678571428571423,low instability,Instability Index
+85,-0.614795918367346,low instability,Instability Index
+86,1.0892307692307701,low instability,Instability Index
+87,-0.5497435897435892,low instability,Instability Index
+88,-2.4082051282051258,low instability,Instability Index
+89,0.9933333333333338,low instability,Instability Index
+90,2.9769230769230783,low instability,Instability Index
+91,0.012307692307691862,low instability,Instability Index
+92,-0.9753846153846155,low instability,Instability Index
+93,-0.20461538461538417,low instability,Instability Index
+94,-0.22628865979381463,low instability,Instability Index
+95,-2.550515463917525,low instability,Instability Index
+96,-3.7711340206185557,low instability,Instability Index
+97,-0.35360824742267993,low instability,Instability Index
+98,0.8587628865979383,low instability,Instability Index
+99,0.4922680412371137,low instability,Instability Index
+100,2.1422680412371142,low instability,Instability Index
+0,30.0685,high instability,Instability Index
+1,27.2205,high instability,Instability Index
+2,25.472499999999997,high instability,Instability Index
+3,25.59899999999998,high instability,Instability Index
+4,33.13417085427134,high instability,Instability Index
+5,39.78140703517586,high instability,Instability Index
+6,45.16331658291457,high instability,Instability Index
+7,53.11256281407038,high instability,Instability Index
+8,48.42060301507538,high instability,Instability Index
+9,36.95276381909547,high instability,Instability Index
+10,43.631155778894474,high instability,Instability Index
+11,53.80100502512565,high instability,Instability Index
+12,56.856783919598016,high instability,Instability Index
+13,55.50050251256284,high instability,Instability Index
+14,58.01206030150757,high instability,Instability Index
+15,53.56130653266332,high instability,Instability Index
+16,52.261111111111106,high instability,Instability Index
+17,54.68131313131313,high instability,Instability Index
+18,59.40959595959595,high instability,Instability Index
+19,59.35404040404039,high instability,Instability Index
+20,64.3469696969697,high instability,Instability Index
+21,65.01010101010101,high instability,Instability Index
+22,66.17878787878787,high instability,Instability Index
+23,66.7530303030303,high instability,Instability Index
+24,63.208080808080794,high instability,Instability Index
+25,71.29999999999998,high instability,Instability Index
+26,74.93787878787877,high instability,Instability Index
+27,69.66464646464645,high instability,Instability Index
+28,71.82525252525251,high instability,Instability Index
+29,64.48131313131312,high instability,Instability Index
+30,64.29545454545452,high instability,Instability Index
+31,53.24242424242422,high instability,Instability Index
+32,57.621717171717165,high instability,Instability Index
+33,55.053030303030276,high instability,Instability Index
+34,52.15505050505048,high instability,Instability Index
+35,60.35101010101008,high instability,Instability Index
+36,62.815151515151506,high instability,Instability Index
+37,68.17474747474746,high instability,Instability Index
+38,66.79292929292929,high instability,Instability Index
+39,70.71666666666665,high instability,Instability Index
+40,70.5712121212121,high instability,Instability Index
+41,67.77171717171714,high instability,Instability Index
+42,73.30404040404036,high instability,Instability Index
+43,69.94898989898986,high instability,Instability Index
+44,73.30959595959594,high instability,Instability Index
+45,74.77575757575754,high instability,Instability Index
+46,70.20353535353534,high instability,Instability Index
+47,68.9570707070707,high instability,Instability Index
+48,69.92121212121212,high instability,Instability Index
+49,76.45151515151515,high instability,Instability Index
+50,77.37626262626262,high instability,Instability Index
+51,84.33181818181818,high instability,Instability Index
+52,83.44242424242422,high instability,Instability Index
+53,74.19090909090907,high instability,Instability Index
+54,69.39949494949494,high instability,Instability Index
+55,72.20707070707068,high instability,Instability Index
+56,73.16313131313129,high instability,Instability Index
+57,78.84444444444442,high instability,Instability Index
+58,76.90252525252524,high instability,Instability Index
+59,81.45909090909089,high instability,Instability Index
+60,78.03282828282826,high instability,Instability Index
+61,79.43080808080806,high instability,Instability Index
+62,80.01666666666664,high instability,Instability Index
+63,87.14646464646462,high instability,Instability Index
+64,81.91414141414137,high instability,Instability Index
+65,81.26313131313128,high instability,Instability Index
+66,74.95101010101007,high instability,Instability Index
+67,73.2191919191919,high instability,Instability Index
+68,70.62373737373736,high instability,Instability Index
+69,70.65252525252524,high instability,Instability Index
+70,76.43383838383836,high instability,Instability Index
+71,78.970202020202,high instability,Instability Index
+72,80.34646464646463,high instability,Instability Index
+73,80.62979797979797,high instability,Instability Index
+74,76.81464646464643,high instability,Instability Index
+75,81.07878787878785,high instability,Instability Index
+76,79.62474747474745,high instability,Instability Index
+77,80.70303030303029,high instability,Instability Index
+78,75.76515151515147,high instability,Instability Index
+79,81.17272727272724,high instability,Instability Index
+80,89.29797979797976,high instability,Instability Index
+81,83.47727272727269,high instability,Instability Index
+82,79.81464646464643,high instability,Instability Index
+83,78.95707070707067,high instability,Instability Index
+84,82.4272727272727,high instability,Instability Index
+85,86.84696969696968,high instability,Instability Index
+86,88.70101010101008,high instability,Instability Index
+87,80.8161616161616,high instability,Instability Index
+88,77.13737373737372,high instability,Instability Index
+89,70.28989898989897,high instability,Instability Index
+90,67.95202020202018,high instability,Instability Index
+91,72.16464646464645,high instability,Instability Index
+92,81.56969696969695,high instability,Instability Index
+93,82.94090909090907,high instability,Instability Index
+94,84.09040404040404,high instability,Instability Index
+95,89.39848484848484,high instability,Instability Index
+96,76.60050505050503,high instability,Instability Index
+97,85.64090909090908,high instability,Instability Index
+98,79.53080808080807,high instability,Instability Index
+99,73.42070707070705,high instability,Instability Index
+100,80.6489898989899,high instability,Instability Index
+0,-0.6725000000000003,high control,Control
+1,-0.6640000000000004,high control,Control
+2,-0.8035000000000002,high control,Control
+3,-0.7260000000000004,high control,Control
+4,-0.5185000000000003,high control,Control
+5,-0.23299999999999982,high control,Control
+6,-0.20700000000000002,high control,Control
+7,-0.2235,high control,Control
+8,-0.3395,high control,Control
+9,-0.44050000000000006,high control,Control
+10,-0.5480000000000004,high control,Control
+11,-0.5235000000000001,high control,Control
+12,-0.5035000000000002,high control,Control
+13,-0.3560000000000001,high control,Control
+14,-0.37500000000000006,high control,Control
+15,-0.27899999999999986,high control,Control
+16,-0.19199999999999992,high control,Control
+17,-0.2014999999999999,high control,Control
+18,-0.16599999999999995,high control,Control
+19,-0.11699999999999995,high control,Control
+20,-0.21599999999999994,high control,Control
+21,-0.3275,high control,Control
+22,-0.28399999999999986,high control,Control
+23,-0.2759999999999999,high control,Control
+24,-0.28199999999999986,high control,Control
+25,-0.21849999999999986,high control,Control
+26,-0.15349999999999994,high control,Control
+27,-0.10449999999999994,high control,Control
+28,-0.10649999999999998,high control,Control
+29,0.060499999999999915,high control,Control
+30,-0.02649999999999998,high control,Control
+31,-0.059500000000000025,high control,Control
+32,-0.08950000000000001,high control,Control
+33,-0.22999999999999995,high control,Control
+34,-0.376,high control,Control
+35,-0.2649999999999999,high control,Control
+36,-0.36700000000000005,high control,Control
+37,-0.27399999999999997,high control,Control
+38,-0.3355,high control,Control
+39,-0.3310000000000002,high control,Control
+40,-0.22799999999999998,high control,Control
+41,-0.10500000000000005,high control,Control
+42,-0.01449999999999999,high control,Control
+43,-0.16250000000000003,high control,Control
+44,-0.18499999999999997,high control,Control
+45,-0.23699999999999996,high control,Control
+46,-0.16899999999999993,high control,Control
+47,-0.18149999999999977,high control,Control
+48,0.009000000000000024,high control,Control
+49,-0.09849999999999996,high control,Control
+50,-0.06649999999999995,high control,Control
+51,0.15900000000000006,high control,Control
+52,0.07200000000000008,high control,Control
+53,0.1415000000000001,high control,Control
+54,0.13299999999999998,high control,Control
+55,0.09349999999999996,high control,Control
+56,0.19,high control,Control
+57,0.22000000000000003,high control,Control
+58,0.34149999999999986,high control,Control
+59,0.3644999999999999,high control,Control
+60,0.20549999999999996,high control,Control
+61,0.14300000000000004,high control,Control
+62,-0.07900000000000011,high control,Control
+63,0.010499999999999786,high control,Control
+64,-0.01849999999999995,high control,Control
+65,-0.11299999999999998,high control,Control
+66,-0.10900000000000039,high control,Control
+67,-0.15200000000000047,high control,Control
+68,0.04800000000000004,high control,Control
+69,0.06450000000000009,high control,Control
+70,0.06250000000000006,high control,Control
+71,0.08299999999999999,high control,Control
+72,0.05800000000000006,high control,Control
+73,0.0899999999999998,high control,Control
+74,0.13949999999999985,high control,Control
+75,0.04350000000000005,high control,Control
+76,0.025999999999999707,high control,Control
+77,0.07400000000000004,high control,Control
+78,-0.20700000000000032,high control,Control
+79,-0.05750000000000007,high control,Control
+80,0.01349999999999968,high control,Control
+81,0.2939999999999998,high control,Control
+82,0.22099999999999984,high control,Control
+83,0.2824999999999998,high control,Control
+84,0.30549999999999994,high control,Control
+85,0.1945,high control,Control
+86,0.09600000000000004,high control,Control
+87,0.14850000000000008,high control,Control
+88,0.22549999999999984,high control,Control
+89,0.2059999999999999,high control,Control
+90,0.20550000000000004,high control,Control
+91,0.35399999999999976,high control,Control
+92,0.4209999999999996,high control,Control
+93,0.5054999999999996,high control,Control
+94,0.49499999999999966,high control,Control
+95,0.41299999999999976,high control,Control
+96,0.1235,high control,Control
+97,0.15499999999999992,high control,Control
+98,0.17099999999999999,high control,Control
+99,0.09700000000000004,high control,Control
+100,0.15399999999999994,high control,Control
+0,-0.6725000000000003,low control,Control
+1,-0.6700000000000003,low control,Control
+2,-0.7590000000000003,low control,Control
+3,-0.7635000000000006,low control,Control
+4,-0.7880000000000004,low control,Control
+5,-0.7320000000000007,low control,Control
+6,-0.5905000000000004,low control,Control
+7,-0.6790000000000004,low control,Control
+8,-0.6720000000000005,low control,Control
+9,-0.6495000000000007,low control,Control
+10,-0.6320000000000007,low control,Control
+11,-0.5625000000000006,low control,Control
+12,-0.7215000000000004,low control,Control
+13,-0.5940000000000004,low control,Control
+14,-0.6195000000000004,low control,Control
+15,-0.5380000000000004,low control,Control
+16,-0.5605000000000004,low control,Control
+17,-0.48200000000000043,low control,Control
+18,-0.41300000000000003,low control,Control
+19,-0.5330000000000005,low control,Control
+20,-0.5380000000000004,low control,Control
+21,-0.5165000000000002,low control,Control
+22,-0.7060000000000002,low control,Control
+23,-0.7000000000000002,low control,Control
+24,-0.7270000000000003,low control,Control
+25,-0.7380000000000007,low control,Control
+26,-0.6975000000000005,low control,Control
+27,-0.7475000000000006,low control,Control
+28,-0.7435000000000005,low control,Control
+29,-0.7410000000000005,low control,Control
+30,-0.6485000000000005,low control,Control
+31,-0.7235000000000005,low control,Control
+32,-0.6755000000000004,low control,Control
+33,-0.7535000000000001,low control,Control
+34,-0.7050000000000003,low control,Control
+35,-0.6045000000000005,low control,Control
+36,-0.5440000000000005,low control,Control
+37,-0.4185000000000006,low control,Control
+38,-0.37250000000000055,low control,Control
+39,-0.5070000000000006,low control,Control
+40,-0.5370000000000008,low control,Control
+41,-0.4690000000000007,low control,Control
+42,-0.49750000000000066,low control,Control
+43,-0.5055000000000005,low control,Control
+44,-0.7859999999999991,low control,Control
+45,-0.986999999999999,low control,Control
+46,-0.9339999999999988,low control,Control
+47,-0.9904999999999986,low control,Control
+48,-0.8904999999999994,low control,Control
+49,-0.9809999999999994,low control,Control
+50,-0.9224999999999998,low control,Control
+51,-0.9444999999999998,low control,Control
+52,-0.8764999999999996,low control,Control
+53,-0.7585000000000004,low control,Control
+54,-0.7275000000000006,low control,Control
+55,-0.7560000000000006,low control,Control
+56,-0.8559999999999997,low control,Control
+57,-0.7930000000000004,low control,Control
+58,-0.8320000000000003,low control,Control
+59,-0.7920000000000005,low control,Control
+60,-0.8774999999999996,low control,Control
+61,-0.7480000000000004,low control,Control
+62,-0.6735000000000005,low control,Control
+63,-0.6020000000000006,low control,Control
+64,-0.5710000000000006,low control,Control
+65,-0.5245000000000006,low control,Control
+66,-0.5095000000000008,low control,Control
+67,-0.6725000000000008,low control,Control
+68,-0.6220000000000008,low control,Control
+69,-0.7970000000000006,low control,Control
+70,-0.6645000000000009,low control,Control
+71,-0.7350000000000003,low control,Control
+72,-0.7935000000000005,low control,Control
+73,-0.5105000000000011,low control,Control
+74,-0.5290000000000011,low control,Control
+75,-0.6495000000000011,low control,Control
+76,-0.652500000000001,low control,Control
+77,-0.6970000000000007,low control,Control
+78,-0.6565000000000005,low control,Control
+79,-0.4300000000000005,low control,Control
+80,-0.4620000000000006,low control,Control
+81,-0.5080000000000007,low control,Control
+82,-0.6195000000000006,low control,Control
+83,-0.6540000000000005,low control,Control
+84,-0.6240000000000006,low control,Control
+85,-0.5455000000000007,low control,Control
+86,-0.7205000000000001,low control,Control
+87,-0.8050000000000003,low control,Control
+88,-0.745,low control,Control
+89,-0.79,low control,Control
+90,-0.8335000000000002,low control,Control
+91,-0.9139999999999999,low control,Control
+92,-0.9564999999999998,low control,Control
+93,-0.9485000000000001,low control,Control
+94,-0.8790000000000004,low control,Control
+95,-0.975,low control,Control
+96,-0.7775000000000007,low control,Control
+97,-0.7745000000000007,low control,Control
+98,-0.8495000000000009,low control,Control
+99,-0.862500000000001,low control,Control
+100,-0.9045000000000006,low control,Control
