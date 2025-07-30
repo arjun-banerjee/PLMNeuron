@@ -4,12 +4,19 @@ import requests
 from tqdm import tqdm
 
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
-from b2bTools import SingleSeq
+# from b2bTools import SingleSeq
 import peptides
 import protpy as protpy
 
+def add_dataframe_to_features(df, base_key, features):
+    """
+    Helper to add each column of a single-row DataFrame to features dict with a base key prefix.
+    Example: add_dataframe_to_features(df, 'AminoAcidComp', features) will add keys like 'AminoAcidComp_A', ...
+    """
+    for col in df.columns:
+        features[f"{base_key}_{col}"] = float(df[col].iloc[0])
 
-def compute_b2b_features(str: protein_seq) -> dict:
+def compute_b2b_features(protein_seq) -> dict:
     """
     Compute features for a given string using b2bTools.
     """
@@ -27,9 +34,9 @@ def compute_b2b_features(str: protein_seq) -> dict:
     all_predictions = single_seq.get_all_predictions()
     return all_predictions
 
-def compute_peptides_features(str: protein_seq) -> dict:
+def compute_peptides_features(protein_seq) -> dict:
     """
-    Compute features for a given string using proptpy.
+    Compute peptide features for a given string using the peptides package.
     """
     #All from: https://peptides.readthedocs.io/en/stable/api/peptide.html
     peptide = peptides.Peptide(protein_seq)
@@ -63,7 +70,7 @@ def compute_peptides_features(str: protein_seq) -> dict:
     return features
 
 
-def compute_biopython_features(str: protein_seq) -> dict:
+def compute_biopython_features(protein_seq) -> dict:
     """
     Compute manual features for a given string.
     """
@@ -91,13 +98,42 @@ def compute_biopython_features(str: protein_seq) -> dict:
     return features
 
 
-def compute_proptpy_features(str: protein_seq) -> dict:
+def compute_protpy_features(protein_seq) -> dict:
     """
-    Compute protpy features
+    Compute features for a given string using the protpy package.
     """
-    #TODO: Compute features based on this repo https://peptides.readthedocs.io/en/stable/api/descriptors.html#peptides.PRINComponents
+    amino_acid_composition = protpy.amino_acid_composition(protein_seq)
+    dipeptide_composition = protpy.dipeptide_composition(protein_seq)
+    tripeptide_composition = protpy.tripeptide_composition(protein_seq)
+    moreaubroto_autocorrelation = protpy.moreaubroto_autocorrelation(protein_seq) 
+    moran_autocorrelation = protpy.moran_autocorrelation(protein_seq)
+    geary_autocorrelation = protpy.geary_autocorrelation(protein_seq)
+    conjoint_triad = protpy.conjoint_triad(protein_seq)
+    ctd_composition = protpy.ctd_composition(protein_seq)
+    socn_all = protpy.sequence_order_coupling_number(protein_seq)
+    qso = protpy.quasi_sequence_order(protein_seq)
 
     features = {}
+    add_dataframe_to_features(amino_acid_composition, "AminoAcidComp", features)
+    add_dataframe_to_features(dipeptide_composition, "DipeptideComp", features)
+    add_dataframe_to_features(tripeptide_composition, "TripeptideComp", features)
+    add_dataframe_to_features(moreaubroto_autocorrelation, "MoreauBrotoAutoCorr", features)
+    add_dataframe_to_features(moran_autocorrelation, "MoranAutoCorr", features)
+    add_dataframe_to_features(geary_autocorrelation, "GearyAutoCorr", features)
+    add_dataframe_to_features(conjoint_triad, "ConjointTriad", features)
+    add_dataframe_to_features(ctd_composition, "CTDComp", features)
+    add_dataframe_to_features(socn_all, "SOCN", features)
+    add_dataframe_to_features(qso, "QSO", features)
+    
     return features
+
+
+if __name__ == "__main__":
+    protein_seq = "LYLIFGAWAGMVGTALSLLIRAEL"
+    features = compute_protpy_features(protein_seq)
+    print("started")
+    for k, v in list(features.items())[:20]:  # print only first 20 for brevity
+        print(f"{k}: {v}")
+    print(f"Total features: {len(features)}")
 
 
